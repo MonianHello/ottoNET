@@ -100,8 +100,77 @@ def calculate_rating(constant, score):
     else:
         return 0
 
+def playlog(id):
+    conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
+    rows = cursor.fetchall()
+    columns = [description[0] for description in cursor.description]
+    user_data = []
+    count = 0
+    for row in reversed(rows):
+        row_dict = dict(zip(columns, row))
+        user_data.append(row_dict)
+        count += 1
+    conn.close()
+    difficulty_mapping = {
+        "0": "basic",
+        "1": "advanced",
+        "2": "expert",
+        "3": "master",
+        "4": "ultima",
+        "5": "worldsend"
+    }
+
+    # 读取歌曲信息
+    with open("masterdata/musics.json", "r", encoding='utf-8') as f:
+        musics = json.load(f)
+    with open('masterdata/musics_local.json', 'r', encoding='utf-8') as f:
+        sdhd_music_data = json.load(f)
+    music_info = {music['id']: music for music in musics}
+    sdhd_music_info = {music['id']: music for music in sdhd_music_data}
+    # 解析用户数据
+    user_playlog = []
+    
+    # 遍历用户数据，计算rating，并构造需要的数据结构
+    for record in user_data:
+        music_id = str(record["music_id"])
+        difficult_id = str(record["level"])
+        score = int(record["score"])
+        isdeleted = False
+        try:
+            music = music_info[music_id]
+        except KeyError:
+            try:
+                music = sdhd_music_info[music_id]
+                isdeleted = True
+                music['jaketFile'] = "dummy.png"
+            except KeyError:
+                continue
+        difficulty_level = difficulty_mapping[difficult_id]
+        if difficulty_level in music['difficulties']:
+            difficulty = music['difficulties'][difficulty_level]
+            rating = calculate_rating(difficulty, score)
+            user_playlog.append({
+                'musicName': music['name'],
+                'jacketFile': music['jaketFile'],
+                'playLevel': difficulty,
+                'musicDifficulty': difficulty_level,
+                'score': score,
+                'rating': rating,
+                'playDate':record['play_date'],
+                'track':record['track'],
+                'isClear':record['is_clear'],
+                'isNewRecord':record['is_new_record'],
+                'isFullCombo': record['is_full_combo'],
+                'isAllJustice': record['is_all_justice'],
+                'isdeleted': isdeleted,
+            })
+
+    return user_playlog
+
 def process_r10(id):
-    # 获取用户数据
+    # 获取用户r30数据
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
@@ -174,6 +243,7 @@ def process_r10(id):
             try:
                 music = sdhd_music_info[music_id]
                 isdeleted = True
+                music['jaketFile'] = "dummy.png"
             except KeyError:
                 continue
         difficulty_level = difficulty_mapping[difficult_id]
@@ -231,6 +301,7 @@ def process_b30(id):
             try:
                 music_info = sdhd_music_dict[music_id]
                 isdeleted = True
+                music_info['jaketFile'] = "dummy.png"
             except KeyError:
                 continue
         music_name = music_info['name']
@@ -280,7 +351,10 @@ def b30single(single_data, version='2.15'):
     else:
         pic = Image.new("RGB", (620, 240), (255, 255, 255))
     
-    jacket = Image.open(f'jackets/{single_data["jacketFile"]}')
+    try:
+        jacket = Image.open(f'jackets/{single_data["jacketFile"]}')
+    except:
+        jacket = Image.open(f'static/jackets/dummy.png')
     jacket = jacket.resize((186, 186))
     pic.paste(jacket, (32, 28))
 
@@ -315,6 +389,24 @@ def b30single(single_data, version='2.15'):
     return pic
 
 def get_user_info_pic(id):
+    #硬编码内容，没ddsImage资源我怎么写
+
+    if(str(id) == '1'):
+        trophy_name = "我真的好想玩最新最熱"
+        img = Image.open("CHU_UI_NamePlate_00010129.png",'r')
+        default_UI_Character = Image.open("CHU_UI_Character_1662_00_02.png")
+        rarity = 7
+    elif(str(id) == '2'):
+        trophy_name = "Arcaea"
+        img = Image.open("CHU_UI_NamePlate_00025004.png",'r')
+        default_UI_Character = Image.open("CHU_UI_Character_1383_00_02.png")
+        rarity = 2
+    else:
+        trophy_name = "NEW COMER"
+        img = Image.open("CHU_UI_NamePlate_dummy.png",'r')
+        default_UI_Character = Image.open("CHU_UI_Character_0000_00_02.png")
+        rarity = 0
+
     # 获取用户数据
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
@@ -327,13 +419,13 @@ def get_user_info_pic(id):
         user_data.append(row_dict)
     conn.close()
 
-    img = Image.open("CHU_UI_NamePlate_00010129.png",'r')
+    
     img = img.convert("RGBA")
 
     nameplate = Image.open('pics/chu_nameplate.png')
     img.paste(nameplate, (0, 0), nameplate.split()[3])
 
-    default_UI_Character = Image.open("CHU_UI_Character_1662_00_02.png")
+    
     default_UI_Character = default_UI_Character.resize((82,82))
     img.paste(default_UI_Character, (471, 89), default_UI_Character.split()[3])
 
@@ -346,12 +438,6 @@ def get_user_info_pic(id):
     draw.text((184, 100), str(user_data[0]["level"]), fill=(0, 0, 0), font=font_style)
     font_style = ImageFont.truetype("fonts/ヒラギノ角ゴ ( Hira Kaku) Pro W6.otf", 30)
     draw.text((228, 107), str(user_data[0]["user_name"]), fill=(0, 0, 0), font=font_style)
-        
-    #硬编码内容，没ddsImage资源我怎么写
-
-    trophy_name = "我真的好想玩最新最熱"
-    rarity = 7
-
 
     trophy_rarity_to_color = [
         'normal', 'bronze', 'silver', 'gold', 'gold', 'platina', 'platina', 'rainbow', 'ongeki', 'staff', 'ongeki'
@@ -384,7 +470,7 @@ def get_user_info_pic(id):
 
     return img
 
-def chunib30(userid, server='aqua', version='2.20'):
+def chunib30(userid, server='aqua', version='2.15'):
     if version == '2.15':
         pic = Image.open('pics/chub30sunp.png')
     elif version == '2.20':
@@ -411,7 +497,7 @@ def chunib30(userid, server='aqua', version='2.20'):
         rating_sum += truncate_two_decimal_places(ratings[i]['rating'])
     b30 = rating_sum / 30
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Bold.otf", 37)
-    draw.text((1331, 205), str(round(b30, 2)), fill=(255,255,255,255), font=font_style, stroke_width=2, stroke_fill="#38809A")
+    draw.text((1331, 205), str(round(b30, 3)), fill=(255,255,255,255), font=font_style, stroke_width=2, stroke_fill="#38809A")
 
     ratings = process_r10(userid)
     rating_sum = 0
@@ -425,9 +511,9 @@ def chunib30(userid, server='aqua', version='2.20'):
         pic.paste(single, ((int(1582+(i%2)*290)), int(289+int(i/2)*127)))
         rating_sum += truncate_two_decimal_places(ratings[i]['rating'])
     r10 = rating_sum / 10
-    draw.text((1717, 205), str(round(r10, 2)), fill=(255,255,255,255), font=font_style, stroke_width=2, stroke_fill="#38809A")
+    draw.text((1717, 205), str(round(r10, 3)), fill=(255,255,255,255), font=font_style, stroke_width=2, stroke_fill="#38809A")
     
-    rank = round((b30 * 3 + r10) / 4, 2)
+    rank = round((b30 * 3 + r10) / 4, 3)
 
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Medium.otf", 16)
     
@@ -449,7 +535,7 @@ def chunib30(userid, server='aqua', version='2.20'):
     user_nameplate = get_user_info_pic(userid)
     pic.paste(user_nameplate, (57, 55), user_nameplate.split()[3])
 
-    text = 'ottoNET 内部测试\nrating以姓名框为准\nMonianHello\n'
+    text = 'ottoNET 内部测试\nrating以姓名框为准\n'
 
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Medium.otf", 24)
 
@@ -473,6 +559,6 @@ def chunib30(userid, server='aqua', version='2.20'):
     pic.save(f'static/piccache/{hashlib.sha256(str(userid).encode()).hexdigest()}b30.jpg')
 
     # 开发时启用
-    pic.show()
+    # pic.show()
 
     return(f'static/piccache/{hashlib.sha256(str(userid).encode()).hexdigest()}b30.jpg')

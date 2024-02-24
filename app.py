@@ -11,6 +11,16 @@ def serve_video(filename):
     # 设置缓存控制头
     return send_from_directory(app.static_folder, 'video/' + filename, cache_timeout=3600)
 
+@app.route('/b30')
+def b30pic():
+    """
+    返回b30图片
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else:
+        return send_file(ratTools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
+    
 
 @app.route('/api/quicklogin', methods=['POST'])
 def quickloginapi():
@@ -72,6 +82,16 @@ def b30api():
         return jsonify(error='未登录'), 403
     else:
         return jsonify(ratTools.process_b30(request.cookies.get("db_id"))[:30]), 200
+
+@app.route('/api/playlog', methods=['POST'])
+def playlogapi():
+    """
+    返回playlog数据
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else:
+        return jsonify(ratTools.playlog(request.cookies.get("db_id"))), 200
     
 @app.route('/api/r10', methods=['POST'])
 def r10api():
@@ -178,14 +198,14 @@ def cardPage():
     return send_from_directory('static', 'card.html')
 
 # 服务路由
-@app.route('/service')
-def servicePage():
+@app.route('/playlog')
+def playlogPage():
     """
-    提供主页页面
+    提供游玩记录页面
     """
     if 'db_id' not in request.cookies:
         return redirect(url_for('loginPage'))
-    return send_from_directory('static', 'service.html')
+    return send_from_directory('static', 'playlog.html')
 
 # 服务路由
 @app.route('/b30')
