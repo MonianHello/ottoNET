@@ -6,6 +6,11 @@ import os
 
 app = Flask(__name__, static_url_path='/static')
 
+@app.route('/static/video/<path:filename>')
+def serve_video(filename):
+    # 设置缓存控制头
+    return send_from_directory(app.static_folder, 'video/' + filename, cache_timeout=3600)
+
 
 @app.route('/api/quicklogin', methods=['POST'])
 def quickloginapi():
@@ -171,6 +176,16 @@ def cardPage():
     if 'db_id' not in request.cookies:
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'card.html')
+
+# 服务路由
+@app.route('/service')
+def servicePage():
+    """
+    提供主页页面
+    """
+    if 'db_id' not in request.cookies:
+        return redirect(url_for('loginPage'))
+    return send_from_directory('static', 'service.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081,debug=True)

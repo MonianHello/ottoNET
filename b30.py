@@ -310,6 +310,7 @@ def b30single(single_data, version='2.15'):
             draw.text((530, 105), "FC", '#000000', font)
             
     pic = pic.resize((280, 105))
+    
     return pic
 
 def get_user_info_pic(id):
@@ -474,3 +475,4 @@ def chunib30(userid, server='aqua', version='2.20'):
     pic.show()
 
     return(f'static/piccache/{hashlib.sha256(str(userid).encode()).hexdigest()}b30.jpg')
+
