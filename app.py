@@ -187,5 +187,15 @@ def servicePage():
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'service.html')
 
+# 服务路由
+@app.route('/b30')
+def b30Page():
+    """
+    提供主页页面
+    """
+    if 'db_id' not in request.cookies:
+        return redirect(url_for('loginPage'))
+    return send_from_directory('static', 'b30.html')
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081,debug=True)

@@ -10,6 +10,8 @@ def create_rating_image(number):
     :param number: 整数，将被除以100来得到要显示的评分数字。
     :return: 一个带有透明背景的PIL图像对象，其中数字在高度上居中。
     """
+    number = int(number)
+
     if number <= 399:
         level='green'
     elif number <= 699:
@@ -28,7 +30,6 @@ def create_rating_image(number):
         level='platinum'
     else:
         level='rainbow'
-
 
      # 将输入的整数转换为xx.xx格式的字符串
     number /= 100
@@ -475,4 +476,3 @@ def chunib30(userid, server='aqua', version='2.20'):
     pic.show()
 
     return(f'static/piccache/{hashlib.sha256(str(userid).encode()).hexdigest()}b30.jpg')
-
