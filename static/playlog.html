@@ -16,6 +16,14 @@
             font-family: 'Geometr415';
             src: url('/static/Geometr415-Blk-BT-Black.ttf') format('truetype');
         }
+        @font-face {
+            font-family: 'ITC-Avant-Garde';
+            src: url('/static/ITC-Avant-Garde-Demi-Oblique-SWA.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Geometr415';
+            src: url('/static/Geometr415-Blk-BT-Black.ttf') format('truetype');
+        }
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
@@ -91,6 +99,10 @@
             color: rgba(255, 255, 255, 0.85);
             border-radius: 5px;
         }
+        #level[data-difficulty="WORLD'S END"] {
+            background-image: linear-gradient(135deg, #fbd940, #fbd940 20%, #66CC66 20%, #66CC66 40%, #6699CC 40%, #6699CC 60%, #CC6666 60%, #CC6666 80%, #CC99CC 80%);
+        }
+        
         #level[data-difficulty="MASTER"] {
             background-color: rgb(135, 19, 177);
         }
@@ -109,6 +121,24 @@
 
         #level[data-difficulty="BASIC"] {
             background-color: rgb(82, 171, 18); 
+        }
+        .pagination {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .page-link {
+            margin: 0.2rem;
+            padding: 0.5rem;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #333;
+        }
+
+        .page-link.active {
+            background-color: #007bff;
+            color: #fff;
         }
 
     </style>
@@ -162,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div id="json-container">
+            <div id="json-container" style="backdrop-filter: blur(10px) saturate(180%);background-color: rgba(255, 255, 255, 0.75);border-radius: 10px;">
             </div>
             <nav aria-label="Page navigation" id="pagination-nav"></nav>
             <div class="input-group mb-3">
@@ -235,6 +265,7 @@
             })
             .catch(error => console.error('Error:', error));
         }
+        
         function showPage(pageNumber, pageSize) {
             var startIndex = (pageNumber - 1) * pageSize;
             var endIndex = startIndex + pageSize;
@@ -255,7 +286,12 @@
             `;
 
             dataToShow.forEach(function(item) {
-                var formattedRating = item.rating.toFixed(2);
+                if(item.rating){
+                    var formattedRating = item.rating.toFixed(2);
+                }else{
+                    var formattedRating = '';
+                }
+                
                 const rankImage = getRankImage(item.score);
                 const fullComboImage = item.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
                 const allJusticeImage = item.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
@@ -268,11 +304,11 @@
                         </td>
                         <td style="text-align: left;">
                             <div style="display: flex; justify-content: space-between;">
-                                <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel}</span>
+                                <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel !== 0 ? item.playLevel : ''}</span>
                                 <span style="font-family: Arial, sans-serif;">${formatDateTime(item.userPlayDate)}</span>
                             </div>
                             ${item.musicName}</br>
-                            <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> rat:${formattedRating}</br>
+                            <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> <span style="font-family: 'Geometr415';">${formattedRating}</span></br>
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png"></br>
                         </td>
                     </tr>
@@ -294,32 +330,15 @@
             var totalPages = Math.ceil(jsonData.length / pageSize);
             $('#pagination-nav').empty();
 
-            var paginationHtml = `
-            <ul class="pagination">
-                <li class="page-item ${pageNumber === 1 ? 'disabled' : ''}">
-                    <a class="page-link" href="#" onclick="showPage(${pageNumber - 1}, ${pageSize})" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-            `;
+            var paginationHtml = `<div class="pagination">`;
 
             for (var i = 1; i <= totalPages; i++) {
                 paginationHtml += `
-                <li class="page-item ${i === pageNumber ? 'active' : ''}">
-                    <a class="page-link" href="#" onclick="showPage(${i}, ${pageSize})">${i}</a>
-                </li>
+                <a class="page-link ${i === pageNumber ? 'active' : ''}" href="#" onclick="showPage(${i}, ${pageSize})">${i}</a>
                 `;
             }
 
-            paginationHtml += `
-                <li class="page-item ${pageNumber === totalPages ? 'disabled' : ''}">
-                    <a class="page-link" href="#" onclick="showPage(${pageNumber + 1}, ${pageSize})" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-            `;
-
+            paginationHtml += `</div>`;
             $('#pagination-nav').append(paginationHtml);
         }
         // 改变每页显示数量

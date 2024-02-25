@@ -20,7 +20,13 @@ def b30pic():
         return jsonify(error='未登录'), 403
     else:
         return send_file(ratTools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
-    
+
+@app.route('/playlog/<playlog_id>')
+def playlog(playlog_id):
+    if not playlog_id.isdigit():
+        return jsonify(error='非法操作'), 403
+    data = ratTools.single_music_playlog(playlog_id)
+    return jsonify(data), 200
 
 @app.route('/api/quicklogin', methods=['POST'])
 def quickloginapi():

@@ -100,18 +100,16 @@ def calculate_rating(constant, score):
     else:
         return 0
 
-def single_music_playlog(id):
+def single_music_playlog(playlogid):
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
+    cursor.execute("SELECT * FROM chusan_user_playlog WHERE id = '{}'".format(playlogid))
     rows = cursor.fetchall()
     columns = [description[0] for description in cursor.description]
     user_data = []
-    count = 0
     for row in reversed(rows):
         row_dict = dict(zip(columns, row))
         user_data.append(row_dict)
-        count += 1
     conn.close()
     difficulty_mapping = {
         "0": "basic",
@@ -121,14 +119,25 @@ def single_music_playlog(id):
         "4": "ultima",
         "5": "worldsend"
     }
+    exdiff_mapping = {
+        "0": "lev_adv",
+        "1": "lev_bas",
+        "2": "lev_exp",
+        "3": "lev_mas",
+        "4": "lev_ult",
+        "5": "lev_we"
+    }
 
     # 读取歌曲信息
     with open("masterdata/musics.json", "r", encoding='utf-8') as f:
         musics = json.load(f)
     with open('masterdata/musics_local.json', 'r', encoding='utf-8') as f:
         sdhd_music_data = json.load(f)
+    with open('masterdata/music-ex.json', 'r', encoding='utf-8') as f:
+        ex_data = json.load(f)
     music_info = {music['id']: music for music in musics}
     sdhd_music_info = {music['id']: music for music in sdhd_music_data}
+    ex_info = {music['id']: music for music in ex_data}
     # 解析用户数据
     user_playlog = []
     
@@ -147,17 +156,16 @@ def single_music_playlog(id):
                 music['jaketFile'] = "dummy.png"
             except KeyError:
                 continue
+        try:
+            music_ex_info = ex_info[music_id]
+        except KeyError:
+            continue
         difficulty_level = difficulty_mapping[difficult_id]
         if difficulty_level in music['difficulties']:
             difficulty = music['difficulties'][difficulty_level]
             rating = calculate_rating(difficulty, score)
             user_playlog.append({
-                'musicName': music['name'],
-                'jacketFile': music['jaketFile'],
-                #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
-                'genreNames': music['genreNames'][0],
-                'playLevel': difficulty,
-                'musicDifficulty': difficulty_level,
+                #以下为游玩信息
                 'score': score,
                 'rating': rating,
                 'userPlayDate':record['user_play_date'],
@@ -167,6 +175,36 @@ def single_music_playlog(id):
                 'isFullCombo': record['is_full_combo'],
                 'isAllJustice': record['is_all_justice'],
                 'isdeleted': isdeleted,
+
+                'countcritical':record['judge_heaven']+record['judge_critical'],                
+                'countjustice':record['judge_justice'],
+                'countattack':record['judge_attack'],
+                'countmiss':record['judge_guilty'],
+                
+                #以下为歌曲信息
+                #详细Level(13.8)
+                'playLevel': difficulty,
+                #简要Level(13+)
+                'playLevelshort': music_ex_info[exdiff_mapping[difficult_id]],
+                # 物量
+                # 'notesair': music_ex_info[exdiff_mapping[difficult_id]+'_notes_air'],
+                # 'notesflick': music_ex_info[exdiff_mapping[difficult_id]+'_notes_flick'],
+                # 'noteshold': music_ex_info[exdiff_mapping[difficult_id]+'_notes_hold'],
+                # 'notesslide': music_ex_info[exdiff_mapping[difficult_id]+'_notes_slide'],
+                # 'notestap': music_ex_info[exdiff_mapping[difficult_id]+'_notes_tap'],
+                'designer': music_ex_info[exdiff_mapping[difficult_id]+'_designer'],
+                #难度
+                'musicDifficulty': difficulty_level,
+                'version': music_ex_info['version'],
+                'musicName': music['name'],
+                'jacketFile': music['jaketFile'],
+                'musicID': music_ex_info['id'] ,
+                #分类
+                #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
+                'catname': music_ex_info['catname'] ,
+                'artist': music_ex_info['artist'] ,
+                'bpm': music_ex_info['bpm'] ,
+                # 'exInfo': music_ex_info,
             })
 
     return user_playlog
@@ -190,7 +228,7 @@ def playlog(id):
         "2": "expert",
         "3": "master",
         "4": "ultima",
-        "5": "worldsend"
+        "5": "world's end"
     }
 
     # 读取歌曲信息
@@ -217,12 +255,16 @@ def playlog(id):
                 isdeleted = True
                 music['jaketFile'] = "dummy.png"
             except KeyError:
+                print("没有id为{music_id}的歌曲信息")
                 continue
         difficulty_level = difficulty_mapping[difficult_id]
         if difficulty_level in music['difficulties']:
             difficulty = music['difficulties'][difficulty_level]
             rating = calculate_rating(difficulty, score)
+            if difficulty_level == "world's end":
+                rating = None
             user_playlog.append({
+                'dbPlaylogID':record['id'],
                 'musicName': music['name'],
                 'jacketFile': music['jaketFile'],
                 #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
