@@ -12,6 +12,10 @@
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+        @font-face {
+            font-family: 'Geometr415';
+            src: url('/static/Geometr415-Blk-BT-Black.ttf') format('truetype');
+        }
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
@@ -84,27 +88,27 @@
           height: 128px;
         }
         #level {
-            background-color: rgba(255, 255, 255, 0.85);
+            color: rgba(255, 255, 255, 0.85);
             border-radius: 5px;
         }
         #level[data-difficulty="MASTER"] {
-            color: rgb(135, 19, 177);
+            background-color: rgb(135, 19, 177);
         }
 
         #level[data-difficulty="EXPERT"] {
-            color: rgb(238, 67, 102);
+            background-color: rgb(238, 67, 102);
         }
 
         #level[data-difficulty="ADVANCED"] {
-            color: rgb(254, 170, 0); 
+            background-color: rgb(254, 170, 0); 
         }
 
         #level[data-difficulty="ULTIMA"] {
-            color: rgb(0, 0, 0); 
+            background-color: rgb(0, 0, 0); 
         }
 
         #level[data-difficulty="BASIC"] {
-            color: rgb(82, 171, 18); 
+            background-color: rgb(82, 171, 18); 
         }
 
     </style>
@@ -149,7 +153,7 @@
 
     <div class="container" style="max-width: 100%;max-height: 100%;">
         <div class="row" >
-          <div class="col-md-4 offset-md-7 mt-5">
+          <div class="col-md-5 offset-md-6 mt-5">
               <div class="card" style="max-height: 200px; margin-bottom: 20px; padding: 10px;">
                 <div class="card-body">
                     <h5 class="card-title">游玩记录</h5>
@@ -217,7 +221,26 @@
             if (score >= 500000) return '1';
             return '0';
         }
-        function showPage(pageNumber, pageSize) {
+        async function fetchRatingImage(rating) {
+            try {
+                const response = await fetch('/api/rating_image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ number: rating * 100 })
+                });
+                const imageBlob = await response.blob();
+                const imageUrl = URL.createObjectURL(imageBlob);
+                console.log(imageUrl);
+                return imageUrl;
+            } catch (error) {
+                console.error('Error:', error);
+                throw error; // 重新抛出错误以便上层处理
+            }
+        }
+
+        async function showPage(pageNumber, pageSize) {
             var startIndex = (pageNumber - 1) * pageSize;
             var endIndex = startIndex + pageSize;
             
@@ -231,31 +254,34 @@
             $('#json-container').empty();
 
             var tableHtml = `
-            <table class="table table-striped">
+            <table class="table table-striped" style="width: 100%;">
                 <tbody>
                     <!-- 数据行 -->
             `;
 
-            dataToShow.forEach(function(item) {
+            for (const item of dataToShow) {
                 var formattedRating = item.rating.toFixed(2);
                 const rankImage = getRankImage(item.score);
                 const fullComboImage = item.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
                 const allJusticeImage = item.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
                 const newRecordImage = item.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
 
+                const ratingimageUrl = await fetchRatingImage(formattedRating);
+
                 tableHtml += `
                     <tr>
                         <td>
-                          <img src="static/jackets/${item.jacketFile}" class="jacket"></td>
+                            <img src="static/jackets/${item.jacketFile}" class="jacket">
+                        </td>
                         <td>
-                          <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()}  ${item.playLevel}</span></br>
+                            <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()}  ${item.playLevel}</span>&nbsp;&nbsp;<span style="font-family: Arial, sans-serif;align-items: right;">${formatDateTime(item.userPlayDate)}</span></br>
                             ${item.musicName}</br>
-                            ${newRecordImage}${item.score} → ${formattedRating}</br>
-                            ${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png"></br>
+                            <span style="font-family: Geometr415;font-size:36px;">${item.score}</span>    <img src="${ratingimageUrl}"></br>
+                            ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png"></br>
                         </td>
                     </tr>
                 `;
-            });
+            }
 
             tableHtml += `
                 </tbody>
@@ -267,7 +293,7 @@
             // 创建分页
             createPagination(pageNumber, pageSize);
         }
-      
+
         function createPagination(pageNumber, pageSize) {
             var totalPages = Math.ceil(jsonData.length / pageSize);
             $('#pagination-nav').empty();
@@ -306,13 +332,17 @@
             showPage(1, selectedPageSize);
         }
 
-      function formatDateTime(timestamp) {
+        function formatDateTime(timestamp) {
             const date = new Date(timestamp);
+            date.setHours(date.getHours() - 1); // 将时间减去1小时
             const year = date.getFullYear();
             const month = String(date.getMonth() + 1).padStart(2, '0');
             const day = String(date.getDate()).padStart(2, '0');
+            const hour = String(date.getHours()).padStart(2, '0');
+            const minute = String(date.getMinutes()).padStart(2, '0');
+            const second = String(date.getSeconds()).padStart(2, '0');
 
-            return `${year}-${month}-${day}`;
+            return `${month}-${day} ${hour}:${minute}`;
         }
         document.addEventListener('DOMContentLoaded', () => {
             const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));

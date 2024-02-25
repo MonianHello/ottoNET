@@ -100,6 +100,77 @@ def calculate_rating(constant, score):
     else:
         return 0
 
+def single_music_playlog(id):
+    conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
+    rows = cursor.fetchall()
+    columns = [description[0] for description in cursor.description]
+    user_data = []
+    count = 0
+    for row in reversed(rows):
+        row_dict = dict(zip(columns, row))
+        user_data.append(row_dict)
+        count += 1
+    conn.close()
+    difficulty_mapping = {
+        "0": "basic",
+        "1": "advanced",
+        "2": "expert",
+        "3": "master",
+        "4": "ultima",
+        "5": "worldsend"
+    }
+
+    # 读取歌曲信息
+    with open("masterdata/musics.json", "r", encoding='utf-8') as f:
+        musics = json.load(f)
+    with open('masterdata/musics_local.json', 'r', encoding='utf-8') as f:
+        sdhd_music_data = json.load(f)
+    music_info = {music['id']: music for music in musics}
+    sdhd_music_info = {music['id']: music for music in sdhd_music_data}
+    # 解析用户数据
+    user_playlog = []
+    
+    # 遍历用户数据，计算rating，并构造需要的数据结构
+    for record in user_data:
+        music_id = str(record["music_id"])
+        difficult_id = str(record["level"])
+        score = int(record["score"])
+        isdeleted = False
+        try:
+            music = music_info[music_id]
+        except KeyError:
+            try:
+                music = sdhd_music_info[music_id]
+                isdeleted = True
+                music['jaketFile'] = "dummy.png"
+            except KeyError:
+                continue
+        difficulty_level = difficulty_mapping[difficult_id]
+        if difficulty_level in music['difficulties']:
+            difficulty = music['difficulties'][difficulty_level]
+            rating = calculate_rating(difficulty, score)
+            user_playlog.append({
+                'musicName': music['name'],
+                'jacketFile': music['jaketFile'],
+                #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
+                'genreNames': music['genreNames'][0],
+                'playLevel': difficulty,
+                'musicDifficulty': difficulty_level,
+                'score': score,
+                'rating': rating,
+                'userPlayDate':record['user_play_date'],
+                'track':record['track'],
+                'isClear':record['is_clear'],
+                'isNewRecord':record['is_new_record'],
+                'isFullCombo': record['is_full_combo'],
+                'isAllJustice': record['is_all_justice'],
+                'isdeleted': isdeleted,
+            })
+
+    return user_playlog
+
 def playlog(id):
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
@@ -154,11 +225,13 @@ def playlog(id):
             user_playlog.append({
                 'musicName': music['name'],
                 'jacketFile': music['jaketFile'],
+                #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
+                'genreNames': music['genreNames'][0],
                 'playLevel': difficulty,
                 'musicDifficulty': difficulty_level,
                 'score': score,
                 'rating': rating,
-                'playDate':record['play_date'],
+                'userPlayDate':record['user_play_date'],
                 'track':record['track'],
                 'isClear':record['is_clear'],
                 'isNewRecord':record['is_new_record'],
