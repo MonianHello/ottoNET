@@ -1,0 +1,81 @@
+@charset "utf-8";
+/*----------------------------------------------------------------------------------
+	◆フォントサイズ設定
+----------------------------------------------------------------------------------*/
+/*23px*/
+.rank_block_rank, .rank_elite_rank, .rank_block_rank_s {
+  font-size: 2rem;
+}
+
+/*19px*/
+#wrap, .riyouken_attention {
+  font-size: 1.2rem;
+}
+
+.friend_vs_check_block {
+  font-size: 15px;
+}
+
+/*18px*/
+h2#page_title, .popup_title, .genre,
+.bonus_block, .bonus_block_sp {
+  font-size: 1.1rem;
+}
+
+/*16px*/
+input[type="text"], input[type="password"], select, textarea,
+h3.title,
+.frame02,
+.box02, .box04, .box05,
+.box07, .box10,
+.box_pastelorange,
+.box_player,
+.music_box, .musiclist_box,
+.font_reg,
+.login_form, .riyouken_block00,
+.option_setting_block, .player_name, .player_rating,
+.block_information, .activity_name,
+.maimai_item_block, .score_list, .rank_block_team_num, .rank_block_team_diff,
+.friend_vs_result, .vs_result_record, .vs_list_result_block, .net_battle_log_frame, .player_matchingplayer_box, .favorite_music_block,
+.bonus_block_on, .bonus_block_off , .rank_block_num_s, .monthly_cumulative_login_bonus_term, .weekday_bonus_info_text {
+  font-size: 1.0rem;
+}
+
+/*14px*/
+.more, .player_data_comment, .block_activity01,
+.map_count_text, .box14,
+.play_musicdata_highscore,
+.character_image_box_name, .block_discription,
+.skill_name, .ticket_hold, .ticket_hold_mini, .ticket_block_text,
+.nameplate_block, .nameplate_plate, .rank_block,
+.rank_block_name,  .apply_number, .accept_number,
+.friend_vs_infoblock, .friend_vs_name, .vs_list_infoblock, .map_skillseed_text {
+  font-size: 0.9rem;
+}
+
+/*13px*/
+.player_reborn,
+.play_datalist_date,
+.story_title, .story_text, .skill_level, .rank_block_name_s , .ticket_limit_date {
+  font-size: 0.8rem;
+}
+
+/*11px*/
+.map_reward_name {
+  font-size: 0.7rem;
+}
+
+/*12px（0.75rem）アジア版用にranking_tournament_updateを追加 */
+.footer_attention, .ranking_update, .ranking_tournament_update,
+.vs_list_infoblock > .play_musicdata_highscore,
+.vs_list_result  {
+  font-size: small;
+}
+
+/*10px（0.6rem）*/
+.difficulty_btn_highscore_all, .difficulty_btn_highscore,
+.skill_level_text, .character_illustrator,
+.rank_block_date, .rank_block_date_new, .rank_block_theory_text, .rank_course_data_theory_num, .rank_playdata_theory_num
+, .bonus_days_block, .bonus_chat_text, .bonus_reward_honor_text  {
+  font-size: x-small;
+}

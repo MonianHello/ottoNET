@@ -1,0 +1,556 @@
+<div class="frame01_inside">
+    <!--●ページタイトル-->
+    <div class="mt_15 pb_10">
+        <h2 id="page_title">设定</h2>
+    </div>
+    <form action="https://chunithm.wahlap.com/mobile/home/userOption/updateUserOption/update/" method="post" accept-charset="utf-8">
+        <div class="box01 w420">
+            <div class="box01_title">更改设定</div>
+                            <div class="box05 w388 text_l">
+                <div class="text_b text_c mt_5"></div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">推荐设定</div>
+                    <div class="option_setting_block_select">
+                        <select name="optionSet">
+                                                                <option value="0">适合新手玩家</option>
+                                                                <option value="1">适合中级玩家</option>
+                                                                <option value="2">适合上位玩家</option>
+                                                                <option value="3" selected="">详细设定</option>
+                                                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="box05 w388 text_l">
+                <div class="text_b text_c mt_5 mb_5">1：游戏设定</div>
+                                    <div class="option_setting_block">
+                    <div class="option_setting_text">音符速度设定</div>
+                    <div class="option_setting_block_select">
+                        <select name="speed">
+                                                                <option value="0">1.00</option>
+                                                                <option value="1">1.25</option>
+                                                                <option value="2">1.50</option>
+                                                                <option value="3">1.75</option>
+                                                                <option value="4">2.00</option>
+                                                                <option value="5">2.25</option>
+                                                                <option value="6">2.50</option>
+                                                                <option value="7">2.75</option>
+                                                                <option value="8">3.00</option>
+                                                                <option value="9">3.25</option>
+                                                                <option value="10">3.50</option>
+                                                                <option value="11">3.75</option>
+                                                                <option value="12">4.00</option>
+                                                                <option value="13">4.25</option>
+                                                                <option value="14">4.50</option>
+                                                                <option value="15">4.75</option>
+                                                                <option value="16">5.00</option>
+                                                                <option value="17">5.25</option>
+                                                                <option value="18">5.50</option>
+                                                                <option value="19">5.75</option>
+                                                                <option value="20">6.00</option>
+                                                                <option value="21">6.25</option>
+                                                                <option value="22">6.50</option>
+                                                                <option value="23">6.75</option>
+                                                                <option value="24">7.00</option>
+                                                                <option value="25">7.25</option>
+                                                                <option value="26" selected="">7.50</option>
+                                                                <option value="27">7.75</option>
+                                                                <option value="28">8.00</option>
+                                                                <option value="29">8.25</option>
+                                                                <option value="30">8.50</option>
+                                                                <option value="31">8.75</option>
+                                                                <option value="32">9.00</option>
+                                                                <option value="33">9.25</option>
+                                                                <option value="34">9.50</option>
+                                                                <option value="35">9.75</option>
+                                                                <option value="36">10.00</option>
+                                                                <option value="37">10.25</option>
+                                                                <option value="38">10.50</option>
+                                                                <option value="39">10.75</option>
+                                                                <option value="40">11.00</option>
+                                                                <option value="41">11.25</option>
+                                                                <option value="42">11.50</option>
+                                                                <option value="43">11.75</option>
+                                                                <option value="44">12.00</option>
+                                                                <option value="45">12.25</option>
+                                                                <option value="46">12.50</option>
+                                                                <option value="47">12.75</option>
+                                                                <option value="48">13.00</option>
+                                                                <option value="49">13.25</option>
+                                                                <option value="50">13.50</option>
+                                                                <option value="51">13.75</option>
+                                                                <option value="52">14.00</option>
+                                                                <option value="53">14.25</option>
+                                                                <option value="54">14.50</option>
+                                                                <option value="55">14.75</option>
+                                                                <option value="56">15.00</option>
+                                                                <option value="57">16.00</option>
+                                                                <option value="58">17.00</option>
+                                                                <option value="59">18.00</option>
+                                                                <option value="60">19.00</option>
+                                                                <option value="61">SONIC</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">镜像模式设定</div>
+                    <div class="option_setting_block_select">
+                        <select name="mirrorFumen">
+                                                                <option value="0" selected="">OFF</option>
+                                                                <option value="1">ON</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">强制结束</div>
+                    <div class="option_setting_block_select">
+                        <select name="trackSkip">
+                                                                <option value="0" selected="">OFF</option>
+                                                                <option value="1">S</option>
+                                                                <option value="2">S+</option>
+                                                                <option value="3">SS</option>
+                                                                <option value="4">SS+</option>
+                                                                <option value="5">SSS</option>
+                                                                <option value="6">SSS+</option>
+                                                                <option value="7">最高分</option>
+                                                        </select>
+                    </div>
+                </div>
+                                    <div class="option_setting_block">
+                    <div class="option_setting_text">判定调整A</div>
+                    <div class="option_setting_block_select">
+                        <select name="playTimingOffset">
+                                                                <option value="0">-2.0</option>
+                                                                <option value="1">-1.9</option>
+                                                                <option value="2">-1.8</option>
+                                                                <option value="3">-1.7</option>
+                                                                <option value="4">-1.6</option>
+                                                                <option value="5">-1.5</option>
+                                                                <option value="6">-1.4</option>
+                                                                <option value="7">-1.3</option>
+                                                                <option value="8">-1.2</option>
+                                                                <option value="9">-1.1</option>
+                                                                <option value="10">-1.0</option>
+                                                                <option value="11">-0.9</option>
+                                                                <option value="12">-0.8</option>
+                                                                <option value="13">-0.7</option>
+                                                                <option value="14">-0.6</option>
+                                                                <option value="15">-0.5</option>
+                                                                <option value="16">-0.4</option>
+                                                                <option value="17">-0.3</option>
+                                                                <option value="18">-0.2</option>
+                                                                <option value="19">-0.1</option>
+                                                                <option value="20" selected="">0.0</option>
+                                                                <option value="21">0.1</option>
+                                                                <option value="22">0.2</option>
+                                                                <option value="23">0.3</option>
+                                                                <option value="24">0.4</option>
+                                                                <option value="25">0.5</option>
+                                                                <option value="26">0.6</option>
+                                                                <option value="27">0.7</option>
+                                                                <option value="28">0.8</option>
+                                                                <option value="29">0.9</option>
+                                                                <option value="30">1.0</option>
+                                                                <option value="31">1.1</option>
+                                                                <option value="32">1.2</option>
+                                                                <option value="33">1.3</option>
+                                                                <option value="34">1.4</option>
+                                                                <option value="35">1.5</option>
+                                                                <option value="36">1.6</option>
+                                                                <option value="37">1.7</option>
+                                                                <option value="38">1.8</option>
+                                                                <option value="39">1.9</option>
+                                                                <option value="40">2.0</option>
+                                                        </select>
+                    </div>
+                </div>
+                                    <div class="option_setting_block">
+                    <div class="option_setting_text">判定调整B</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgeTimingOffset">
+                                                                <option value="0">-2.0</option>
+                                                                <option value="1">-1.9</option>
+                                                                <option value="2">-1.8</option>
+                                                                <option value="3">-1.7</option>
+                                                                <option value="4">-1.6</option>
+                                                                <option value="5">-1.5</option>
+                                                                <option value="6">-1.4</option>
+                                                                <option value="7">-1.3</option>
+                                                                <option value="8">-1.2</option>
+                                                                <option value="9">-1.1</option>
+                                                                <option value="10">-1.0</option>
+                                                                <option value="11">-0.9</option>
+                                                                <option value="12">-0.8</option>
+                                                                <option value="13">-0.7</option>
+                                                                <option value="14">-0.6</option>
+                                                                <option value="15">-0.5</option>
+                                                                <option value="16">-0.4</option>
+                                                                <option value="17">-0.3</option>
+                                                                <option value="18">-0.2</option>
+                                                                <option value="19">-0.1</option>
+                                                                <option value="20" selected="">0.0</option>
+                                                                <option value="21">0.1</option>
+                                                                <option value="22">0.2</option>
+                                                                <option value="23">0.3</option>
+                                                                <option value="24">0.4</option>
+                                                                <option value="25">0.5</option>
+                                                                <option value="26">0.6</option>
+                                                                <option value="27">0.7</option>
+                                                                <option value="28">0.8</option>
+                                                                <option value="29">0.9</option>
+                                                                <option value="30">1.0</option>
+                                                                <option value="31">1.1</option>
+                                                                <option value="32">1.2</option>
+                                                                <option value="33">1.3</option>
+                                                                <option value="34">1.4</option>
+                                                                <option value="35">1.5</option>
+                                                                <option value="36">1.6</option>
+                                                                <option value="37">1.7</option>
+                                                                <option value="38">1.8</option>
+                                                                <option value="39">1.9</option>
+                                                                <option value="40">2.0</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">联机设定</div>
+                    <div class="option_setting_block_select">
+                        <select name="matching">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1" selected="">ON</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">显示玩家等级</div>
+                    <div class="option_setting_block_select">
+                        <select name="playerLevel">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1" selected="">ON</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">显示rating</div>
+                    <div class="option_setting_block_select">
+                        <select name="rating">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1" selected="">ON</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">显示OVER POWER</div>
+                    <div class="option_setting_block_select">
+                        <select name="categoryDetail">
+                                                                <option value="0" selected="">OFF</option>
+                                                                <option value="1">ON</option>
+                                                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="box05 w388 text_l">
+                <div class="text_b text_c mt_5 mb_5">2：音量设定</div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">提示音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="guideSound">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">变更TAP判定音</div>
+                    <div class="option_setting_block_select">
+                        <select name="successTapTimbre">
+                                                                <option value="0" selected="">默认</option>
+                                                                <option value="1">拍手</option>
+                                                                <option value="2">雨声</option>
+                                                                <option value="3">响木</option>
+                                                                <option value="4">铃</option>
+                                                                <option value="5">铜箔/鼓</option>
+                                                                <option value="6">短拍手</option>
+                                                                <option value="7">和太鼓</option>
+                                                                <option value="8">舞萌</option>
+                                                                <option value="9">音击</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">音符判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="soundEffect" onchange="JavaScript:syncSuccessVolume();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">自定义</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">TAP判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successTap" onchange="JavaScript:setSoundEffect();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">ExTAP判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successExTap" onchange="JavaScript:setSoundEffect();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">HOLD/SLIDE判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successSlideHold" onchange="JavaScript:setSoundEffect();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">AIR/AIR-ACTION判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successAir" onchange="JavaScript:setSoundEffect();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">FLICK判定音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successFlick" onchange="JavaScript:setSoundEffect();">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+
+                <div class="option_setting_block">
+                    <div class="option_setting_text">伤害音音量</div>
+                    <div class="option_setting_block_select">
+                        <select name="successSkill">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5" selected="">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                        </select>
+                    </div>
+                </div>
+
+                <div class="option_setting_block">
+                    <div class="option_setting_text">伤害音发动条件</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgeAppendSe">
+                                                                <option value="0" selected="">技能判定音</option>
+                                                                <option value="1">MISS以下判定</option>
+                                                                <option value="2">ATTACK以下判定</option>
+                                                                <option value="3">JUSTICE以下判定</option>
+                                                        </select>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box05 w388 text_l">
+                <div class="text_b text_c mt_5 mb_5">3：判定位置设定</div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">判定显示位置</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgePos">
+                                                                <option value="0">下</option>
+                                                                <option value="1" selected="">中</option>
+                                                                <option value="2">上</option>
+                                                                <option value="3">天</option>
+                                                        </select>
+                    </div>
+                </div>
+
+                <div class="option_setting_block">
+                    <div class="option_setting_text">JUSTICE CRITICAL 早/晚</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgeCritical">
+                                                                <option value="0" selected="">只显示判定</option>
+                                                                <option value="1">显示所有</option>
+                                                                <option value="2">只显示早/晚</option>
+                                                                <option value="3">OFF</option>
+                                                        </select>
+                    </div>
+                </div>
+
+                <div class="option_setting_block">
+                    <div class="option_setting_text">JUSTICE 早/晚</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgeJustice">
+                                                                <option value="0" selected="">只显示判定</option>
+                                                                <option value="1">显示所有</option>
+                                                                <option value="2">只显示早/晚</option>
+                                                                <option value="3">OFF</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">ATTACK 早/晚</div>
+                    <div class="option_setting_block_select">
+                        <select name="judgeAttack">
+                                                                <option value="0" selected="">只显示判定</option>
+                                                                <option value="1">显示所有</option>
+                                                                <option value="2">只显示早/晚</option>
+                                                                <option value="3">OFF</option>
+                                                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="box05 w388 text_l">
+                <div class="text_b text_c mt_5 mb_5">4：背景显示设定</div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">判定线</div>
+                    <div class="option_setting_block_select">
+                        <select name="guideLine">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1">2等分</option>
+                                                                <option value="2" selected="">4等分</option>
+                                                                <option value="3">8等分</option>
+                                                                <option value="4">16等分</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">背景颜色</div>
+                    <div class="option_setting_block_select">
+                        <select name="fieldColor">
+                                                                <option value="0">-5</option>
+                                                                <option value="1">-4</option>
+                                                                <option value="2">-3</option>
+                                                                <option value="3">-2</option>
+                                                                <option value="4">-1</option>
+                                                                <option value="5" selected="">0</option>
+                                                        </select>
+                    </div>
+                </div>
+                                    <div class="option_setting_block">
+                    <div class="option_setting_text">背景板</div>
+                    <div class="option_setting_block_select">
+                        <select name="fieldWallPosition">
+                                                                <option value="0" selected="">0</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                                <option value="13">13</option>
+                                                                <option value="14">14</option>
+                                                                <option value="15">15</option>
+                                                                <option value="16">16</option>
+                                                        </select>
+                    </div>
+                </div>
+                <div class="option_setting_block">
+                    <div class="option_setting_text">背景信息</div>
+                    <div class="option_setting_block_select">
+                        <select name="bgInfo">
+                                                                <option value="0">OFF</option>
+                                                                <option value="1" selected="">COMBO</option>
+                                                                <option value="2">分数(+型)</option>
+                                                                <option value="3">分数(-型)</option>
+                                                                <option value="4">距S级</option>
+                                                                <option value="5">距S+级</option>
+                                                                <option value="6">距SS级</option>
+                                                                <option value="7">距SS+级</option>
+                                                                <option value="8">距SSS级</option>
+                                                                <option value="9">距SSS+级</option>
+                                                                <option value="10">距最高分</option>
+                                                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="mt_20">
+                <div class="btn_change_setting">变更设定</div>
+            </div>
+        </div>
+    </form>
+    <!--戻る-->
+</div>
