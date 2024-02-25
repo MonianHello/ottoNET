@@ -163,7 +163,6 @@
                 </div>
             </div>
             <div id="json-container">
-              <!-- 这里将会动态插入 JSON 数据 -->
             </div>
             <nav aria-label="Page navigation" id="pagination-nav"></nav>
             <div class="input-group mb-3">
@@ -221,26 +220,22 @@
             if (score >= 500000) return '1';
             return '0';
         }
-        async function fetchRatingImage(rating) {
-            try {
-                const response = await fetch('/api/rating_image', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ number: rating * 100 })
-                });
-                const imageBlob = await response.blob();
+        function fetchRatingImage(rating) {
+            fetch('/api/rating_image', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ number: rating })
+            })
+            .then(response => response.blob())
+            .then(imageBlob => {
                 const imageUrl = URL.createObjectURL(imageBlob);
-                console.log(imageUrl);
                 return imageUrl;
-            } catch (error) {
-                console.error('Error:', error);
-                throw error; // 重新抛出错误以便上层处理
-            }
+            })
+            .catch(error => console.error('Error:', error));
         }
-
-        async function showPage(pageNumber, pageSize) {
+        function showPage(pageNumber, pageSize) {
             var startIndex = (pageNumber - 1) * pageSize;
             var endIndex = startIndex + pageSize;
             
@@ -254,34 +249,35 @@
             $('#json-container').empty();
 
             var tableHtml = `
-            <table class="table table-striped" style="width: 100%;">
+            <table class="table table-striped">
                 <tbody>
                     <!-- 数据行 -->
             `;
 
-            for (const item of dataToShow) {
+            dataToShow.forEach(function(item) {
                 var formattedRating = item.rating.toFixed(2);
                 const rankImage = getRankImage(item.score);
                 const fullComboImage = item.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
                 const allJusticeImage = item.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
                 const newRecordImage = item.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
 
-                const ratingimageUrl = await fetchRatingImage(formattedRating);
-
                 tableHtml += `
                     <tr>
-                        <td>
+                        <td style="text-align: center;">
                             <img src="static/jackets/${item.jacketFile}" class="jacket">
                         </td>
-                        <td>
-                            <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()}  ${item.playLevel}</span>&nbsp;&nbsp;<span style="font-family: Arial, sans-serif;align-items: right;">${formatDateTime(item.userPlayDate)}</span></br>
+                        <td style="text-align: left;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel}</span>
+                                <span style="font-family: Arial, sans-serif;">${formatDateTime(item.userPlayDate)}</span>
+                            </div>
                             ${item.musicName}</br>
-                            <span style="font-family: Geometr415;font-size:36px;">${item.score}</span>    <img src="${ratingimageUrl}"></br>
+                            <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> rat:${formattedRating}</br>
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png"></br>
                         </td>
                     </tr>
                 `;
-            }
+            });
 
             tableHtml += `
                 </tbody>
@@ -293,7 +289,7 @@
             // 创建分页
             createPagination(pageNumber, pageSize);
         }
-
+      
         function createPagination(pageNumber, pageSize) {
             var totalPages = Math.ceil(jsonData.length / pageSize);
             $('#pagination-nav').empty();
