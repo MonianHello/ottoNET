@@ -309,7 +309,13 @@
                             </div>
                             ${item.musicName}</br>
                             <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> <span style="font-family: 'Geometr415';">${formattedRating}</span></br>
-                            ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png"></br>
+                            ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">
+                            <div style="text-align: right;">
+                                <button type="button" id="${item.dbPlaylogID}" class="btn btn-primary detailbtn" data-toggle="modal"  data-target="#musicDetailModal">
+                                    歌曲详情
+                                </button>
+                            </div>
+
                         </td>
                     </tr>
                 `;
@@ -324,8 +330,90 @@
 
             // 创建分页
             createPagination(pageNumber, pageSize);
+
+
+            
+            var buttons = document.querySelectorAll('.detailbtn');
+            // 遍历按钮列表
+            buttons.forEach(function(button) {
+                // 为每个按钮添加点击事件监听器
+                button.addEventListener('click', function () {
+                    var musicDetail = new bootstrap.Modal(document.getElementById('musicDetailModal'));
+                    musicDetail.show(); // 显示模态框
+                    var dbPlaylogID = button.id; // 获取按钮的 ID
+
+                    fetch(`/api/playlog/${dbPlaylogID}`, {
+                        method: 'POST',
+                    })
+                    .then(response => response.json()) // 将响应转换为文本格式
+                    .then(data => {
+                        data = data[0]
+                        console.log(data)
+
+                        //模态框内容
+                        if(data.rating){
+                            var singleformattedRating = data.rating.toFixed(4);
+                        }else{
+                            var singleformattedRating = '';
+                        }
+
+
+                        var musicDetailModalLabel_musicName = document.getElementById('musicDetailModalLabel_musicName');
+                        musicDetailModalLabel_musicName.textContent = data.musicName;
+
+                        var musicDetailModalLabel_score = document.getElementById('musicDetailModalLabel_score');
+                        musicDetailModalLabel_score.textContent = data.score;
+
+                        var musicDetailModalLabel_rating = document.getElementById('musicDetailModalLabel_rating');
+                        musicDetailModalLabel_rating.textContent = singleformattedRating;
+
+                        var musicDetailModalLabel_userPlayDate = document.getElementById('musicDetailModalLabel_userPlayDate');
+                        musicDetailModalLabel_userPlayDate.textContent = formatDateTime(data.userPlayDate,2);
+
+                        var musicDetailModalLabel_countcritical = document.getElementById('musicDetailModalLabel_countcritical');
+                        musicDetailModalLabel_countcritical.textContent = data.countcritical;
+
+                        var musicDetailModalLabel_countjustice = document.getElementById('musicDetailModalLabel_countjustice');
+                        musicDetailModalLabel_countjustice.textContent = data.countjustice;
+
+                        var musicDetailModalLabel_countattack = document.getElementById('musicDetailModalLabel_countattack');
+                        musicDetailModalLabel_countattack.textContent = data.countattack;
+
+                        var musicDetailModalLabel_countmiss = document.getElementById('musicDetailModalLabel_countmiss');
+                        musicDetailModalLabel_countmiss.textContent = data.countmiss;
+
+                        var musicDetailModalLabel_musicDifficulty = document.getElementById('musicDetailModalLabel_musicDifficulty');
+                        musicDetailModalLabel_musicDifficulty.textContent = data.musicDifficulty;
+
+                        var musicDetailModalLabel_playLevel = document.getElementById('musicDetailModalLabel_playLevel');
+                        musicDetailModalLabel_playLevel.textContent = data.playLevel;
+
+                        var musicDetailModalLabel_designer = document.getElementById('musicDetailModalLabel_designer');
+                        musicDetailModalLabel_designer.textContent = data.designer;
+
+                        var musicDetailModalLabel_version = document.getElementById('musicDetailModalLabel_version');
+                        musicDetailModalLabel_version.textContent = data.version;
+
+                        var musicDetailModalLabel_catname = document.getElementById('musicDetailModalLabel_catname');
+                        musicDetailModalLabel_catname.textContent = data.catname;
+
+                        var musicDetailModalLabel_artist = document.getElementById('musicDetailModalLabel_artist');
+                        musicDetailModalLabel_artist.textContent = data.artist;
+
+                        var musicDetailModalLabel_bpm = document.getElementById('musicDetailModalLabel_bpm');
+                        musicDetailModalLabel_bpm.textContent = data.bpm;
+
+                        var musicDetailModalLabel_jacketFile = document.getElementById('musicDetailModalLabel_jacketFile');
+                        musicDetailModalLabel_jacketFile.src = "static/jackets/" + data.jacketFile;
+
+
+                    })
+                    .catch(error => console.error('Error:', error));
+                });
+            });
+
         }
-      
+
         function createPagination(pageNumber, pageSize) {
             var totalPages = Math.ceil(jsonData.length / pageSize);
             $('#pagination-nav').empty();
@@ -346,8 +434,7 @@
             var selectedPageSize = selectElement.value;
             showPage(1, selectedPageSize);
         }
-
-        function formatDateTime(timestamp) {
+        function formatDateTime(timestamp,type=1) {
             const date = new Date(timestamp);
             date.setHours(date.getHours() - 1); // 将时间减去1小时
             const year = date.getFullYear();
@@ -357,7 +444,12 @@
             const minute = String(date.getMinutes()).padStart(2, '0');
             const second = String(date.getSeconds()).padStart(2, '0');
 
-            return `${month}-${day} ${hour}:${minute}`;
+            if(type==1){
+                return `${month}-${day} ${hour}:${minute}`;
+            }else if(type==2){
+                return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+            }
+            
         }
         document.addEventListener('DOMContentLoaded', () => {
             const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));
@@ -374,6 +466,35 @@
             }
         });
     </script>
+    <!-- 模态框 -->
+    <div class="modal fade" id="musicDetailModal" tabindex="-1" aria-labelledby="musicDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="musicDetailModalLabel_musicName">音乐标题</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
 
+            </div>
+            <div class="modal-body">
+                <img id="musicDetailModalLabel_jacketFile">
+                <p>Score:<span id="musicDetailModalLabel_score"></span></p>
+                <p>Rat:<span id="musicDetailModalLabel_rating"></span></p>
+                <p>游玩时间:<span id="musicDetailModalLabel_userPlayDate"></span></p>
+                <p>大p:<span id="musicDetailModalLabel_countcritical"></span></p>
+                <p>小p:<span id="musicDetailModalLabel_countjustice"></span></p>
+                <p>绿:<span id="musicDetailModalLabel_countattack"></span></p>
+                <p>灰:<span id="musicDetailModalLabel_countmiss"></span></p>
+                <p>铺面难度:<span id="musicDetailModalLabel_musicDifficulty"></span></p>
+                <p>铺面等级:<span id="musicDetailModalLabel_playLevel"></span></p>
+                <p>铺面设计:<span id="musicDetailModalLabel_designer"></span></p>
+                <p>铺面版本:<span id="musicDetailModalLabel_version"></span></p>
+                <p>铺面分类:<span id="musicDetailModalLabel_catname"></span></p>
+                <p>乐曲作者:<span id="musicDetailModalLabel_artist"></span></p>
+                <p>乐曲BPM:<span id="musicDetailModalLabel_bpm"></span></p>
+            </div>
+        </div>
+        </div>
+    </div>
+  
 </body>
 </html>

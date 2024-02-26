@@ -117,7 +117,7 @@ def single_music_playlog(playlogid):
         "2": "expert",
         "3": "master",
         "4": "ultima",
-        "5": "worldsend"
+        "5": "world's end"
     }
     exdiff_mapping = {
         "0": "lev_adv",
@@ -140,9 +140,9 @@ def single_music_playlog(playlogid):
     ex_info = {music['id']: music for music in ex_data}
     # 解析用户数据
     user_playlog = []
-    
     # 遍历用户数据，计算rating，并构造需要的数据结构
     for record in user_data:
+        no_music_ex_info = False
         music_id = str(record["music_id"])
         difficult_id = str(record["level"])
         score = int(record["score"])
@@ -159,53 +159,92 @@ def single_music_playlog(playlogid):
         try:
             music_ex_info = ex_info[music_id]
         except KeyError:
-            continue
+            no_music_ex_info = True
         difficulty_level = difficulty_mapping[difficult_id]
         if difficulty_level in music['difficulties']:
             difficulty = music['difficulties'][difficulty_level]
             rating = calculate_rating(difficulty, score)
-            user_playlog.append({
-                #以下为游玩信息
-                'score': score,
-                'rating': rating,
-                'userPlayDate':record['user_play_date'],
-                'track':record['track'],
-                'isClear':record['is_clear'],
-                'isNewRecord':record['is_new_record'],
-                'isFullCombo': record['is_full_combo'],
-                'isAllJustice': record['is_all_justice'],
-                'isdeleted': isdeleted,
+            # 如果是world's end歌曲
+            if  str(difficult_id) == '5':
+                difficulty = ''
+                rating = ''
+            if not no_music_ex_info:
+                user_playlog.append({
+                    #以下为游玩信息
+                    'score': score,
+                    'rating': rating,
+                    'userPlayDate':record['user_play_date'],
+                    'track':record['track'],
+                    'isClear':record['is_clear'],
+                    'isNewRecord':record['is_new_record'],
+                    'isFullCombo': record['is_full_combo'],
+                    'isAllJustice': record['is_all_justice'],
+                    'isdeleted': isdeleted,
 
-                'countcritical':record['judge_heaven']+record['judge_critical'],                
-                'countjustice':record['judge_justice'],
-                'countattack':record['judge_attack'],
-                'countmiss':record['judge_guilty'],
-                
-                #以下为歌曲信息
-                #详细Level(13.8)
-                'playLevel': difficulty,
-                #简要Level(13+)
-                'playLevelshort': music_ex_info[exdiff_mapping[difficult_id]],
-                # 物量
-                # 'notesair': music_ex_info[exdiff_mapping[difficult_id]+'_notes_air'],
-                # 'notesflick': music_ex_info[exdiff_mapping[difficult_id]+'_notes_flick'],
-                # 'noteshold': music_ex_info[exdiff_mapping[difficult_id]+'_notes_hold'],
-                # 'notesslide': music_ex_info[exdiff_mapping[difficult_id]+'_notes_slide'],
-                # 'notestap': music_ex_info[exdiff_mapping[difficult_id]+'_notes_tap'],
-                'designer': music_ex_info[exdiff_mapping[difficult_id]+'_designer'],
-                #难度
-                'musicDifficulty': difficulty_level,
-                'version': music_ex_info['version'],
-                'musicName': music['name'],
-                'jacketFile': music['jaketFile'],
-                'musicID': music_ex_info['id'] ,
-                #分类
-                #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
-                'catname': music_ex_info['catname'] ,
-                'artist': music_ex_info['artist'] ,
-                'bpm': music_ex_info['bpm'] ,
-                # 'exInfo': music_ex_info,
-            })
+                    'countcritical':record['judge_heaven']+record['judge_critical'],                
+                    'countjustice':record['judge_justice'],
+                    'countattack':record['judge_attack'],
+                    'countmiss':record['judge_guilty'],
+                    
+                    #以下为歌曲信息
+                    #详细Level(13.8)
+                    'playLevel': difficulty,
+                    #简要Level(13+)
+                    # 物量
+                    # 'notesair': music_ex_info[exdiff_mapping[difficult_id]+'_notes_air'],
+                    # 'notesflick': music_ex_info[exdiff_mapping[difficult_id]+'_notes_flick'],
+                    # 'noteshold': music_ex_info[exdiff_mapping[difficult_id]+'_notes_hold'],
+                    # 'notesslide': music_ex_info[exdiff_mapping[difficult_id]+'_notes_slide'],
+                    # 'notestap': music_ex_info[exdiff_mapping[difficult_id]+'_notes_tap'],
+                    'designer': music_ex_info[exdiff_mapping[difficult_id]+'_designer'],
+                    #难度
+                    'musicDifficulty': difficulty_level,
+                    'version': music_ex_info['version'],
+                    'musicName': music['name'],
+                    'jacketFile': music['jaketFile'],
+                    'musicID': music_ex_info['id'] ,
+                    #分类
+                    #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
+                    'catname': music_ex_info['catname'] ,
+                    'artist': music_ex_info['artist'] ,
+                    'bpm': music_ex_info['bpm'] ,
+                    # 'exInfo': music_ex_info,
+                })
+            else:
+                user_playlog.append({
+                    #以下为游玩信息
+                    'score': score,
+                    'rating': rating,
+                    'userPlayDate':record['user_play_date'],
+                    'track':record['track'],
+                    'isClear':record['is_clear'],
+                    'isNewRecord':record['is_new_record'],
+                    'isFullCombo': record['is_full_combo'],
+                    'isAllJustice': record['is_all_justice'],
+                    'isdeleted': isdeleted,
+
+                    'countcritical':record['judge_heaven']+record['judge_critical'],                
+                    'countjustice':record['judge_justice'],
+                    'countattack':record['judge_attack'],
+                    'countmiss':record['judge_guilty'],
+                    
+                    #以下为歌曲信息
+                    #详细Level(13.8)
+                    'playLevel': difficulty,
+                    'designer': "未知",
+                    #难度
+                    'musicDifficulty': difficulty_level,
+                    'version': "配信停止",
+                    'musicName': music['name'],
+                    'jacketFile': music['jaketFile'],
+                    'musicID': "未知" ,
+                    #分类
+                    #['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
+                    'catname': "未知",
+                    'artist': "未知" ,
+                    'bpm': "未知" ,
+                    # 'exInfo': music_ex_info,
+                })
 
     return user_playlog
 
@@ -255,7 +294,7 @@ def playlog(id):
                 isdeleted = True
                 music['jaketFile'] = "dummy.png"
             except KeyError:
-                print("没有id为{music_id}的歌曲信息")
+                print("没有id为{}的歌曲信息".format(music_id))
                 continue
         difficulty_level = difficulty_mapping[difficult_id]
         if difficulty_level in music['difficulties']:
@@ -333,7 +372,7 @@ def process_r10(id):
         "2": "expert",
         "3": "master",
         "4": "ultima",
-        "5": "worldsend"
+        "5": "world's end"
     }
 
     # 读取歌曲信息

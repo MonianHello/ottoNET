@@ -21,7 +21,7 @@ def b30pic():
     else:
         return send_file(ratTools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
 
-@app.route('/playlog/<playlog_id>')
+@app.route('/api/playlog/<playlog_id>', methods=['POST'])
 def playlog(playlog_id):
     if not playlog_id.isdigit():
         return jsonify(error='非法操作'), 403
@@ -192,6 +192,14 @@ def loginPage():
     if 'db_id' in request.cookies:
         return redirect(url_for('cardPage'))
     return send_from_directory('static', 'login.html')
+
+# 登录页面路由
+@app.route('/test')
+def testPage():
+    """
+    提供登录页面
+    """
+    return send_from_directory('static', 'test.html')
 
 # 主页路由
 @app.route('/card')

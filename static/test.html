@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Test</title>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+</head>
+<body>
+
+<button type="button" class="btn btn-primary" id="openModalBtn">
+  Open Modal
+</button>
+
+<div class="modal" id="musicDetailModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">乐曲名</h4>
+      </div>
+      <div class="modal-body" id="modalBodyContent">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="static/js/jquery-3.6.0.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.bundle.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#openModalBtn').click(function(){
+      // Send POST request to /api/playlog/1
+      $.ajax({
+        url: '/api/playlog/1',
+        type: 'POST',
+        dataType: 'json', // Ensure that response is treated as JSON
+        success: function(data) {
+          // Convert JSON data to string
+          var jsonString = JSON.stringify(data, null, 2);
+          // Place the JSON string into modal body
+          $('#musicDetailModal .modal-body').html('<pre>' + jsonString + '</pre>');
+          // Show the modal
+          $('#musicDetailModal').modal('show');
+        },
+        error: function(xhr, status, error) {
+          // Handle error if any
+          console.error(error);
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
