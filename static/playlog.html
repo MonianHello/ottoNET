@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>服务</title>
+    <title>游玩记录</title>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <script src="/static/js/bootstrap.bundle.min.js"></script>
     <script src="/static/js/jquery-3.6.0.min.js"></script>
@@ -122,6 +122,38 @@
         #level[data-difficulty="BASIC"] {
             background-color: #19aa19;
         }
+
+
+        #musicDetailModalLabel_musicDifficulty {
+            color: rgba(255, 255, 255, 0.95);
+            border-radius: 5px;
+        }
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="WORLD'S END"] {
+            background-image: linear-gradient(135deg, #fbb340, #fbb340 25%, #53ca2f 25%, #53ca2f 50%, #6699CC 50%, #6699CC 75%,#CC99CC 75%);
+        }
+        
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="MASTER"] {
+            background-color: #8200dc;
+        }
+
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="EXPERT"] {
+            background-color: #a00a50;
+        }
+
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="ADVANCED"] {
+            background-color: #f55000;
+        }
+
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="ULTIMA"] {
+            background-color: #8A8A8A; 
+        }
+
+        #musicDetailModalLabel_musicDifficulty[data-difficulty="BASIC"] {
+            background-color: #19aa19;
+        }
+
+
+
         .pagination {
             display: flex;
             flex-wrap: wrap;
@@ -287,7 +319,7 @@
 
             dataToShow.forEach(function(item) {
                 if(item.rating){
-                    var formattedRating = item.rating.toFixed(2);
+                    var formattedRating = "rat:"+item.rating.toFixed(2);
                 }else{
                     var formattedRating = '';
                 }
@@ -312,7 +344,7 @@
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">
                             <div style="text-align: right;">
                                 <button type="button" id="${item.dbPlaylogID}" class="btn btn-primary detailbtn" data-toggle="modal"  data-target="#musicDetailModal">
-                                    歌曲详情
+                                    乐曲详情
                                 </button>
                             </div>
 
@@ -352,7 +384,7 @@
 
                         //模态框内容
                         if(data.rating){
-                            var singleformattedRating = data.rating.toFixed(4);
+                            var singleformattedRating = "rat:"+data.rating.toFixed(4);
                         }else{
                             var singleformattedRating = '';
                         }
@@ -382,11 +414,11 @@
                         var musicDetailModalLabel_countmiss = document.getElementById('musicDetailModalLabel_countmiss');
                         musicDetailModalLabel_countmiss.textContent = data.countmiss;
 
-                        var musicDetailModalLabel_musicDifficulty = document.getElementById('musicDetailModalLabel_musicDifficulty');
-                        musicDetailModalLabel_musicDifficulty.textContent = data.musicDifficulty;
 
-                        var musicDetailModalLabel_playLevel = document.getElementById('musicDetailModalLabel_playLevel');
-                        musicDetailModalLabel_playLevel.textContent = data.playLevel;
+                        var musicDetailModalLabel_musicDifficulty = document.getElementById('musicDetailModalLabel_musicDifficulty');
+                        data.playLevel !== 0 ? data.playLevel : ''
+                        musicDetailModalLabel_musicDifficulty.dataset.difficulty = String(data.musicDifficulty).toUpperCase();
+                        musicDetailModalLabel_musicDifficulty.textContent = String(data.musicDifficulty).toUpperCase() + " " +data.playLevel;
 
                         var musicDetailModalLabel_designer = document.getElementById('musicDetailModalLabel_designer');
                         musicDetailModalLabel_designer.textContent = data.designer;
@@ -406,6 +438,16 @@
                         var musicDetailModalLabel_jacketFile = document.getElementById('musicDetailModalLabel_jacketFile');
                         musicDetailModalLabel_jacketFile.src = "static/jackets/" + data.jacketFile;
 
+                        const rankImage = getRankImage(data.score);
+                        var fullComboImage = data.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
+                        var allJusticeImage = data.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
+                        var newRecordImage = data.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
+
+                        musicDetailModalLabel_pics = 
+                        `${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">`
+
+                        $('#musicDetailModalLabel_pics').empty()
+                        $('#musicDetailModalLabel_pics').append(musicDetailModalLabel_pics);
 
                     })
                     .catch(error => console.error('Error:', error));
@@ -476,16 +518,27 @@
 
             </div>
             <div class="modal-body">
-                <img id="musicDetailModalLabel_jacketFile">
-                <p>Score:<span id="musicDetailModalLabel_score"></span></p>
-                <p>Rat:<span id="musicDetailModalLabel_rating"></span></p>
-                <p>游玩时间:<span id="musicDetailModalLabel_userPlayDate"></span></p>
-                <p>大p:<span id="musicDetailModalLabel_countcritical"></span></p>
-                <p>小p:<span id="musicDetailModalLabel_countjustice"></span></p>
-                <p>绿:<span id="musicDetailModalLabel_countattack"></span></p>
-                <p>灰:<span id="musicDetailModalLabel_countmiss"></span></p>
-                <p>铺面难度:<span id="musicDetailModalLabel_musicDifficulty"></span></p>
-                <p>铺面等级:<span id="musicDetailModalLabel_playLevel"></span></p>
+                <p style="text-align: center;" id="musicDetailModalLabel_userPlayDate"></p><hr>
+            <table>
+                <tr >
+                    <td>
+                        <img id="musicDetailModalLabel_jacketFile" style="width: 128px;height: 128px;">
+                    </td>
+                    <td>
+                        <span id="musicDetailModalLabel_musicDifficulty" data-difficulty="" style="font-size:medium"></span></br>
+                        <span style="font-family: Geometr415; font-size: 34px;" id="musicDetailModalLabel_score"></span>
+                        <span style="font-family: 'Geometr415';" id="musicDetailModalLabel_rating"></span></br>
+                        <span id="musicDetailModalLabel_pics"></span></br>
+                        <span>判定:</span>
+                        <span style="color: #f2d218;" id="musicDetailModalLabel_countcritical"></span> /
+                        <span style="color: #ee9105;" id="musicDetailModalLabel_countjustice"></span> /
+                        <span style="color: #26ff0f;" id="musicDetailModalLabel_countattack"></span> /
+                        <span style="color: #646464;" id="musicDetailModalLabel_countmiss"></span>
+                        
+                    </td>
+                </tr>
+            </table>
+                <hr>
                 <p>铺面设计:<span id="musicDetailModalLabel_designer"></span></p>
                 <p>铺面版本:<span id="musicDetailModalLabel_version"></span></p>
                 <p>铺面分类:<span id="musicDetailModalLabel_catname"></span></p>

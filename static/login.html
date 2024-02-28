@@ -115,7 +115,7 @@
                         <h5 class="card-title">Aime登录</h5>
                         <div id="errorContainer1" class="error-container d-none"></div>
                         <form id="loginForm">
-                                <label for="aime_id" class="form-label">不要直接使用卡片背面印刷的卡号</br>在游戏登录前点击查看卡号功能来确认卡号</label>
+                                <label for="aime_id" class="form-label">不要直接使用卡片背面印刷的卡号</br>在游戏登录前使用查看卡号功能来确认卡号</br></br>*ACCESS CODE是访问您账户的唯一凭据，请务必妥当保存</label>
                                 <input type="text" class="form-control mb-3" id="aime_id" placeholder="ACCESS CODE">
                                 <button type="submit" class="btn btn-primary" style="width: 100%;">登录</button>  
                         </form>
@@ -132,7 +132,7 @@
                     <div class="card-body">
                         <h5 class="card-title">快速登录</h5>
                         <div id="errorContainer2" class="error-container d-none"></div>
-                        <p class="card-text">不想找/找不到自己的卡号？</br>请在下方选择您的昵称快速登录</br>*快速登录下无法进行收藏品的修改</p>
+                        <p class="card-text">不想找/找不到自己的卡号？</br>请在下方选择您的昵称快速登录</br></br>*快速登录下无法进行收藏品及设置的修改</p>
                             <div id="userList">
                             </div>
                     </div>
@@ -192,7 +192,7 @@
                 if (response.ok) {
                     window.location.href = '/card';
                 } else {
-                    errorContainer2.textContent = '快速登录失败：'+response.statusText;
+                    errorContainer2.textContent = '登录失败 '+response.statusText;
                     errorContainer2.classList.remove('d-none');
                 }
             })
@@ -201,8 +201,8 @@
         fetch('/api/quicklogin', { method: 'POST' })
         .then(response => {
             if (!response.ok) {
-                const userListDiv = document.getElementById('userList');
-                userListDiv.textContent = "您已快速登录";
+                errorContainer2.textContent = '登录失败 '+response.statusText;
+                errorContainer2.classList.remove('d-none');
                 return;
             }
             return response.json();

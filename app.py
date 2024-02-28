@@ -9,7 +9,7 @@ app = Flask(__name__, static_url_path='/static')
 @app.route('/static/video/<path:filename>')
 def serve_video(filename):
     # 设置缓存控制头
-    return send_from_directory(app.static_folder, 'video/' + filename, cache_timeout=3600)
+    return send_from_directory(app.static_folder, 'video/' + filename, cache_timeout=604800)
 
 @app.route('/b30')
 def b30pic():

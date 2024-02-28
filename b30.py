@@ -333,38 +333,13 @@ def process_r10(id):
     user_data = []
     count = 0
     for row in reversed(rows):
-        if count >= 30:
-            break
-        row_dict = dict(zip(columns, row))
-        user_data.append(row_dict)
-        count += 1
+        if row[19] in [0,1,2,3,4]:
+            if count >= 30:
+                break
+            row_dict = dict(zip(columns, row))
+            user_data.append(row_dict)
+            count += 1
     conn.close()
-
-    #关于r30是最近游玩的30次（可以是30次同一首歌曲），还是最近游玩的三十首歌曲（不能重复），我不知道。
-    #下面的内容是以后者为前提编写的，等我搞明白再说吧：
-
-    #     # 获取用户数据
-    # conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
-    # cursor = conn.cursor()
-    # cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
-    # rows = cursor.fetchall()
-    # columns = [description[0] for description in cursor.description]
-    # user_data = []
-    # count = 0
-    # music_list = []
-    # for row in rows:
-    #     music_list.append(row[22])
-    # for row in reversed(rows):
-    #     if count >= 30:
-    #         break
-    #     if row[22] in music_list:
-    #         music_list.remove(row[22])
-    #         row_dict = dict(zip(columns, row))
-    #         user_data.append(row_dict)
-    #         count += 1
-    # print(len(user_data))
-    # assert(len(user_data)==30)
-    # conn.close()
 
     difficulty_mapping = {
         "0": "basic",
