@@ -481,7 +481,7 @@ def b30single(single_data, version='2.15'):
         pic = Image.new("RGB", (620, 240), (255, 255, 255))
     
     try:
-        jacket = Image.open(f'jackets/{single_data["jacketFile"]}')
+        jacket = Image.open(f'static/jackets/{single_data["jacketFile"]}')
     except:
         jacket = Image.open(f'static/jackets/dummy.png')
     jacket = jacket.resize((186, 186))
