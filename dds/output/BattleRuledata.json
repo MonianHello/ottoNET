@@ -1,0 +1,774 @@
+{
+    "BattleRuleData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "battleRule000000",
+        "battleRule001000",
+        "battleRule001001",
+        "battleRule001002",
+        "battleRule001003",
+        "battleRule001004",
+        "battleRule001005",
+        "battleRule001006",
+        "battleRule002000",
+        "battleRule002001",
+        "battleRule002002",
+        "battleRule002003",
+        "battleRule002004",
+        "battleRule002005",
+        "battleRule002006",
+        "battleRule002007",
+        "battleRule002008",
+        "battleRule002009",
+        "battleRule002010",
+        "battleRule002011",
+        "battleRule002012",
+        "battleRule002013",
+        "battleRule002014",
+        "battleRule002015"
+    ],
+    "disableFlag": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        "0",
+        [
+            "1000",
+            "0"
+        ],
+        [
+            "1001",
+            "2"
+        ],
+        [
+            "1002",
+            "3"
+        ],
+        [
+            "1003",
+            "6"
+        ],
+        [
+            "1004",
+            "7"
+        ],
+        [
+            "1005",
+            "9"
+        ],
+        [
+            "1006",
+            "5"
+        ],
+        [
+            "2000",
+            "0"
+        ],
+        [
+            "2001",
+            "1"
+        ],
+        [
+            "2002",
+            "2"
+        ],
+        [
+            "2003",
+            "3"
+        ],
+        [
+            "2004",
+            "4"
+        ],
+        [
+            "2005",
+            "5"
+        ],
+        [
+            "2006",
+            "6"
+        ],
+        [
+            "2007",
+            "7"
+        ],
+        [
+            "2008",
+            "8"
+        ],
+        [
+            "2009",
+            "9"
+        ],
+        [
+            "2010",
+            "10"
+        ],
+        [
+            "2011",
+            "11"
+        ],
+        [
+            "2012",
+            "12"
+        ],
+        [
+            "2013",
+            "13"
+        ],
+        [
+            "2014",
+            "14"
+        ],
+        [
+            "2015",
+            "15"
+        ]
+    ],
+    "str": [
+        "\u81ea\u7531\u306b\u9078\u66f2!\u3000\u203b\u30dc\u30fc\u30ca\u30b9\u306f\u3042\u308a\u307e\u305b\u3093",
+        [
+            "\u300cPOPS&ANIME\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "POPS & ANIME"
+        ],
+        [
+            "\u300cniconico\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "niconico"
+        ],
+        [
+            "\u300c\u6771\u65b9Project\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "\u6771\u65b9Project"
+        ],
+        [
+            "\u300cVARIETY\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "VARIETY"
+        ],
+        [
+            "\u300c\u30a4\u30ed\u30c9\u30ea\u30df\u30c9\u30ea\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "\u30a4\u30ed\u30c9\u30ea\u30df\u30c9\u30ea"
+        ],
+        [
+            "\u300c\u30b2\u30ad\u30de\u30a4\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "\u30b2\u30ad\u30de\u30a4"
+        ],
+        [
+            "\u300cORIGINAL\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "ORIGINAL"
+        ],
+        [
+            "\u300cCHUNITHM\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.00.00"
+        ],
+        [
+            "\u300cCHUNITHM PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.05.00"
+        ],
+        [
+            "\u300cCHUNITHM AIR\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.10.00"
+        ],
+        [
+            "\u300cCHUNITHM AIR PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.15.00"
+        ],
+        [
+            "\u300cCHUNITHM STAR\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.20.00"
+        ],
+        [
+            "\u300cCHUNITHM STAR PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.25.00"
+        ],
+        [
+            "\u300cCHUNITHM AMAZON\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.30.00"
+        ],
+        [
+            "\u300cCHUNITHM AMAZON PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.35.00"
+        ],
+        [
+            "\u300cCHUNITHM CRYSTAL\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.40.00"
+        ],
+        [
+            "\u300cCHUNITHM CRYSTAL PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.45.00"
+        ],
+        [
+            "\u300cCHUNITHM PARADISE\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.50.00"
+        ],
+        [
+            "\u300cCHUNITHM PARADISE LOST\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v1 1.55.00"
+        ],
+        [
+            "\u300cCHUNITHM NEW\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v2 2.00.00"
+        ],
+        [
+            "\u300cCHUNITHM NEW PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v2 2.05.00"
+        ],
+        [
+            "\u300cCHUNITHM SUN\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v2 2.10.00"
+        ],
+        [
+            "\u300cCHUNITHM SUN PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+            "v2 2.15.00"
+        ]
+    ],
+    "data": [
+        null,
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ]
+    ],
+    "text": [
+        "\u81ea\u7531\u306b\u9078\u66f2!\u3000\u203b\u30dc\u30fc\u30ca\u30b9\u306f\u3042\u308a\u307e\u305b\u3093",
+        "\u300cPOPS&ANIME\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cniconico\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300c\u6771\u65b9Project\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cVARIETY\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300c\u30a4\u30ed\u30c9\u30ea\u30df\u30c9\u30ea\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300c\u30b2\u30ad\u30de\u30a4\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cORIGINAL\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM AIR\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM AIR PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM STAR\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM STAR PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM AMAZON\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM AMAZON PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM CRYSTAL\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM CRYSTAL PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM PARADISE\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM PARADISE LOST\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM NEW\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM NEW PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM SUN\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!",
+        "\u300cCHUNITHM SUN PLUS\u300d\u304b\u3089\u9078\u66f2\u3067\u30dc\u30fc\u30ca\u30b9!"
+    ],
+    "weight": [
+        "106",
+        "10",
+        "10",
+        "6",
+        "6",
+        "10",
+        "6",
+        "6",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "0"
+    ],
+    "weightBonus": [
+        "14",
+        "15",
+        "15",
+        "9",
+        "9",
+        "15",
+        "9",
+        "9",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "0"
+    ],
+    "substance": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "type": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "noRule": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "genre": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "genreNames": [
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "list": [
+        [
+            null,
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ]
+    ],
+    "version": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "releaseTagNames": [
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "StringID": [
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            ",
+        "\n            "
+    ]
+}

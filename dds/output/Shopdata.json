@@ -1,0 +1,214 @@
+{
+    "ShopData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "shop00000302",
+        "shop00000402",
+        "shop00000601",
+        "shop00000701"
+    ],
+    "name": [
+        [
+            "\n    ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n    ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n    ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n    ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ]
+    ],
+    "id": [
+        [
+            "302",
+            "5",
+            "-1",
+            "302",
+            "-1"
+        ],
+        [
+            "402",
+            "6",
+            "-1",
+            "402",
+            "-1"
+        ],
+        [
+            "601",
+            "6",
+            "-1",
+            "601",
+            "-1"
+        ],
+        [
+            "701",
+            "6",
+            "-1",
+            "701",
+            "-1"
+        ]
+    ],
+    "str": [
+        [
+            "\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP\u30d6\u30fc\u30b9\u30c8\u00d73.0\u500d\u30c1\u30b1\u30c3\u30c8",
+            "\u30c1\u30b1\u30c3\u30c8 \u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u30e9\u30f3\u30af\u30d6\u30fc\u30b9\u30c8",
+            "Invalid",
+            "\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP\u30d6\u30fc\u30b9\u30c8\u00d73.0\u500d\u30c1\u30b1\u30c3\u30c8",
+            "Invalid"
+        ],
+        [
+            "MASTER\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "\u30c1\u30b1\u30c3\u30c8 MASTER\u30d7\u30ec\u30a4",
+            "Invalid",
+            "MASTER\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "Invalid"
+        ],
+        [
+            "ULTIMA\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "\u30c1\u30b1\u30c3\u30c8 MASTER\u30d7\u30ec\u30a4",
+            "Invalid",
+            "ULTIMA\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "Invalid"
+        ],
+        [
+            "WORLD'S END\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "\u30c1\u30b1\u30c3\u30c8 MASTER\u30d7\u30ec\u30a4",
+            "Invalid",
+            "WORLD'S END\u30d7\u30ec\u30a4\u30c1\u30b1\u30c3\u30c8",
+            "Invalid"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ],
+    "closeFlag": [
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "explainText": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "price": [
+        "2500",
+        "500",
+        "5000",
+        "5000"
+    ],
+    "saleCategoryName": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "openCondition": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "useCondition": [
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "eventNames": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "list": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "priority": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "substances": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "type": [
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "music": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "ticket": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "skill": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ]
+}

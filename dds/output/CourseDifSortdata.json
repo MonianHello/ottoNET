@@ -1,0 +1,119 @@
+{
+    "SerializeSortData": [
+        "\n  "
+    ],
+    "dataName": [
+        "course"
+    ],
+    "SortList": [
+        "\n    "
+    ],
+    "StringID": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ]
+    ],
+    "id": [
+        [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22"
+        ]
+    ],
+    "str": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ],
+    "data": [
+        [
+            "Reserve00",
+            "Reserve01",
+            "Reserve02",
+            "Reserve03",
+            "CLASS TEAM",
+            "Reserve05",
+            "Reserve06",
+            "Reserve07",
+            "Reserve08",
+            "Reserve09",
+            "CLASS \u2160",
+            "CLASS \u2161",
+            "CLASS \u2162",
+            "CLASS \u2163",
+            "CLASS \u2164",
+            "Reserve15",
+            "Reserve16",
+            "Reserve17",
+            "Reserve18",
+            "Reserve19",
+            "CLASS \u221e",
+            "CLASS \uff1f",
+            "CLASS SP"
+        ]
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "FrameData": [
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "frame00000001",
+        "frame00000002"
+    ],
+    "netOpenName": [
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        [
+            "2300",
+            "1"
+        ],
+        [
+            "2300",
+            "2"
+        ]
+    ],
+    "str": [
+        [
+            "v2_15 00_0",
+            "NEW"
+        ],
+        [
+            "v2_15 00_0",
+            "SUN"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ]
+    ],
+    "disableFlag": [
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    "
+    ],
+    "sortName": [
+        "N",
+        "S"
+    ],
+    "image": [
+        "\n    ",
+        "\n    "
+    ],
+    "path": [
+        "CHU_UI_Frame_00000001.dds",
+        "CHU_UI_Frame_00000002.dds"
+    ],
+    "defaultHave": [
+        "true",
+        "true"
+    ],
+    "explainText": [
+        "\u30bb\u30c3\u30c8\u3059\u308b\u3068\u3001\u30d5\u30ec\u30fc\u30e0\u3092\u4ed8\u3051\u66ff\u3048\u3089\u308c\u307e\u3059",
+        "\u30bb\u30c3\u30c8\u3059\u308b\u3068\u3001\u30d5\u30ec\u30fc\u30e0\u3092\u4ed8\u3051\u66ff\u3048\u3089\u308c\u307e\u3059"
+    ],
+    "priority": [
+        "0",
+        "0"
+    ]
+}

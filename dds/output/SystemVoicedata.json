@@ -1,0 +1,1625 @@
+{
+    "SystemVoiceData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "systemVoice0001",
+        "systemVoice0002",
+        "systemVoice0003",
+        "systemVoice0004",
+        "systemVoice0005",
+        "systemVoice0006",
+        "systemVoice0007",
+        "systemVoice0008",
+        "systemVoice0009",
+        "systemVoice0010",
+        "systemVoice0011",
+        "systemVoice0012",
+        "systemVoice0013",
+        "systemVoice0014",
+        "systemVoice0015",
+        "systemVoice0016",
+        "systemVoice0017",
+        "systemVoice0018",
+        "systemVoice0019",
+        "systemVoice0020",
+        "systemVoice0021",
+        "systemVoice0022",
+        "systemVoice0023",
+        "systemVoice0024",
+        "systemVoice0025",
+        "systemVoice0026",
+        "systemVoice0027",
+        "systemVoice0028",
+        "systemVoice0029",
+        "systemVoice0030",
+        "systemVoice0031",
+        "systemVoice0032",
+        "systemVoice0033",
+        "systemVoice0034",
+        "systemVoice0035",
+        "systemVoice0036",
+        "systemVoice0037",
+        "systemVoice0038",
+        "systemVoice0039",
+        "systemVoice0040",
+        "systemVoice0041",
+        "systemVoice0042",
+        "systemVoice0043",
+        "systemVoice0044",
+        "systemVoice0045",
+        "systemVoice0046",
+        "systemVoice0047",
+        "systemVoice0048",
+        "systemVoice0049",
+        "systemVoice0050",
+        "systemVoice0051",
+        "systemVoice0052",
+        "systemVoice0053",
+        "systemVoice0054",
+        "systemvoice0055",
+        "systemvoice0056",
+        "systemvoice0057",
+        "systemvoice0058",
+        "systemVoice0059"
+    ],
+    "netOpenName": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        [
+            "2300",
+            "1",
+            "10001"
+        ],
+        [
+            "2300",
+            "2",
+            "10002"
+        ],
+        [
+            "2300",
+            "3",
+            "10003"
+        ],
+        [
+            "2300",
+            "4",
+            "10004"
+        ],
+        [
+            "2300",
+            "5",
+            "10005"
+        ],
+        [
+            "2300",
+            "6",
+            "10006"
+        ],
+        [
+            "2300",
+            "7",
+            "10007"
+        ],
+        [
+            "2300",
+            "8",
+            "10008"
+        ],
+        [
+            "2300",
+            "9",
+            "10009"
+        ],
+        [
+            "2300",
+            "10",
+            "10010"
+        ],
+        [
+            "2300",
+            "11",
+            "10011"
+        ],
+        [
+            "2300",
+            "12",
+            "10012"
+        ],
+        [
+            "2300",
+            "13",
+            "10013"
+        ],
+        [
+            "2300",
+            "14",
+            "10014"
+        ],
+        [
+            "2300",
+            "15",
+            "10015"
+        ],
+        [
+            "2300",
+            "16",
+            "10016"
+        ],
+        [
+            "2300",
+            "17",
+            "10017"
+        ],
+        [
+            "2300",
+            "18",
+            "10018"
+        ],
+        [
+            "2300",
+            "19",
+            "10019"
+        ],
+        [
+            "2300",
+            "20",
+            "10020"
+        ],
+        [
+            "2300",
+            "21",
+            "10021"
+        ],
+        [
+            "2300",
+            "22",
+            "10022"
+        ],
+        [
+            "2300",
+            "23",
+            "10023"
+        ],
+        [
+            "2300",
+            "24",
+            "10024"
+        ],
+        [
+            "2300",
+            "25",
+            "10025"
+        ],
+        [
+            "2300",
+            "26",
+            "10026"
+        ],
+        [
+            "2300",
+            "27",
+            "10027"
+        ],
+        [
+            "2300",
+            "28",
+            "10028"
+        ],
+        [
+            "2300",
+            "29",
+            "10029"
+        ],
+        [
+            "2300",
+            "30",
+            "10030"
+        ],
+        [
+            "2300",
+            "31",
+            "10031"
+        ],
+        [
+            "2300",
+            "32",
+            "10032"
+        ],
+        [
+            "2300",
+            "33",
+            "10033"
+        ],
+        [
+            "2300",
+            "34",
+            "10034"
+        ],
+        [
+            "2300",
+            "35",
+            "10035"
+        ],
+        [
+            "2300",
+            "36",
+            "10036"
+        ],
+        [
+            "2300",
+            "37",
+            "10037"
+        ],
+        [
+            "2300",
+            "38",
+            "10038"
+        ],
+        [
+            "2300",
+            "39",
+            "10039"
+        ],
+        [
+            "2300",
+            "40",
+            "10040"
+        ],
+        [
+            "2300",
+            "41",
+            "10041"
+        ],
+        [
+            "2300",
+            "42",
+            "10042"
+        ],
+        [
+            "2300",
+            "43",
+            "10043"
+        ],
+        [
+            "2300",
+            "44",
+            "10044"
+        ],
+        [
+            "2300",
+            "45",
+            "10045"
+        ],
+        [
+            "2300",
+            "46",
+            "10046"
+        ],
+        [
+            "2300",
+            "47",
+            "10047"
+        ],
+        [
+            "2300",
+            "48",
+            "10048"
+        ],
+        [
+            "2300",
+            "49",
+            "10049"
+        ],
+        [
+            "2300",
+            "50",
+            "10050"
+        ],
+        [
+            "2300",
+            "51",
+            "10051"
+        ],
+        [
+            "2300",
+            "52",
+            "10052"
+        ],
+        [
+            "2300",
+            "53",
+            "10053"
+        ],
+        [
+            "2300",
+            "54",
+            "10054"
+        ],
+        [
+            "2301",
+            "55",
+            "10055"
+        ],
+        [
+            "2320",
+            "56",
+            "10056"
+        ],
+        [
+            "2330",
+            "57",
+            "10057"
+        ],
+        [
+            "2340",
+            "58",
+            "10058"
+        ],
+        [
+            "2350",
+            "59",
+            "10059"
+        ]
+    ],
+    "str": [
+        [
+            "v2_15 00_0",
+            "\u30c1\u30e5\u30a6\u30cb\u30da\u30f3\u30ae\u30f3",
+            "systemvoice0001"
+        ],
+        [
+            "v2_15 00_0",
+            "G\uff0eO\uff0eD",
+            "systemvoice0002"
+        ],
+        [
+            "v2_15 00_0",
+            "\u6708\u9234 \u767d\u5948",
+            "systemvoice0003"
+        ],
+        [
+            "v2_15 00_0",
+            "\u7bb1\u90e8 \u306a\u308b",
+            "systemvoice0004"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b9\u30b6\u30af",
+            "systemvoice0005"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5929\u738b\u6d32 \u306a\u305a\u306a",
+            "systemvoice0006"
+        ],
+        [
+            "v2_15 00_0",
+            "\u660e\u5742 \u82b9\u83dc",
+            "systemvoice0007"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30c8\u30ea\u30b9\u30e1\u30ae\u30b9\u30c8\u30b9",
+            "systemvoice0008"
+        ],
+        [
+            "v2_15 00_0",
+            "MIR-202\u3010\u30a2\u30eb\u30c6\u30df\u30b9\u30fb\u30ec\u30ca\u3011",
+            "systemvoice0009"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5c0f\u4ecf \u51ea",
+            "systemvoice0010"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5fa1\u5f62 \u30a2\u30ea\u30b7\u30a2\u30ca",
+            "systemvoice0011"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30ea\u30ea\u30a2\u30ea\u30b9\u30fb\u30b3\u30eb\u30c1\u30ab\u30e0",
+            "systemvoice0012"
+        ],
+        [
+            "v2_15 00_0",
+            "\u6708\u9234 \u90a3\u77e5",
+            "systemvoice0013"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30ea\u30d2\u30c8\u30b7\u30e5\u30c3\u30c4\u30a7",
+            "systemvoice0014"
+        ],
+        [
+            "v2_15 00_0",
+            "HAR-\u30d2\u30ed\u30a4\u30f309\u3010\u30cd\u30ec\u30a4\u30c0\u30e0\u3011",
+            "systemvoice0015"
+        ],
+        [
+            "v2_15 00_0",
+            "\u4e94\u5341\u5d50 \u64ab\u5b50",
+            "systemvoice0016"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30c0\u30aa\u30fb\u30c8\u30c3\u30c6\u30ca",
+            "systemvoice0017"
+        ],
+        [
+            "v2_15 00_0",
+            "\u8429\u539f \u4e03\u3005\u702c",
+            "systemvoice0018"
+        ],
+        [
+            "v2_15 00_0",
+            "\u516b\u54ab\u70cf \u92fc\u592a\u90ce",
+            "systemvoice0019"
+        ],
+        [
+            "v2_15 00_0",
+            "\u9ed2\u4e80 \u5317\u6597",
+            "systemvoice0020"
+        ],
+        [
+            "v2_15 00_0",
+            "\u66b4\u8650\u306e\u30ae\u30fc\u30bc\u30b0\u30fc\u30eb",
+            "systemvoice0021"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5c0f\u91ce \u7f8e\u82d7",
+            "systemvoice0022"
+        ],
+        [
+            "v2_15 00_0",
+            "\u6e0b\u6ca2 \u30ce\u30ce",
+            "systemvoice0023"
+        ],
+        [
+            "v2_15 00_0",
+            "\u845b\u57ce \u83ef",
+            "systemvoice0024"
+        ],
+        [
+            "v2_15 00_0",
+            "\u65b0\u4e95 \u6843\u5b50",
+            "systemvoice0025"
+        ],
+        [
+            "v2_15 00_0",
+            "MIR-201\u3010\u30d8\u30ab\u30c6\u30a3\u30fb\u30d9\u30a2\u30c8\u30ea\u30af\u30b9\u3011",
+            "systemvoice0026"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30c6\u30b9\u30bf\u30e1\u30f3\u30c8\u30cd\u30e1\u30b7\u30b9",
+            "systemvoice0027"
+        ],
+        [
+            "v2_15 00_0",
+            "DJ-MEGA",
+            "systemvoice0028"
+        ],
+        [
+            "v2_15 00_0",
+            "\u85e4\u5802 \u967d\u5357\u88b4",
+            "systemvoice0029"
+        ],
+        [
+            "v2_15 00_0",
+            "\u6854\u6897 \u5c0f\u591c\u66f2",
+            "systemvoice0030"
+        ],
+        [
+            "v2_15 00_0",
+            "MDA-01\u3010\u30b7\u30ea\u30a6\u30b9\u3011",
+            "systemvoice0031"
+        ],
+        [
+            "v2_15 00_0",
+            "\u8292\u5d0e \u594f",
+            "systemvoice0032"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30c6\u30a3\u30d5\u30a9\u30f3",
+            "systemvoice0033"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30a4\u30f3\u30b0\u30ea\u30c3\u30c8\u30fb\u30aa\u30fc\u30ea\u30c3\u30af\u30fb\u30b3\u30fc\u30cd\u30eb",
+            "systemvoice0034"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b7\u30eb\u30f4\u30a3\u30a2\u30b9",
+            "systemvoice0035"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b8\u30e7\u30cb\u30fc\u30fb\u30b5\u30a4\u30a2\u30b9\u30c6\u30a3\u30f3",
+            "systemvoice0036"
+        ],
+        [
+            "v2_15 00_0",
+            "\u9b54\u6cd5\u4f7f\u3044\u30a2\u30eb\u30c6\u30e9",
+            "systemvoice0037"
+        ],
+        [
+            "v2_15 00_0",
+            "\u65b0\u7530 \u3061\u3048",
+            "systemvoice0038"
+        ],
+        [
+            "v2_15 00_0",
+            "MDA-21\u3010\u30ec\u30b0\u30eb\u30b9\u3011",
+            "systemvoice0039"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b8\u30e5\u30ca\u30fb\u30b5\u30e9\u30ad\u30a2",
+            "systemvoice0040"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30de\u30ea\u30fc\u30e1\u30a4\u30a2\u30fb\u30af\u30ec\u30b9\u30b1\u30f3\u30b9",
+            "systemvoice0041"
+        ],
+        [
+            "v2_15 00_0",
+            "\u4f0a\u8cc0\u5d0e\u30ce\u6960\u5b50",
+            "systemvoice0042"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30ef\u30a4\u30ba\u30de\u30f3",
+            "systemvoice0043"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30f4\u30a7\u30eb\u30bc\u30d3\u30e5\u30fc\u30c8\u30cd\u30e1\u30b7\u30b9",
+            "systemvoice0044"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30a4\u30ed\u30c9\u30ea\u30df\u30c9\u30ea\uff0f\u8272\u5f69\u904e\u5270\u306e\u30c0\u30a4\u30a2\u30ea\u30fc\u30df\u30e5\u30fc\u30b8\u30c3\u30af",
+            "systemvoice0045"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30aa\u30fc\u30eb\u30c9\u30d6\u30eb\u30fc",
+            "systemvoice0046"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30af\u30fc\u30c7\u30eb\u30ab\u30fb\u30d7\u30eb\u30df\u30a8\u30fc\u30eb",
+            "systemvoice0047"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30a8\u30a4\u30cf\u30f4",
+            "systemvoice0048"
+        ],
+        [
+            "v2_15 00_0",
+            "\u7b2c\u516b\u7687\u5973\u30a8\u30eb\u30eb\u30fc\u30f3",
+            "systemvoice0049"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5b8d\u6238 \u7f8e\u9234",
+            "systemvoice0050"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30ea\u30fc\u30fb\u30e1\u30a4\u30e1\u30a4",
+            "systemvoice0051"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30c6\u30a3\u30fc\u30bf\u30fb\u30a2\u30f4\u30a7\u30cb\u30a2\u30b9",
+            "systemvoice0052"
+        ],
+        [
+            "v2_15 00_0",
+            "MIR-203\u3010\u30bb\u30ec\u30cd\u30fb\u30b7\u30a7\u30ea\u30eb\u3011",
+            "systemvoice0053"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5fa1\u5f71 \u6634",
+            "systemvoice0054"
+        ],
+        [
+            "v2_15 00_1",
+            "\u5411\u6765 \u96bc",
+            "systemvoice0055"
+        ],
+        [
+            "v2_15 06_1",
+            "\u30ca\u30a4",
+            "systemvoice0056"
+        ],
+        [
+            "v2_15 07_1",
+            "\u4eac\u6975\u9662 \u685c\u82b1",
+            "systemvoice0057"
+        ],
+        [
+            "v2_15 08_1",
+            "\u30b9\u30ab\u30a4\u30d5\u30a7\u30b6\u30fc",
+            "systemvoice0058"
+        ],
+        [
+            "v2_15 09_1",
+            "\u30a2\u30f3\u30d7\u30eb\u30fc\u30eb",
+            "systemvoice0059"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ]
+    ],
+    "disableFlag": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "sortName": [
+        "\u30c1",
+        "G",
+        "\u30c4",
+        "\u30cf",
+        "\u30b9",
+        "\u30c6",
+        "\u30a2",
+        "\u30c8",
+        "M",
+        "\u30b3",
+        "\u30aa",
+        "\u30ea",
+        "\u30c4",
+        "\u30ea",
+        "H",
+        "\u30a4",
+        "\u30bf",
+        "\u30cf",
+        "\u30e4",
+        "\u30af",
+        "\u30db",
+        "\u30aa",
+        "\u30b7",
+        "\u30ab",
+        "\u30a2",
+        "M",
+        "\u30c6",
+        "D",
+        "\u30c8",
+        "\u30ad",
+        "M",
+        "\u30ce",
+        "\u30c6",
+        "\u30a4",
+        "\u30b7",
+        "\u30b7",
+        "\u30de",
+        "\u30cb",
+        "M",
+        "\u30b7",
+        "\u30de",
+        "\u30a4",
+        "\u30ef",
+        "\u30a6",
+        "\u30a4",
+        "\u30aa",
+        "\u30af",
+        "\u30a8",
+        "\u30bf",
+        "\u30b7",
+        "\u30ea",
+        "\u30c6",
+        "M",
+        "\u30df",
+        "\u30e0",
+        "\u30ca",
+        "\u30ad",
+        "\u30b9",
+        "\u30a2"
+    ],
+    "cue": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "image": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "path": [
+        "CHU_UI_SystemVoice_00000001.dds",
+        "CHU_UI_SystemVoice_00000002.dds",
+        "CHU_UI_SystemVoice_00000003.dds",
+        "CHU_UI_SystemVoice_00000004.dds",
+        "CHU_UI_SystemVoice_00000005.dds",
+        "CHU_UI_SystemVoice_00000006.dds",
+        "CHU_UI_SystemVoice_00000007.dds",
+        "CHU_UI_SystemVoice_00000008.dds",
+        "CHU_UI_SystemVoice_00000009.dds",
+        "CHU_UI_SystemVoice_00000010.dds",
+        "CHU_UI_SystemVoice_00000011.dds",
+        "CHU_UI_SystemVoice_00000012.dds",
+        "CHU_UI_SystemVoice_00000013.dds",
+        "CHU_UI_SystemVoice_00000014.dds",
+        "CHU_UI_SystemVoice_00000015.dds",
+        "CHU_UI_SystemVoice_00000016.dds",
+        "CHU_UI_SystemVoice_00000017.dds",
+        "CHU_UI_SystemVoice_00000018.dds",
+        "CHU_UI_SystemVoice_00000019.dds",
+        "CHU_UI_SystemVoice_00000020.dds",
+        "CHU_UI_SystemVoice_00000021.dds",
+        "CHU_UI_SystemVoice_00000022.dds",
+        "CHU_UI_SystemVoice_00000023.dds",
+        "CHU_UI_SystemVoice_00000024.dds",
+        "CHU_UI_SystemVoice_00000025.dds",
+        "CHU_UI_SystemVoice_00000026.dds",
+        "CHU_UI_SystemVoice_00000027.dds",
+        "CHU_UI_SystemVoice_00000028.dds",
+        "CHU_UI_SystemVoice_00000029.dds",
+        "CHU_UI_SystemVoice_00000030.dds",
+        "CHU_UI_SystemVoice_00000031.dds",
+        "CHU_UI_SystemVoice_00000032.dds",
+        "CHU_UI_SystemVoice_00000033.dds",
+        "CHU_UI_SystemVoice_00000034.dds",
+        "CHU_UI_SystemVoice_00000035.dds",
+        "CHU_UI_SystemVoice_00000036.dds",
+        "CHU_UI_SystemVoice_00000037.dds",
+        "CHU_UI_SystemVoice_00000038.dds",
+        "CHU_UI_SystemVoice_00000039.dds",
+        "CHU_UI_SystemVoice_00000040.dds",
+        "CHU_UI_SystemVoice_00000041.dds",
+        "CHU_UI_SystemVoice_00000042.dds",
+        "CHU_UI_SystemVoice_00000043.dds",
+        "CHU_UI_SystemVoice_00000044.dds",
+        "CHU_UI_SystemVoice_00000045.dds",
+        "CHU_UI_SystemVoice_00000046.dds",
+        "CHU_UI_SystemVoice_00000047.dds",
+        "CHU_UI_SystemVoice_00000048.dds",
+        "CHU_UI_SystemVoice_00000049.dds",
+        "CHU_UI_SystemVoice_00000050.dds",
+        "CHU_UI_SystemVoice_00000051.dds",
+        "CHU_UI_SystemVoice_00000052.dds",
+        "CHU_UI_SystemVoice_00000053.dds",
+        "CHU_UI_SystemVoice_00000054.dds",
+        "CHU_UI_SystemVoice_00000055.dds",
+        "CHU_UI_SystemVoice_00000056.dds",
+        "CHU_UI_SystemVoice_00000057.dds",
+        "CHU_UI_SystemVoice_00000058.dds",
+        "CHU_UI_SystemVoice_00000059.dds"
+    ],
+    "defaultHave": [
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "explainText": [
+        "\u30bb\u30c3\u30c8\u3059\u308b\u3068\u3001\u30b7\u30b9\u30c6\u30e0\u30dc\u30a4\u30b9\u3092\u4ed8\u3051\u66ff\u3048\u3089\u308c\u307e\u3059",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+    ],
+    "priority": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ]
+}

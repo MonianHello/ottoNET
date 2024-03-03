@@ -1,0 +1,70 @@
+{
+    "BattleEventData": [
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "battleEvent21500",
+        "battleEvent21510"
+    ],
+    "name": [
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        "21500",
+        "21510"
+    ],
+    "str": [
+        "v215_\u6708\u9593_0",
+        "v215_\u30a8\u30f3\u30da\u30e9\u30fc_0"
+    ],
+    "data": [
+        null,
+        null
+    ],
+    "type": [
+        "0",
+        "1"
+    ],
+    "scoreDivVal": [
+        "10000",
+        "10000"
+    ],
+    "rankPointDataList": [
+        "\n    ",
+        "\n    "
+    ],
+    "RankPointData": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ]
+    ],
+    "val": [
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "10",
+            "8",
+            "6",
+            "4"
+        ]
+    ],
+    "fumenLevelDivVal": [
+        "150",
+        "150"
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "TeamPresentData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "teamPresent200060",
+        "teamPresent200070",
+        "teamPresent200080",
+        "teamPresent200090",
+        "teamPresent200100"
+    ],
+    "disableFlag": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        [
+            "200060",
+            "625"
+        ],
+        [
+            "200070",
+            "626"
+        ],
+        [
+            "200080",
+            "626"
+        ],
+        [
+            "200090",
+            "626"
+        ],
+        [
+            "200100",
+            "625"
+        ]
+    ],
+    "str": [
+        [
+            "\u30c1\u30fc\u30e0\u5831\u916c \uff1a [2.10] 5000\u30eb\u30af\u30b9",
+            "\u30c1\u30fc\u30e0\u500b\u4eba\u5831\u916c [2.10] \u30b2\u30fc\u30e0\u30dd\u30a4\u30f3\u30c8 5000"
+        ],
+        [
+            "\u30c1\u30fc\u30e0\u5831\u916c \uff1a [2.10] 10000\u30eb\u30af\u30b9",
+            "\u30c1\u30fc\u30e0\u500b\u4eba\u5831\u916c [2.10] \u30b2\u30fc\u30e0\u30dd\u30a4\u30f3\u30c8 10000"
+        ],
+        [
+            "\u30c1\u30fc\u30e0\u5831\u916c \uff1a [2.10] 10000\u30eb\u30af\u30b9",
+            "\u30c1\u30fc\u30e0\u500b\u4eba\u5831\u916c [2.10] \u30b2\u30fc\u30e0\u30dd\u30a4\u30f3\u30c8 10000"
+        ],
+        [
+            "\u30c1\u30fc\u30e0\u5831\u916c \uff1a [2.10] 10000\u30eb\u30af\u30b9",
+            "\u30c1\u30fc\u30e0\u500b\u4eba\u5831\u916c [2.10] \u30b2\u30fc\u30e0\u30dd\u30a4\u30f3\u30c8 10000"
+        ],
+        [
+            "\u30c1\u30fc\u30e0\u5831\u916c \uff1a [2.10] 5000\u30eb\u30af\u30b9",
+            "\u30c1\u30fc\u30e0\u500b\u4eba\u5831\u916c [2.10] \u30b2\u30fc\u30e0\u30dd\u30a4\u30f3\u30c8 5000"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ]
+    ],
+    "present": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "itemNum": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "needTeamPoint": [
+        "50000",
+        "100000",
+        "150000",
+        "200000",
+        "200000"
+    ],
+    "teamPresentCategoryType": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ]
+}

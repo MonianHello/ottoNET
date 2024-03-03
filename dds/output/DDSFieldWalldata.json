@@ -1,0 +1,47 @@
+{
+    "DDSFieldWallData": [
+        "\n  "
+    ],
+    "dataName": [
+        "ddsFieldWall0001"
+    ],
+    "name": [
+        "\n    "
+    ],
+    "id": [
+        [
+            "1",
+            "2300"
+        ]
+    ],
+    "str": [
+        [
+            "\u30d5\u30a3\u30fc\u30eb\u30c9\u30a6\u30a9\u30fc\u30eb0001",
+            "v2_15 00_0"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null
+        ]
+    ],
+    "netOpenName": [
+        "\n    "
+    ],
+    "disableFlag": [
+        "false"
+    ],
+    "image": [
+        "\n    "
+    ],
+    "path": [
+        "CHU_UI_Fieldwall_0001.dds"
+    ],
+    "defaultHave": [
+        "true"
+    ],
+    "explainText": [
+        null
+    ]
+}

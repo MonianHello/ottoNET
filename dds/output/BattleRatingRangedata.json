@@ -1,0 +1,494 @@
+{
+    "BattleRatingRangeData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "battleRatingRange001",
+        "battleRatingRange002",
+        "battleRatingRange003",
+        "battleRatingRange004",
+        "battleRatingRange005",
+        "battleRatingRange006",
+        "battleRatingRange007",
+        "battleRatingRange008",
+        "battleRatingRange009",
+        "battleRatingRange010",
+        "battleRatingRange011",
+        "battleRatingRange012",
+        "battleRatingRange013",
+        "battleRatingRange014",
+        "battleRatingRange015",
+        "battleRatingRange016",
+        "battleRatingRange017",
+        "battleRatingRange018"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+    ],
+    "str": [
+        "battleRatingRange001",
+        "battleRatingRange002",
+        "battleRatingRange003",
+        "battleRatingRange004",
+        "battleRatingRange005",
+        "battleRatingRange006",
+        "battleRatingRange007",
+        "battleRatingRange008",
+        "battleRatingRange009",
+        "battleRatingRange010",
+        "battleRatingRange011",
+        "battleRatingRange012",
+        "battleRatingRange013",
+        "battleRatingRange014",
+        "battleRatingRange015",
+        "battleRatingRange016",
+        "battleRatingRange017",
+        "battleRatingRange018"
+    ],
+    "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "minBattleRating": [
+        "0",
+        "500",
+        "1000",
+        "1100",
+        "1200",
+        "1300",
+        "1350",
+        "1400",
+        "1450",
+        "1500",
+        "1525",
+        "1550",
+        "1575",
+        "1600",
+        "1700",
+        "1800",
+        "1900",
+        "2000"
+    ],
+    "minMusicLevel": [
+        "100",
+        "100",
+        "400",
+        "400",
+        "400",
+        "400",
+        "400",
+        "400",
+        "400",
+        "400",
+        "600",
+        "600",
+        "600",
+        "800",
+        "800",
+        "1000",
+        "1000",
+        "1000"
+    ],
+    "maxMusicLevel": [
+        "999",
+        "999",
+        "1049",
+        "1099",
+        "1149",
+        "1149",
+        "1199",
+        "1199",
+        "1249",
+        "1299",
+        "1299",
+        "1349",
+        "1399",
+        "1449",
+        "1499",
+        "1549",
+        "99900",
+        "99900"
+    ],
+    "musicDifDataList": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "MusicDifData": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ]
+    ],
+    "isSelectableByCPU": [
+        [
+            "true",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "true",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "true",
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "true",
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "true",
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ]
+    ]
+}

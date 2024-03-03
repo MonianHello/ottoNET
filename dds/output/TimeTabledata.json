@@ -1,0 +1,74 @@
+{
+    "TimeTableData": [
+        "\n  "
+    ],
+    "dataName": [
+        "timeTable00000002"
+    ],
+    "name": [
+        "\n    "
+    ],
+    "id": [
+        "2"
+    ],
+    "str": [
+        "\u5e73\u65e5\uff1a\u671d\uff5e\u5915"
+    ],
+    "data": [
+        null
+    ],
+    "explainText": [
+        "\u5e73\u65e5\uff1a\u671d\uff5e\u5915"
+    ],
+    "substances": [
+        "\n    "
+    ],
+    "type": [
+        "0"
+    ],
+    "weekly": [
+        "\n      "
+    ],
+    "sun": [
+        "false"
+    ],
+    "mon": [
+        "true"
+    ],
+    "tue": [
+        "true"
+    ],
+    "wed": [
+        "true"
+    ],
+    "thu": [
+        "true"
+    ],
+    "fri": [
+        "true"
+    ],
+    "sat": [
+        "false"
+    ],
+    "disableHoliday": [
+        "true"
+    ],
+    "useHour1": [
+        "true"
+    ],
+    "openHour1": [
+        "9"
+    ],
+    "closeHour1": [
+        "17"
+    ],
+    "useHour2": [
+        "false"
+    ],
+    "openHour2": [
+        "0"
+    ],
+    "closeHour2": [
+        "0"
+    ]
+}

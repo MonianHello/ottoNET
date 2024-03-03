@@ -1,0 +1,641 @@
+{
+    "DailyBonusPresetData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "dailyBonusPreset2210",
+        "dailyBonusPreset2211",
+        "dailyBonusPreset2212",
+        "dailyBonusPreset2301",
+        "dailyBonusPreset2302",
+        "dailyBonusPreset2303",
+        "dailyBonusPreset2304",
+        "dailyBonusPreset2305",
+        "dailyBonusPreset2306",
+        "dailyBonusPreset2307",
+        "dailyBonusPreset2308",
+        "dailyBonusPreset2309",
+        "dailyBonusPreset2310",
+        "dailyBonusPreset2311",
+        "dailyBonusPreset2312"
+    ],
+    "disableFlag": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        [
+            "2210",
+            "105",
+            "106",
+            "103",
+            "101",
+            "102"
+        ],
+        [
+            "2211",
+            "101",
+            "102",
+            "104",
+            "103",
+            "106"
+        ],
+        [
+            "2212",
+            "102",
+            "106",
+            "101",
+            "105",
+            "103"
+        ],
+        [
+            "2301",
+            "101",
+            "104",
+            "102",
+            "106",
+            "105"
+        ],
+        [
+            "2302",
+            "105",
+            "106",
+            "103",
+            "107",
+            "102"
+        ],
+        [
+            "2303",
+            "106",
+            "107",
+            "105",
+            "103",
+            "104"
+        ],
+        [
+            "2304",
+            "101",
+            "105",
+            "106",
+            "104",
+            "103"
+        ],
+        [
+            "2305",
+            "104",
+            "105",
+            "107",
+            "102",
+            "101",
+            "106",
+            "107"
+        ],
+        [
+            "2306",
+            "105",
+            "107",
+            "102",
+            "101",
+            "104",
+            "106",
+            "101"
+        ],
+        [
+            "2307",
+            "107",
+            "104",
+            "101",
+            "105",
+            "102",
+            "106",
+            "104"
+        ],
+        [
+            "2308",
+            "101",
+            "102",
+            "105",
+            "104",
+            "107",
+            "106",
+            "107"
+        ],
+        [
+            "2309",
+            "107",
+            "105",
+            "104",
+            "102",
+            "101",
+            "106",
+            "102"
+        ],
+        [
+            "2310",
+            "102",
+            "101",
+            "107",
+            "105",
+            "104",
+            "106",
+            "101"
+        ],
+        [
+            "2311",
+            "101",
+            "104",
+            "102",
+            "107",
+            "105",
+            "106",
+            "102"
+        ],
+        [
+            "2312",
+            "105",
+            "107",
+            "104",
+            "101",
+            "102",
+            "106",
+            "104"
+        ]
+    ],
+    "str": [
+        [
+            "2022\u5e7410\u6708",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b1\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u7d4c\u9a13\u5024UP\u3011"
+        ],
+        [
+            "2022\u5e7411\u6708",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b1\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u7d4c\u9a13\u5024UP\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011"
+        ],
+        [
+            "2022\u5e7412\u6708",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u7d4c\u9a13\u5024UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b1\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011"
+        ],
+        [
+            "2023\u5e741\u6708",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b1\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u7d4c\u9a13\u5024UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011"
+        ],
+        [
+            "2023\u5e742\u6708",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u7d4c\u9a13\u5024UP\u3011"
+        ],
+        [
+            "2023\u5e743\u6708",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011"
+        ],
+        [
+            "2023\u5e744\u6708",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b1\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u7387UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30a2\u30d0\u30bf\u30fc\u30dd\u30a4\u30f3\u30c8UP\u3011"
+        ],
+        [
+            "2023\u5e745\u6708",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011"
+        ],
+        [
+            "2023\u5e746\u6708",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011"
+        ],
+        [
+            "2023\u5e747\u6708",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011"
+        ],
+        [
+            "2023\u5e748\u6708",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011"
+        ],
+        [
+            "2023\u5e749\u6708",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011"
+        ],
+        [
+            "2023\u5e7410\u6708",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011"
+        ],
+        [
+            "2023\u5e7411\u6708",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011"
+        ],
+        [
+            "2023\u5e7412\u6708",
+            "\u3010\u30c7\u30e5\u30a8\u30eb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u78ba\u5b9a\u3011",
+            "\u3010\u30da\u30f3\u30ae\u30f3\u30bb\u30ec\u30af\u30b7\u30e7\u30f3\u91d1\u8cde\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011",
+            "\u3010\u30de\u30c3\u30d7\u30de\u30b9\u6570\uff0b2\u3011",
+            "\u3010\u30ad\u30e3\u30e9\u30af\u30bf\u30fcEXP UP\u3011",
+            "\u3010\u30de\u30c3\u30d7\u306e\u901a\u8ca8\u00d72\u500d\u3011",
+            "\u3010\u8d85\u30a2\u30d0\u30bf\u30fc\u30c1\u30e3\u30f3\u30b9\u3011"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ],
+    "dailyBonusNames": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "list": [
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "StringID": [
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ]
+    ]
+}

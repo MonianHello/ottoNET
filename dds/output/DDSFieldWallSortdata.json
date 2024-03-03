@@ -1,0 +1,47 @@
+{
+    "SerializeSortData": [
+        "\n  "
+    ],
+    "dataName": [
+        "ddsFieldWall"
+    ],
+    "SortList": [
+        "\n    "
+    ],
+    "StringID": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ]
+    ],
+    "id": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    ],
+    "str": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ]
+}

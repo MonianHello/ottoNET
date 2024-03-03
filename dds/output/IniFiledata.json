@@ -1,0 +1,58 @@
+{
+    "IniFileData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "iniFile000000",
+        "iniFile000001",
+        "iniFile000002",
+        "iniFile000003",
+        "iniFile000004"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+    ],
+    "str": [
+        "JudgeTimingLv1",
+        "JudgeTimingLv2",
+        "JudgeTimingLv3",
+        "JudgeTimingAir",
+        "JudgeTimingLv2Air"
+    ],
+    "data": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "iniFile": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "path": [
+        "JudgeTimingLv1.ini",
+        "JudgeTimingLv2.ini",
+        "JudgeTimingLv3.ini",
+        "JudgeTimingAir.ini",
+        "JudgeTimingLv2Air.ini"
+    ]
+}

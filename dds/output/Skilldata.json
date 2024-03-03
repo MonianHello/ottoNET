@@ -1,0 +1,9582 @@
+{
+    "SkillData": [
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  ",
+        "\n  "
+    ],
+    "dataName": [
+        "skill000000",
+        "skill100000",
+        "skill100001",
+        "skill100002",
+        "skill100003",
+        "skill100004",
+        "skill100005",
+        "skill100006",
+        "skill100007",
+        "skill100008",
+        "skill100009",
+        "skill100010",
+        "skill100011",
+        "skill100012",
+        "skill100013",
+        "skill101000",
+        "skill101001",
+        "skill101002",
+        "skill101003",
+        "skill101004",
+        "skill101005",
+        "skill101006",
+        "skill101007",
+        "skill101008",
+        "skill121001",
+        "skill800001",
+        "skill800002",
+        "skill800003"
+    ],
+    "netOpenName": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "id": [
+        [
+            "2300",
+            "0",
+            "0"
+        ],
+        [
+            "2300",
+            "100000",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100001",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100002",
+            "3",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100003",
+            "4",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100004",
+            "5",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100005",
+            "6",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100006",
+            "7",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100007",
+            "8",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100008",
+            "9",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100009",
+            "10",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100010",
+            "11",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100011",
+            "12",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100012",
+            "13",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "100013",
+            "14",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101000",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101001",
+            "3",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101002",
+            "4",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101003",
+            "5",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101004",
+            "6",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101005",
+            "7",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101006",
+            "15",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "3",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101007",
+            "16",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "3",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2300",
+            "101008",
+            "9",
+            "-1",
+            "2",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "2201",
+            "121001",
+            "6",
+            "-1",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "8",
+            "1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "900000",
+            "800001",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+        ],
+        [
+            "900000",
+            "800002",
+            "0",
+            "-1",
+            "-1",
+            "1",
+            "-1",
+            "-1"
+        ],
+        [
+            "900000",
+            "800003",
+            "0",
+            "-1",
+            "-1",
+            "-1",
+            "-1",
+            "18"
+        ]
+    ],
+    "str": [
+        [
+            "v2_15 00_0",
+            "\u30b9\u30ad\u30eb\u306a\u3057",
+            "None"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30aa\u30fc\u30eb\u30ac\u30fc\u30c9\u3010NEW\u3011",
+            "Guard",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5929\u4f7f\u306e\u606f\u5439\u3010NEW\u3011",
+            "Assist",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b2\u30fc\u30b8\u30d6\u30fc\u30b9\u30c8\u3010NEW\u3011",
+            "Boost",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b3\u30f3\u30dc\u30a8\u30af\u30b9\u30c6\u30f3\u30c9\u3010NEW\u3011",
+            "Combo",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30a2\u30bf\u30c3\u30af\u30ae\u30eb\u30c6\u30a3\u3010NEW\u3011",
+            "AGuilty",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010NEW\u3011",
+            "Judge1",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30aa\u30fc\u30d0\u30fc\u30b8\u30e3\u30c3\u30b8\u3010NEW\u3011",
+            "Judge2",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b3\u30f3\u30dc\u30d0\u30fc\u30b9\u30c8\u3010NEW\u3011",
+            "Absolute1",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u9053\u5316\u5e2b\u306e\u72c2\u6c17\u3010NEW\u3011",
+            "Absolute2",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5929\u5730\u5275\u9020\u3010NEW\u3011",
+            "Catastropy",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u9650\u754c\u7a81\u7834\u306e\u8a3c",
+            "LimitBreak1",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u771f\u30fb\u9650\u754c\u7a81\u7834\u306e\u8a3c",
+            "LimitBreak2",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u7d46\u30fb\u9650\u754c\u7a81\u7834\u306e\u8a3c",
+            "LimitBreak3",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u30d6\u30fc\u30b9\u30c8",
+            "Campaign",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30aa\u30fc\u30eb\u30ac\u30fc\u30c9\u3010SUN\u3011",
+            "Guard",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b2\u30fc\u30b8\u30d6\u30fc\u30b9\u30c8\u3010SUN\u3011",
+            "Boost",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b3\u30f3\u30dc\u30a8\u30af\u30b9\u30c6\u30f3\u30c9\u3010SUN\u3011",
+            "Combo",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30a2\u30bf\u30c3\u30af\u30ae\u30eb\u30c6\u30a3\u3010SUN\u3011",
+            "AGuilty",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010SUN\u3011",
+            "Judge1",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u30aa\u30fc\u30d0\u30fc\u30b8\u30e3\u30c3\u30b8\u3010SUN\u3011",
+            "Judge2",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u5606\u304d\u306e\u3057\u308b\u3057\u3010SUN\u3011",
+            "Emblem1",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "JusticeCritical",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u52c7\u6c17\u306e\u3057\u308b\u3057\u3010SUN\u3011",
+            "Emblem2",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "JusticeCritical",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_15 00_0",
+            "\u9053\u5316\u5e2b\u306e\u72c2\u6c17\u3010SUN\u3011",
+            "Absolute2",
+            "Invalid",
+            "Justice",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v2_10 00_1",
+            "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010gezi\u3011",
+            "Judge1",
+            "Invalid",
+            "Guilty",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "All",
+            "Attack",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v\u30b7\u30b9\u30c6\u30e0",
+            "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb001",
+            "None",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v\u30b7\u30b9\u30c6\u30e0",
+            "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb002",
+            "None",
+            "Invalid",
+            "Invalid",
+            "JudgeTimingLv2",
+            "Invalid",
+            "Invalid"
+        ],
+        [
+            "v\u30b7\u30b9\u30c6\u30e0",
+            "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb003",
+            "None",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "Invalid",
+            "ID_18"
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            "None"
+        ],
+        [
+            null,
+            null,
+            "Guard",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "All",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Assist",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Boost",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Combo",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "A-Guilty",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Judge1",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Judge2",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Absolute1",
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Absolute2",
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Catastropy",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "LimitBreak1",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "LimitBreak2",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "LimitBreak3",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Campaign",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Guard",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "All",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Boost",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Combo",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "A-Guilty",
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Judge1",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Judge2",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Emblem1",
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            "All",
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9 \u30af\u30ea\u30c6\u30a3\u30ab\u30eb",
+            null,
+            null,
+            null,
+            null,
+            "All",
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Emblem2",
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            "All",
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9 \u30af\u30ea\u30c6\u30a3\u30ab\u30eb",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Absolute2",
+            null,
+            "\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "Judge1",
+            null,
+            "\u30ae\u30eb\u30c6\u30a3",
+            null,
+            null,
+            null,
+            "All",
+            "\u30a2\u30bf\u30c3\u30af",
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "None",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "None",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "None",
+            null,
+            null,
+            null,
+            null,
+            "5.5"
+        ]
+    ],
+    "disableFlag": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+    ],
+    "name": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "seedName": [
+        "\u30b9\u30ad\u30eb\u306a\u3057\u306e\u30b7\u30fc\u30c9",
+        "\u30aa\u30fc\u30eb\u30ac\u30fc\u30c9\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u5929\u4f7f\u306e\u606f\u5439\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b2\u30fc\u30b8\u30d6\u30fc\u30b9\u30c8\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30f3\u30dc\u30a8\u30af\u30b9\u30c6\u30f3\u30c9\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30a2\u30bf\u30c3\u30af\u30ae\u30eb\u30c6\u30a3\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30aa\u30fc\u30d0\u30fc\u30b8\u30e3\u30c3\u30b8\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30f3\u30dc\u30d0\u30fc\u30b9\u30c8\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u9053\u5316\u5e2b\u306e\u72c2\u6c17\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u5929\u5730\u5275\u9020\u3010NEW\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u9650\u754c\u7a81\u7834\u306e\u8a3c\u306e\u30b7\u30fc\u30c9",
+        "\u771f\u30fb\u9650\u754c\u7a81\u7834\u306e\u8a3c\u306e\u30b7\u30fc\u30c9",
+        "\u7d46\u30fb\u9650\u754c\u7a81\u7834\u306e\u8a3c\u306e\u30b7\u30fc\u30c9",
+        "\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u30d6\u30fc\u30b9\u30c8\u306e\u30b7\u30fc\u30c9",
+        "\u30aa\u30fc\u30eb\u30ac\u30fc\u30c9\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b2\u30fc\u30b8\u30d6\u30fc\u30b9\u30c8\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30f3\u30dc\u30a8\u30af\u30b9\u30c6\u30f3\u30c9\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30a2\u30bf\u30c3\u30af\u30ae\u30eb\u30c6\u30a3\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30aa\u30fc\u30d0\u30fc\u30b8\u30e3\u30c3\u30b8\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u5606\u304d\u306e\u3057\u308b\u3057\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u52c7\u6c17\u306e\u3057\u308b\u3057\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u9053\u5316\u5e2b\u306e\u72c2\u6c17\u3010SUN\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b8\u30e3\u30c3\u30b8\u30e1\u30f3\u30c8\u3010gezi\u3011\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb001\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb002\u306e\u30b7\u30fc\u30c9",
+        "\u30b3\u30fc\u30b9\u30b9\u30ad\u30eb003\u306e\u30b7\u30fc\u30c9"
+    ],
+    "defaultHave": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false",
+        "false",
+        "false"
+    ],
+    "category": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "skillVersion": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0",
+        "0",
+        "0"
+    ],
+    "infoTxtFile": [
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "path": [
+        "0.txt",
+        "100000.txt",
+        "100001.txt",
+        "100002.txt",
+        "100003.txt",
+        "100004.txt",
+        "100005.txt",
+        "100006.txt",
+        "100007.txt",
+        "100008.txt",
+        "100009.txt",
+        "100010.txt",
+        "100011.txt",
+        "100012.txt",
+        "100013.txt",
+        "101000.txt",
+        "101001.txt",
+        "101002.txt",
+        "101003.txt",
+        "101004.txt",
+        "101005.txt",
+        "101006.txt",
+        "101007.txt",
+        "101008.txt",
+        "121001.txt",
+        "800001.txt",
+        "800002.txt",
+        "800003.txt"
+    ],
+    "maxLv": [
+        "1",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "500",
+        "999",
+        "999",
+        "999"
+    ],
+    "growthExLv": [
+        null,
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        null,
+        null,
+        null
+    ],
+    "counterType": [
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0",
+        "2",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0",
+        "0",
+        "0"
+    ],
+    "useLimit": [
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false",
+        "true",
+        "false",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false",
+        "false",
+        "false"
+    ],
+    "useNum": [
+        "0",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "10",
+        "150",
+        "50",
+        "10",
+        "0",
+        "10",
+        "0",
+        "0",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "10",
+        "300",
+        "150",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0"
+    ],
+    "growthUseNum": [
+        null,
+        "\n    ",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "\n    ",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "priority": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "substances": [
+        null,
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    ",
+        "\n    "
+    ],
+    "SkillGrowthData": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n            ",
+            "\n            "
+        ]
+    ],
+    "value": [
+        [
+            "71",
+            "201",
+            "0",
+            "1",
+            "30000"
+        ],
+        [
+            "41",
+            "201",
+            "25000",
+            "10000"
+        ],
+        [
+            "401",
+            "10"
+        ],
+        [
+            "301",
+            "500"
+        ],
+        [
+            "101",
+            "151",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "201",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "201",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "301",
+            "1000",
+            "500"
+        ],
+        [
+            "101",
+            "401",
+            "1000",
+            "500"
+        ],
+        [
+            "101",
+            "100"
+        ],
+        [
+            "3",
+            "102",
+            "7000",
+            "100"
+        ],
+        [
+            "3",
+            "102",
+            "7000",
+            "100"
+        ],
+        [
+            "3",
+            "102",
+            "10000",
+            "100"
+        ],
+        [
+            "101",
+            "499",
+            "10000",
+            "2000",
+            "0"
+        ],
+        [
+            "71",
+            "201",
+            "0",
+            "1",
+            "30000"
+        ],
+        [
+            "401",
+            "10"
+        ],
+        [
+            "301",
+            "500"
+        ],
+        [
+            "101",
+            "151",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "201",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "201",
+            "30",
+            "20"
+        ],
+        [
+            "101",
+            "301",
+            "10",
+            "5"
+        ],
+        [
+            "101",
+            "301",
+            "10",
+            "5"
+        ],
+        [
+            "101",
+            "401",
+            "1000",
+            "500"
+        ],
+        [
+            "101",
+            "201",
+            "30",
+            "20"
+        ]
+    ],
+    "SkillSubstanceData": [
+        [
+            "\n      ",
+            "\n      "
+        ],
+        "\n      ",
+        "\n      ",
+        "\n      ",
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        "\n      ",
+        "\n      ",
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        [
+            "\n      ",
+            "\n      "
+        ],
+        "\n      ",
+        "\n      ",
+        "\n      "
+    ],
+    "type": [
+        [
+            "0",
+            "2"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "0",
+            "3"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "3",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "2"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        "0",
+        "4",
+        "6"
+    ],
+    "gaugeAssist": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "skillIconType": [
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "7",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "10",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "7",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "7",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "10",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "7",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "10",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9",
+            "3",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ],
+        [
+            "4",
+            "4",
+            "2",
+            "10",
+            "8",
+            "8",
+            "0",
+            "9"
+        ]
+    ],
+    "notesGroupJudge": [
+        [
+            "false",
+            "false",
+            "false",
+            "true"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ]
+    ],
+    "preconditionA": [
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          "
+    ],
+    "ratio": [
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0",
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        [
+            "100",
+            "0"
+        ]
+    ],
+    "charaLv": [
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        "1",
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        "1"
+    ],
+    "expressionType": [
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    ],
+    "preconditionB": [
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ]
+    ],
+    "use": [
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "true",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false",
+            "true",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ]
+    ],
+    "targetType": [
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "12",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "12",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "12",
+            "0",
+            "0"
+        ],
+        [
+            "12",
+            "0",
+            "0",
+            "12",
+            "0",
+            "0",
+            "12",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ]
+    ],
+    "targetNum": [
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "1010000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "1010000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1010000",
+            "0",
+            "0"
+        ],
+        [
+            "975000",
+            "0",
+            "0",
+            "1000000",
+            "0",
+            "0",
+            "1007500",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ]
+    ],
+    "preconditionB2": [
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          "
+    ],
+    "logicalType": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "timing": [
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          "
+    ],
+    "scene": [
+        [
+            "1",
+            "0"
+        ],
+        "1",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "3",
+            "0"
+        ],
+        [
+            "0",
+            "3",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "3"
+        ],
+        [
+            "3",
+            "3",
+            "3"
+        ],
+        [
+            "1",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "useSection": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "section": [
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ]
+    ],
+    "rateSetting": [
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "false"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "false"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ],
+        [
+            "true",
+            "true",
+            "true"
+        ]
+    ],
+    "startPos": [
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ]
+    ],
+    "endPos": [
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ]
+    ],
+    "missNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "comboNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "100",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "150"
+        ],
+        [
+            "0",
+            "100"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "100",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "100"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "1000",
+        "0",
+        "0"
+    ],
+    "chainNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "chainCut": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "award": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "gaugeNum": [
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ],
+        [
+            "-1",
+            "0",
+            "0"
+        ]
+    ],
+    "time": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "judgeAlways": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "notesTypes": [
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          "
+        ]
+    ],
+    "list": [
+        [
+            null,
+            null,
+            null,
+            "\n            "
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "\n              ",
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            "\n              ",
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            "\n              ",
+            null,
+            "\n              ",
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            "\n            "
+        ],
+        [
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "\n              ",
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            "\n              ",
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ]
+    ],
+    "notesPos": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "notesJudgeResultRange": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "1",
+        "0",
+        [
+            "1",
+            "3"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "1",
+            "0"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "0",
+            "1"
+        ],
+        [
+            "1",
+            "3",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "1",
+        "0",
+        [
+            "1",
+            "3"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "1",
+            "3"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "1"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "notesJudgeResultID": [
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          ",
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n            ",
+            "\n          ",
+            "\n          "
+        ]
+    ],
+    "useNumNoAccess": [
+        [
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "true",
+            "false",
+            "true",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "true",
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ]
+    ],
+    "useNumChgValue": [
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        "1",
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        [
+            "1",
+            "1"
+        ],
+        "1",
+        "1",
+        "1"
+    ],
+    "notesGaugeNoAdd": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "true"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "valueAddGauge": [
+        [
+            "600000",
+            "0"
+        ],
+        "1200000",
+        "0",
+        "250000",
+        [
+            "0",
+            "-30000"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "600000"
+        ],
+        [
+            "0",
+            "600000"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "3000000",
+            "0"
+        ],
+        [
+            "0",
+            "5000000",
+            "0"
+        ],
+        [
+            "0",
+            "-300000",
+            "7000000"
+        ],
+        [
+            "3600000",
+            "1800000",
+            "1800000"
+        ],
+        [
+            "900000",
+            "0"
+        ],
+        "0",
+        "300000",
+        [
+            "0",
+            "-30000"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "2000",
+            "0"
+        ],
+        [
+            "0",
+            "3000"
+        ],
+        [
+            "0",
+            "700000"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "500",
+        "0",
+        "0"
+    ],
+    "valueGrowthAddGauge": [
+        [
+            "\n          ",
+            null
+        ],
+        "\n          ",
+        null,
+        "\n          ",
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            "\n          ",
+            null,
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        null,
+        "\n          ",
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            "\n          ",
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            null
+        ],
+        null,
+        null,
+        null
+    ],
+    "rateAddGauge": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "16000",
+        "0",
+        [
+            "17000",
+            "0"
+        ],
+        [
+            "0",
+            "20000"
+        ],
+        [
+            "0",
+            "22000"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "35000",
+            "0"
+        ],
+        [
+            "0",
+            "10000"
+        ],
+        [
+            "0",
+            "0",
+            "15000"
+        ],
+        [
+            "20000",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "17000",
+        "0",
+        [
+            "17500",
+            "0"
+        ],
+        [
+            "0",
+            "21000"
+        ],
+        [
+            "0",
+            "23000"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "91000"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "rateGrowthAddGauge": [
+        [
+            null,
+            null
+        ],
+        null,
+        "\n          ",
+        null,
+        [
+            "\n          ",
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "\n          ",
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            null,
+            "\n          "
+        ],
+        [
+            "\n          ",
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        "\n          ",
+        null,
+        [
+            "\n          ",
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            "\n          "
+        ],
+        null,
+        null,
+        null
+    ],
+    "gaugeKeep": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "damageGuard": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "damageRate": [
+        [
+            "100",
+            "0"
+        ],
+        "100",
+        "100",
+        "100",
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "0"
+        ],
+        "100",
+        "100",
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        [
+            "100",
+            "100"
+        ],
+        "100",
+        "100",
+        "100"
+    ],
+    "growthDamageRate": [
+        [
+            null,
+            null
+        ],
+        null,
+        null,
+        null,
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        null,
+        null,
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        null,
+        null,
+        null
+    ],
+    "deathPenalty": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "enableGaugeNum": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "countNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "20",
+            "0"
+        ],
+        [
+            "10",
+            "0"
+        ],
+        [
+            "150",
+            "0"
+        ],
+        [
+            "50",
+            "0"
+        ],
+        [
+            "0",
+            "10"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "10",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "20",
+            "0"
+        ],
+        [
+            "10",
+            "0"
+        ],
+        [
+            "300",
+            "0",
+            "0"
+        ],
+        [
+            "150",
+            "0"
+        ],
+        [
+            "50",
+            "0"
+        ],
+        [
+            "50",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "enablePossibleMaxComboNum": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "possibleMaxComboNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "enableLostScoreNum": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "lostScoreNum": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "enableSkillCounterZero": [
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        [
+            "false",
+            "false"
+        ],
+        "false",
+        "false",
+        "false"
+    ],
+    "changeJudgeIni": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "iniFileName": [
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          "
+    ],
+    "changeJudgeResult": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "changeImg": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "imgType": [
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        [
+            "0",
+            "0"
+        ],
+        "0",
+        "0",
+        "0"
+    ],
+    "changeSpeed": [
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        [
+            "\n        ",
+            "\n        "
+        ],
+        "\n        ",
+        "\n        ",
+        "\n        "
+    ],
+    "playOptionSpeedID": [
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        [
+            "\n          ",
+            "\n          "
+        ],
+        "\n          ",
+        "\n          ",
+        "\n          "
+    ],
+    "StringID": [
+        "\n              ",
+        "\n                ",
+        [
+            "\n                ",
+            "\n                "
+        ],
+        "\n                ",
+        "\n                ",
+        "\n                ",
+        "\n                ",
+        "\n                ",
+        [
+            "\n                ",
+            "\n                "
+        ],
+        "\n              ",
+        "\n                ",
+        [
+            "\n                ",
+            "\n                "
+        ],
+        "\n                ",
+        "\n                ",
+        [
+            "\n                ",
+            "\n                "
+        ],
+        "\n                ",
+        "\n                "
+    ]
+}

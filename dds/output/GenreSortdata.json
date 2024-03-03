@@ -1,0 +1,71 @@
+{
+    "SerializeSortData": [
+        "\n  "
+    ],
+    "dataName": [
+        "music"
+    ],
+    "SortList": [
+        "\n    "
+    ],
+    "StringID": [
+        [
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      ",
+            "\n      "
+        ]
+    ],
+    "id": [
+        [
+            "99",
+            "0",
+            "2",
+            "3",
+            "6",
+            "1",
+            "7",
+            "8",
+            "9",
+            "5",
+            "10"
+        ]
+    ],
+    "str": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ],
+    "data": [
+        [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    ]
+}
