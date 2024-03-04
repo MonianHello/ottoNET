@@ -232,4 +232,4 @@ def b30Page():
     return send_from_directory('static', 'b30.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8081,debug=False)
+    app.run(host='0.0.0.0', port=8081,debug=True)

@@ -10,9 +10,9 @@ merged_data = []
 for i in range(max_list_length):
     merged_item = {}
     for key, value in data.items():
-        if key in ['id']:
+        if key in ['dataName']:
             if i < len(value):
-                merged_item[key] = value[i]
+                merged_item[key] = str(int(value[i].replace("chara","")))
             else:
                 merged_item[key] = None
         if key in ['str']:
@@ -35,6 +35,6 @@ for i in range(max_list_length):
 for item in merged_data:
     print(item)
 output_file = "Chara_output.json"
-
+input()
 with open(output_file, 'w', encoding='utf-8') as json_out:
     json.dump(merged_data, json_out, indent=4, ensure_ascii=False)

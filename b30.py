@@ -517,25 +517,22 @@ def b30single(single_data, version='2.15'):
     
     return pic
 
+def get_user_info_json(id):
+    conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM chusan_user_data WHERE id = '{}'".format(id))
+    rows = cursor.fetchall()
+    columns = [description[0] for description in cursor.description]
+    user_data = []
+    for row in rows:
+        row_dict = dict(zip(columns, row))
+        user_data.append(row_dict)
+    conn.close()
+    pass
+
+
+
 def get_user_info_pic(id):
-    #硬编码内容，没ddsImage资源我怎么写
-
-    if(str(id) == '1'):
-        trophy_name = "我真的好想玩最新最熱"
-        img = Image.open("CHU_UI_NamePlate_00010129.png",'r')
-        default_UI_Character = Image.open("CHU_UI_Character_1662_00_02.png")
-        rarity = 7
-    elif(str(id) == '2'):
-        trophy_name = "Arcaea"
-        img = Image.open("CHU_UI_NamePlate_00025004.png",'r')
-        default_UI_Character = Image.open("CHU_UI_Character_1383_00_02.png")
-        rarity = 2
-    else:
-        trophy_name = "NEW COMER"
-        img = Image.open("CHU_UI_NamePlate_dummy.png",'r')
-        default_UI_Character = Image.open("CHU_UI_Character_0000_00_02.png")
-        rarity = 0
-
     # 获取用户数据
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
@@ -548,12 +545,36 @@ def get_user_info_pic(id):
         user_data.append(row_dict)
     conn.close()
 
-    
+    trophy_name = "NEW COMER"
+    img = Image.open("CHU_UI_NamePlate_dummy.png",'r')
+    default_UI_Character = Image.open("CHU_UI_Character_0000_00_02.png")
+    rarity = 0
+    try:
+        with open("masterdata/Trophy_output.json", 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        for item in data:
+            if str(item["id"]) == str(user_data[0]["trophy_id"]):
+                trophy_name = item["str"]
+                img = Image.open("static/NamePlate/{}.png".format(str(user_data[0]["nameplate_id"]).zfill(5)),'r')
+                rarity = int(item["rareType"])
+
+        with open("masterdata/Chara_output.json", 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        for item in data:
+            if str(item["dataName"]) == str(user_data[0]["character_id"]):
+                character_id = str(user_data[0]["character_id"])
+                if character_id.endswith("0"):
+                    character_id = character_id[:-1]
+                    if character_id == "":
+                        character_id = "0000"
+                character_id = character_id.zfill(4)
+                default_UI_Character = Image.open("static/Character/{}_00_02.png".format(character_id),'r')
+    except FileNotFoundError as e:
+        print("找不到文件：",e)
     img = img.convert("RGBA")
 
     nameplate = Image.open('pics/chu_nameplate.png')
     img.paste(nameplate, (0, 0), nameplate.split()[3])
-
     
     default_UI_Character = default_UI_Character.resize((82,82))
     img.paste(default_UI_Character, (471, 89), default_UI_Character.split()[3])
