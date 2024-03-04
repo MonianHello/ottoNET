@@ -1,0 +1,3032 @@
+[
+    {
+        "id": "1",
+        "str": "ノーマル",
+        "explainText": "セットすると、ネームプレートを付け替えられます"
+    },
+    {
+        "id": "2",
+        "str": "チュウニペンギン",
+        "explainText": "セットすると、ネームプレートを付け替えられます"
+    },
+    {
+        "id": "3",
+        "str": "AIR",
+        "explainText": "-"
+    },
+    {
+        "id": "4",
+        "str": "あの日見た花の名前を僕達はまだ知らない。",
+        "explainText": "-"
+    },
+    {
+        "id": "5",
+        "str": "イロドリミドリ",
+        "explainText": "-"
+    },
+    {
+        "id": "6",
+        "str": "初音ミク／マイディアバニー",
+        "explainText": "-"
+    },
+    {
+        "id": "7",
+        "str": "東方紅魔郷",
+        "explainText": "-"
+    },
+    {
+        "id": "8",
+        "str": "東方妖々夢",
+        "explainText": "-"
+    },
+    {
+        "id": "9",
+        "str": "東方永夜抄",
+        "explainText": "-"
+    },
+    {
+        "id": "10",
+        "str": "ノーゲーム・ノーライフ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "11",
+        "str": "冴えない彼女の育てかた",
+        "explainText": "-"
+    },
+    {
+        "id": "12",
+        "str": "干物妹！うまるちゃん",
+        "explainText": "-"
+    },
+    {
+        "id": "14",
+        "str": "僕は友達が少ないNEXT 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "15",
+        "str": "ミカグラ学園組曲",
+        "explainText": "-"
+    },
+    {
+        "id": "16",
+        "str": "PRIUS! IMPOSSIBLE GIRLS",
+        "explainText": "-"
+    },
+    {
+        "id": "17",
+        "str": "ご注文はうさぎですか？？ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "18",
+        "str": "チェインクロニクル ～ヘクセイタスの閃～",
+        "explainText": "-"
+    },
+    {
+        "id": "19",
+        "str": "ラグナロクオンライン",
+        "explainText": "-"
+    },
+    {
+        "id": "20",
+        "str": "ばくおん!!",
+        "explainText": "-"
+    },
+    {
+        "id": "21",
+        "str": "蒼き鋼のアルペジオ -アルス・ノヴァ-",
+        "explainText": "-"
+    },
+    {
+        "id": "22",
+        "str": "きんいろモザイク 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "23",
+        "str": "Tokyo 7th シスターズ／セブンスシスターズ",
+        "explainText": "-"
+    },
+    {
+        "id": "24",
+        "str": "カゲロウプロジェクト",
+        "explainText": "-"
+    },
+    {
+        "id": "25",
+        "str": "イロドリミドリ(月鈴姉妹)",
+        "explainText": "-"
+    },
+    {
+        "id": "26",
+        "str": "東方Extra",
+        "explainText": "「東方Extra」イベントで入手"
+    },
+    {
+        "id": "27",
+        "str": "三者三葉 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "28",
+        "str": "Angel Beats!",
+        "explainText": "-"
+    },
+    {
+        "id": "30",
+        "str": "言ノ葉Project 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "31",
+        "str": "君の名は。 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "32",
+        "str": "君の名は。 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "33",
+        "str": "Re:ゼロから始める異世界生活 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "34",
+        "str": "Re:ゼロから始める異世界生活 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "35",
+        "str": "化物語",
+        "explainText": "-"
+    },
+    {
+        "id": "36",
+        "str": "言ノ葉Project 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "37",
+        "str": "NEW GAME! 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "38",
+        "str": "NEW GAME! 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "39",
+        "str": "魔法少女まどか☆マギカ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "40",
+        "str": "魔法少女まどか☆マギカ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "41",
+        "str": "イロドリミドリ Live!",
+        "explainText": "-"
+    },
+    {
+        "id": "42",
+        "str": "東方風神録",
+        "explainText": "-"
+    },
+    {
+        "id": "43",
+        "str": "東方Project 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "44",
+        "str": "結城友奈は勇者である 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "45",
+        "str": "結城友奈は勇者である 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "46",
+        "str": "とらドラ！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "47",
+        "str": "とらドラ！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "48",
+        "str": "バーチャル・シンガー 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "49",
+        "str": "バーチャル・シンガー 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "50",
+        "str": "Hi☆sCoool! セハガール 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "51",
+        "str": "PHANTASY STAR ONLINE 2 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "52",
+        "str": "PHANTASY STAR ONLINE 2 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "53",
+        "str": "ご注文はうさぎですか？？ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "54",
+        "str": "うたわれるもの 偽りの仮面 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "55",
+        "str": "うたわれるもの 偽りの仮面 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "56",
+        "str": "ラストバトル",
+        "explainText": "-"
+    },
+    {
+        "id": "57",
+        "str": "うたわれるもの 二人の白皇 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "58",
+        "str": "うたわれるもの 二人の白皇 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "59",
+        "str": "戦姫絶唱シンフォギアＧ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "60",
+        "str": "戦姫絶唱シンフォギアＧ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "61",
+        "str": "アキバ帝国",
+        "explainText": "-"
+    },
+    {
+        "id": "62",
+        "str": "GEMINI -C-",
+        "explainText": "-"
+    },
+    {
+        "id": "63",
+        "str": "Contrapasso -inferno-",
+        "explainText": "-"
+    },
+    {
+        "id": "64",
+        "str": "京急電鉄 駅名看板",
+        "explainText": "-"
+    },
+    {
+        "id": "65",
+        "str": "アテインリレイション",
+        "explainText": "-"
+    },
+    {
+        "id": "66",
+        "str": "エロマンガ先生 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "67",
+        "str": "エロマンガ先生 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "68",
+        "str": "ノラと皇女と野良猫ハート 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "69",
+        "str": "ノラと皇女と野良猫ハート 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "70",
+        "str": "Re:ゼロから始める異世界生活 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "71",
+        "str": "#コンパス 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "72",
+        "str": "#コンパス 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "73",
+        "str": "温泉むすめ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "74",
+        "str": "温泉むすめ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "75",
+        "str": "温泉むすめ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "76",
+        "str": "MANIAなBEAT",
+        "explainText": "-"
+    },
+    {
+        "id": "77",
+        "str": "東方Extra 2",
+        "explainText": "-"
+    },
+    {
+        "id": "78",
+        "str": "東方Project 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "79",
+        "str": "東方Project 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "80",
+        "str": "SeelischTact",
+        "explainText": "-"
+    },
+    {
+        "id": "81",
+        "str": "天使の3P！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "82",
+        "str": "天使の3P！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "83",
+        "str": "ノーゲーム・ノーライフ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "84",
+        "str": "スターダストメモリーズ",
+        "explainText": "-"
+    },
+    {
+        "id": "85",
+        "str": "ツインエンジェルBREAK 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "86",
+        "str": "ツインエンジェルBREAK 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "87",
+        "str": "ツインエンジェルBREAK 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "88",
+        "str": "ガヴリールドロップアウト 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "89",
+        "str": "ガヴリールドロップアウト 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "90",
+        "str": "うたわれるもの 二人の白皇 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "91",
+        "str": "うたわれるもの 二人の白皇 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "94",
+        "str": "Wonderland Wars 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "95",
+        "str": "Wonderland Wars 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "96",
+        "str": "アストラル・リベレイション",
+        "explainText": "-"
+    },
+    {
+        "id": "97",
+        "str": "この素晴らしい世界に祝福を！2 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "98",
+        "str": "この素晴らしい世界に祝福を！2 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "99",
+        "str": "ひなこのーと 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "100",
+        "str": "ひなこのーと 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "101",
+        "str": "福音の書",
+        "explainText": "-"
+    },
+    {
+        "id": "102",
+        "str": "僕は友達が少ないNEXT 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "103",
+        "str": "てーきゅう 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "104",
+        "str": "てーきゅう 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "105",
+        "str": "NAOKI",
+        "explainText": "-"
+    },
+    {
+        "id": "106",
+        "str": "新甲虫王者ムシキング 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "107",
+        "str": "新甲虫王者ムシキング 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "108",
+        "str": "新甲虫王者ムシキング 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "109",
+        "str": "新甲虫王者ムシキング 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "111",
+        "str": "KING OF BAND '18",
+        "explainText": "-"
+    },
+    {
+        "id": "112",
+        "str": "とある科学の超電磁砲S 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "113",
+        "str": "とある科学の超電磁砲S 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "114",
+        "str": "とある科学の超電磁砲S 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "115",
+        "str": "ポプテピピック 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "116",
+        "str": "ポプテピピック 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "117",
+        "str": "ポプテピピック 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "118",
+        "str": "G．O．D",
+        "explainText": "-"
+    },
+    {
+        "id": "119",
+        "str": "東方地霊殿",
+        "explainText": "-"
+    },
+    {
+        "id": "120",
+        "str": "東方Project 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "121",
+        "str": "東方Project 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "122",
+        "str": "元祖アイドルプロデューサー",
+        "explainText": "-"
+    },
+    {
+        "id": "123",
+        "str": "りゅうおうのおしごと！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "124",
+        "str": "りゅうおうのおしごと！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "125",
+        "str": "ペルソナ5 ダンシング・スターナイト 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "126",
+        "str": "ペルソナ5 ダンシング・スターナイト 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "127",
+        "str": "ペルソナ4 ダンシング・オールナイト 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "128",
+        "str": "ペルソナ4 ダンシング・オールナイト 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "129",
+        "str": "月鈴 白奈",
+        "explainText": "-"
+    },
+    {
+        "id": "130",
+        "str": "ペルソナ3 ダンシング・ムーンナイト 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "131",
+        "str": "ペルソナ3 ダンシング・ムーンナイト 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "132",
+        "str": "バーチャル・シンガー 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "133",
+        "str": "バーチャル・シンガー 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "134",
+        "str": "宇宙よりも遠い場所 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "135",
+        "str": "宇宙よりも遠い場所 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "136",
+        "str": "箱部 なる",
+        "explainText": "-"
+    },
+    {
+        "id": "137",
+        "str": "ようこそ！ハッピーアニマリア",
+        "explainText": "-"
+    },
+    {
+        "id": "138",
+        "str": "咲-Saki-阿知賀編 episode of side-A 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "139",
+        "str": "咲-Saki-阿知賀編 episode of side-A 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "140",
+        "str": "きんいろモザイク 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "141",
+        "str": "きんいろモザイク 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "142",
+        "str": "スザク",
+        "explainText": "-"
+    },
+    {
+        "id": "143",
+        "str": "トリニティヴァーテックス",
+        "explainText": "-"
+    },
+    {
+        "id": "144",
+        "str": "オーバーロード 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "145",
+        "str": "オーバーロード 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "146",
+        "str": "三者三葉 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "147",
+        "str": "三者三葉 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "148",
+        "str": "天王洲 なずな",
+        "explainText": "-"
+    },
+    {
+        "id": "149",
+        "str": "アトリエ ～アーランドの錬金術士～ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "150",
+        "str": "アトリエ ～アーランドの錬金術士～ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "151",
+        "str": "アトリエ ～アーランドの錬金術士～ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "152",
+        "str": "光吉 猛修／謎",
+        "explainText": "-"
+    },
+    {
+        "id": "153",
+        "str": "松丸 亮吾／謎",
+        "explainText": "-"
+    },
+    {
+        "id": "154",
+        "str": "幻想英雄伝‐目覚めし紋章の力‐",
+        "explainText": "-"
+    },
+    {
+        "id": "155",
+        "str": "グランブルーファンタジー 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "156",
+        "str": "グランブルーファンタジー 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "157",
+        "str": "グランブルーファンタジー 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "158",
+        "str": "グランブルーファンタジー 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "159",
+        "str": "ゆるキャン△ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "160",
+        "str": "ゆるキャン△ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "161",
+        "str": "ポプテピピック 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "162",
+        "str": "ポプテピピック 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "163",
+        "str": "ポプテピピック 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "164",
+        "str": "明坂 芹菜",
+        "explainText": "-"
+    },
+    {
+        "id": "165",
+        "str": "東方天空璋",
+        "explainText": "-"
+    },
+    {
+        "id": "166",
+        "str": "東方Project 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "167",
+        "str": "トリスメギストス",
+        "explainText": "-"
+    },
+    {
+        "id": "168",
+        "str": "天獄と魔縁",
+        "explainText": "-"
+    },
+    {
+        "id": "169",
+        "str": "Arcaea 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "170",
+        "str": "Arcaea 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "171",
+        "str": "MIR-202【アルテミス・レナ】",
+        "explainText": "-"
+    },
+    {
+        "id": "172",
+        "str": "Tokyo 7th シスターズ ～4U ＆ The QUEEN of PURPLE～ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "173",
+        "str": "Tokyo 7th シスターズ ～4U ＆ The QUEEN of PURPLE～ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "174",
+        "str": "Tokyo 7th シスターズ ～4U ＆ The QUEEN of PURPLE～ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "175",
+        "str": "Tokyo 7th シスターズ ～4U ＆ The QUEEN of PURPLE～ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "176",
+        "str": "ガヴリールドロップアウト 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "177",
+        "str": "ガヴリールドロップアウト 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "178",
+        "str": "ES計画",
+        "explainText": "-"
+    },
+    {
+        "id": "179",
+        "str": "龍が如く 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "180",
+        "str": "龍が如く 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "181",
+        "str": "ヒナまつり 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "182",
+        "str": "ヒナまつり 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "183",
+        "str": "小仏 凪",
+        "explainText": "-"
+    },
+    {
+        "id": "184",
+        "str": "はるかなレシーブ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "185",
+        "str": "はるかなレシーブ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "186",
+        "str": "新甲虫王者ムシキング 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "187",
+        "str": "新甲虫王者ムシキング 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "188",
+        "str": "新甲虫王者ムシキング 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "189",
+        "str": "新甲虫王者ムシキング 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "190",
+        "str": "ノラと皇女と野良猫ハート 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "191",
+        "str": "ノラと皇女と野良猫ハート 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "192",
+        "str": "赤月城ヴァムピーラ",
+        "explainText": "-"
+    },
+    {
+        "id": "193",
+        "str": "御形 アリシアナ",
+        "explainText": "-"
+    },
+    {
+        "id": "194",
+        "str": "プリンセス・プリンシパル 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "195",
+        "str": "プリンセス・プリンシパル 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "196",
+        "str": "プリンセス・プリンシパル 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "197",
+        "str": "プリンセス・プリンシパル 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "198",
+        "str": "温泉むすめ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "199",
+        "str": "温泉むすめ 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "200",
+        "str": "温泉むすめ 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "201",
+        "str": "リリアリス・コルチカム",
+        "explainText": "-"
+    },
+    {
+        "id": "202",
+        "str": "たまゆらリレイション",
+        "explainText": "-"
+    },
+    {
+        "id": "203",
+        "str": "魔法少女リリカルなのは Detonation 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "204",
+        "str": "魔法少女リリカルなのは Detonation 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "205",
+        "str": "魔法少女リリカルなのは Detonation 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "206",
+        "str": "異世界食堂 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "207",
+        "str": "異世界食堂 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "208",
+        "str": "異世界食堂 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "209",
+        "str": "異世界食堂 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "210",
+        "str": "天使の3P！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "211",
+        "str": "天使の3P！ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "212",
+        "str": "月鈴 那知",
+        "explainText": "-"
+    },
+    {
+        "id": "213",
+        "str": "アトリエ ～アーランドの錬金術士～ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "214",
+        "str": "アトリエ ～アーランドの錬金術士～ 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "215",
+        "str": "ショウニペンギン（AIR）",
+        "explainText": "-"
+    },
+    {
+        "id": "216",
+        "str": "KING OF BAND '19",
+        "explainText": "-"
+    },
+    {
+        "id": "217",
+        "str": "魔法科高校の劣等生 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "218",
+        "str": "魔法科高校の劣等生 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "219",
+        "str": "魔法科高校の劣等生 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "220",
+        "str": "魔法科高校の劣等生 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "221",
+        "str": "魔法科高校の劣等生 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "222",
+        "str": "SSSS.GRIDMAN 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "223",
+        "str": "SSSS.GRIDMAN 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "224",
+        "str": "エロマンガ先生 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "225",
+        "str": "八咫烏 鋼太郎",
+        "explainText": "-"
+    },
+    {
+        "id": "226",
+        "str": "結月ゆかり",
+        "explainText": "-"
+    },
+    {
+        "id": "227",
+        "str": "紲星あかり",
+        "explainText": "-"
+    },
+    {
+        "id": "228",
+        "str": "琴葉 茜・葵 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "229",
+        "str": "PHANTASY STAR ONLINE 2 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "230",
+        "str": "PHANTASY STAR ONLINE 2 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "231",
+        "str": "GN計画",
+        "explainText": "-"
+    },
+    {
+        "id": "232",
+        "str": "ネコぱら 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "233",
+        "str": "ネコぱら 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "234",
+        "str": "ネコぱら 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "235",
+        "str": "ネコぱら 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "236",
+        "str": "HAR-ヒロイン09【ネレイダム】",
+        "explainText": "-"
+    },
+    {
+        "id": "237",
+        "str": "とらドラ！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "238",
+        "str": "おにまむしけ",
+        "explainText": "-"
+    },
+    {
+        "id": "239",
+        "str": "賭ケグルイ×× 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "240",
+        "str": "賭ケグルイ×× 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "241",
+        "str": "てーきゅう 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "242",
+        "str": "てーきゅう 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "243",
+        "str": "五十嵐 撫子",
+        "explainText": "-"
+    },
+    {
+        "id": "244",
+        "str": "私に天使が舞い降りた！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "245",
+        "str": "私に天使が舞い降りた！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "246",
+        "str": "ストライク・ザ・ブラッド 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "247",
+        "str": "ストライク・ザ・ブラッド 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "248",
+        "str": "この素晴らしい世界に祝福を！2 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "249",
+        "str": "この素晴らしい世界に祝福を！2 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "250",
+        "str": "ダオ・トッテナ",
+        "explainText": "-"
+    },
+    {
+        "id": "251",
+        "str": "THE DARK SIDE NEMESIS",
+        "explainText": "-"
+    },
+    {
+        "id": "252",
+        "str": "東方星蓮船",
+        "explainText": "-"
+    },
+    {
+        "id": "253",
+        "str": "東方Project 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "254",
+        "str": "萩原 七々瀬",
+        "explainText": "-"
+    },
+    {
+        "id": "255",
+        "str": "ゾンビランドサガ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "256",
+        "str": "ゾンビランドサガ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "257",
+        "str": "Hi☆sCoool! セハガール 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "258",
+        "str": "Hi☆sCoool! セハガール 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "259",
+        "str": "Hi☆sCoool! セハガール 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "260",
+        "str": "THE LIGHT SIDE ORIGIN",
+        "explainText": "-"
+    },
+    {
+        "id": "261",
+        "str": "ゴブリンスレイヤー 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "262",
+        "str": "ゴブリンスレイヤー 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "263",
+        "str": "黒亀 北斗",
+        "explainText": "-"
+    },
+    {
+        "id": "264",
+        "str": "緋弾のアリアAA 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "265",
+        "str": "緋弾のアリアAA 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "266",
+        "str": "ストライク・ザ・ブラッド 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "267",
+        "str": "ストライク・ザ・ブラッド 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "268",
+        "str": "リヒトシュッツェ",
+        "explainText": "-"
+    },
+    {
+        "id": "269",
+        "str": "ダンベル何キロ持てる？ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "270",
+        "str": "ダンベル何キロ持てる？ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "271",
+        "str": "Arcaea 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "272",
+        "str": "Arcaea 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "273",
+        "str": "暴虐のギーゼグール",
+        "explainText": "-"
+    },
+    {
+        "id": "274",
+        "str": "白猫プロジェクト 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "275",
+        "str": "白猫プロジェクト 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "276",
+        "str": "アイカツオンパレード！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "277",
+        "str": "アイカツオンパレード！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "278",
+        "str": "小野 美苗",
+        "explainText": "-"
+    },
+    {
+        "id": "279",
+        "str": "三賢者",
+        "explainText": "-"
+    },
+    {
+        "id": "280",
+        "str": "東方紅魔郷 STAGE 2",
+        "explainText": "-"
+    },
+    {
+        "id": "281",
+        "str": "東方Project 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "282",
+        "str": "渋沢 ノノ",
+        "explainText": "-"
+    },
+    {
+        "id": "283",
+        "str": "チュウニペンギン＆ショウニペンギン (STAR)",
+        "explainText": "-"
+    },
+    {
+        "id": "284",
+        "str": "#コンパス 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "285",
+        "str": "#コンパス 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "286",
+        "str": "#コンパス 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "287",
+        "str": "#コンパス 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "288",
+        "str": "りゅうおうのおしごと！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "289",
+        "str": "りゅうおうのおしごと！ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "290",
+        "str": "ようこそ！ハッピーアニマリア2",
+        "explainText": "-"
+    },
+    {
+        "id": "291",
+        "str": "葛城 華",
+        "explainText": "-"
+    },
+    {
+        "id": "292",
+        "str": "八月のシンデレラナイン 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "293",
+        "str": "八月のシンデレラナイン 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "294",
+        "str": "WIXOSS 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "295",
+        "str": "WIXOSS 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "296",
+        "str": "新井 桃子",
+        "explainText": "-"
+    },
+    {
+        "id": "297",
+        "str": "餓音 MUSIC OF THE WAVES",
+        "explainText": "-"
+    },
+    {
+        "id": "298",
+        "str": "新サクラ大戦 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "299",
+        "str": "新サクラ大戦 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "300",
+        "str": "チャージマン研！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "301",
+        "str": "チャージマン研！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "302",
+        "str": "チャージマン研！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "303",
+        "str": "チャージマン研！ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "305",
+        "str": "MIR-201【ヘカティ・ベアトリクス】",
+        "explainText": "-"
+    },
+    {
+        "id": "306",
+        "str": "オーバーロード 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "307",
+        "str": "オーバーロード 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "308",
+        "str": "審判正義の星女神",
+        "explainText": "-"
+    },
+    {
+        "id": "309",
+        "str": "世話やきキツネの仙狐さん 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "310",
+        "str": "世話やきキツネの仙狐さん 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "311",
+        "str": "テスタメントネメシス",
+        "explainText": "-"
+    },
+    {
+        "id": "312",
+        "str": "神位の簒奪者",
+        "explainText": "-"
+    },
+    {
+        "id": "313",
+        "str": "ダンジョンに出会いを求めるのは間違っているだろうかⅡ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "314",
+        "str": "ダンジョンに出会いを求めるのは間違っているだろうかⅡ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "315",
+        "str": "緑と水のソルナ",
+        "explainText": "-"
+    },
+    {
+        "id": "316",
+        "str": "青春ブタ野郎はバニーガール先輩の夢を見ない 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "317",
+        "str": "青春ブタ野郎はバニーガール先輩の夢を見ない 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "318",
+        "str": "青春ブタ野郎はバニーガール先輩の夢を見ない 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "319",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "320",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "322",
+        "str": "Arcaea 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "323",
+        "str": "Arcaea 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "324",
+        "str": "とある科学の超電磁砲S 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "325",
+        "str": "とある科学の超電磁砲S 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "326",
+        "str": "DJ-MEGA",
+        "explainText": "-"
+    },
+    {
+        "id": "327",
+        "str": "藤堂 陽南袴",
+        "explainText": "-"
+    },
+    {
+        "id": "328",
+        "str": "初恋",
+        "explainText": "-"
+    },
+    {
+        "id": "329",
+        "str": "虚構推理 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "330",
+        "str": "虚構推理 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "331",
+        "str": "虚構推理 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "332",
+        "str": "ホロライブ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "333",
+        "str": "ホロライブ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "334",
+        "str": "ホロライブ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "335",
+        "str": "ホロライブ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "336",
+        "str": "ヒナまつり 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "337",
+        "str": "ヒナまつり 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "338",
+        "str": "宇宙よりも遠い場所 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "339",
+        "str": "KING of Performai 2020 ～優勝～",
+        "explainText": "-"
+    },
+    {
+        "id": "340",
+        "str": "KING of Performai 2020 ～FINALIST～",
+        "explainText": "-"
+    },
+    {
+        "id": "341",
+        "str": "桔梗 小夜曲",
+        "explainText": "-"
+    },
+    {
+        "id": "342",
+        "str": "グルーヴコースター 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "343",
+        "str": "グルーヴコースター 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "344",
+        "str": "グルーヴコースター 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "345",
+        "str": "世にも不思議な物語",
+        "explainText": "-"
+    },
+    {
+        "id": "346",
+        "str": "三国志大戦 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "347",
+        "str": "三国志大戦 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "348",
+        "str": "パリピ孔明",
+        "explainText": "-"
+    },
+    {
+        "id": "349",
+        "str": "ゾンビランドサガ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "350",
+        "str": "ゴブリンスレイヤー 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "351",
+        "str": "緋弾のアリアAA 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "352",
+        "str": "緋弾のアリアAA 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "353",
+        "str": "MDA-01【シリウス】",
+        "explainText": "-"
+    },
+    {
+        "id": "354",
+        "str": "恋する小惑星 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "355",
+        "str": "恋する小惑星 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "356",
+        "str": "ストライク・ザ・ブラッド 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "357",
+        "str": "ストライク・ザ・ブラッド 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "358",
+        "str": "プリンセス・プリンシパル 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "359",
+        "str": "プリンセス・プリンシパル 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "360",
+        "str": "ゆるキャン△ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "361",
+        "str": "ゆるキャン△ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "362",
+        "str": "咲-Saki-阿知賀編 episode of side-A 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "363",
+        "str": "託されたチカラ",
+        "explainText": "-"
+    },
+    {
+        "id": "364",
+        "str": "まちカドまぞく 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "365",
+        "str": "まちカドまぞく 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "366",
+        "str": "異世界かるてっと 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "367",
+        "str": "異世界かるてっと 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "368",
+        "str": "芒崎 奏",
+        "explainText": "-"
+    },
+    {
+        "id": "369",
+        "str": "ぷよぷよ!! 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "370",
+        "str": "ぷよぷよ!! 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "371",
+        "str": "龍が如く 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "372",
+        "str": "東方Extra 3",
+        "explainText": "-"
+    },
+    {
+        "id": "373",
+        "str": "東方Project 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "374",
+        "str": "ティフォン",
+        "explainText": "-"
+    },
+    {
+        "id": "375",
+        "str": "ワールドヒロインズ BLOOD",
+        "explainText": "-"
+    },
+    {
+        "id": "376",
+        "str": "メイドインアビス 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "377",
+        "str": "メイドインアビス 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "378",
+        "str": "異世界食堂 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "379",
+        "str": "はるかなレシーブ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "380",
+        "str": "チュウニペンギン＆ショウニペンギン (AMAZON)",
+        "explainText": "-"
+    },
+    {
+        "id": "10001",
+        "str": "僕のヒーローアカデミア 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10002",
+        "str": "僕のヒーローアカデミア 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10003",
+        "str": "アイドルマスター 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10004",
+        "str": "アイドルマスター 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10005",
+        "str": "アイドルマスター 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10006",
+        "str": "アイドルマスター 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10007",
+        "str": "アイドルマスター 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10008",
+        "str": "アイドルマスター 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10009",
+        "str": "アイドルマスター 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10010",
+        "str": "アイドルマスター シンデレラガールズ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10011",
+        "str": "アイドルマスター シンデレラガールズ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10012",
+        "str": "アイドルマスター シンデレラガールズ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10013",
+        "str": "アイドルマスター シンデレラガールズ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10014",
+        "str": "アイドルマスター シンデレラガールズ 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10015",
+        "str": "アイドルマスター シンデレラガールズ 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10016",
+        "str": "バンドリ！ ガールズバンドパーティ！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10017",
+        "str": "バンドリ！ ガールズバンドパーティ！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10018",
+        "str": "バンドリ！ ガールズバンドパーティ！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10019",
+        "str": "ひぐらしのなく頃に 業 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10020",
+        "str": "ひぐらしのなく頃に 業 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10021",
+        "str": "東方LostWord 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10022",
+        "str": "東方LostWord 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10023",
+        "str": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10024",
+        "str": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった… 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10025",
+        "str": "ご注文はうさぎですか？BLOOM 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10026",
+        "str": "ご注文はうさぎですか？BLOOM 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10027",
+        "str": "ご注文はうさぎですか？BLOOM 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10028",
+        "str": "ご注文はうさぎですか？BLOOM 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10029",
+        "str": "Re:ゼロから始める異世界生活 2nd season 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10030",
+        "str": "Re:ゼロから始める異世界生活 2nd season 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10031",
+        "str": "ありふれた職業で世界最強 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10032",
+        "str": "ありふれた職業で世界最強 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10033",
+        "str": "ありふれた職業で世界最強 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10034",
+        "str": "プリンセスコネクト！Re:Dive 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10035",
+        "str": "プリンセスコネクト！Re:Dive 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10036",
+        "str": "プリンセスコネクト！Re:Dive 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10037",
+        "str": "宇崎ちゃんは遊びたい！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10038",
+        "str": "宇崎ちゃんは遊びたい！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10039",
+        "str": "「七つの大罪 憤怒の審判」 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10040",
+        "str": "「七つの大罪 憤怒の審判」 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10041",
+        "str": "東方妖々夢 STAGE 2 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10042",
+        "str": "東方妖々夢 STAGE 2 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10043",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10044",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10045",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10046",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10047",
+        "str": "東京リベンジャーズ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10048",
+        "str": "東京リベンジャーズ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10050",
+        "str": "魔法科高校の劣等生 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10051",
+        "str": "魔法科高校の劣等生 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10052",
+        "str": "魔法科高校の劣等生 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "10053",
+        "str": "魔法科高校の劣等生 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "10054",
+        "str": "東方Extra 4 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10055",
+        "str": "東方Extra 4 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10056",
+        "str": "D4DJ Groovy Mix 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10057",
+        "str": "D4DJ Groovy Mix 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10058",
+        "str": "D4DJ Groovy Mix 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10059",
+        "str": "ネコぱら 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10060",
+        "str": "ネコぱら 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10061",
+        "str": "ツユ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10062",
+        "str": "ツユ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10063",
+        "str": "ツユ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10064",
+        "str": "ツユ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10065",
+        "str": "小林さんちのメイドラゴンS 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10066",
+        "str": "小林さんちのメイドラゴンS 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10067",
+        "str": "結月ゆかり・紲星あかり",
+        "explainText": "-"
+    },
+    {
+        "id": "10068",
+        "str": "琴葉 茜・葵 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10069",
+        "str": "さんばか 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10070",
+        "str": "さんばか 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10071",
+        "str": "さんばか 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10072",
+        "str": "進撃の巨人 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10073",
+        "str": "進撃の巨人 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10074",
+        "str": "進撃の巨人 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10075",
+        "str": "私に天使が舞い降りた！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10076",
+        "str": "私に天使が舞い降りた！ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10077",
+        "str": "キルミーベイベー 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10078",
+        "str": "キルミーベイベー 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10079",
+        "str": "D4DJ Groovy Mix 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10080",
+        "str": "モブサイコ100 Ⅲ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10081",
+        "str": "モブサイコ100 Ⅲ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10082",
+        "str": "ヘブンバーンズレッド 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10083",
+        "str": "ヘブンバーンズレッド 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10084",
+        "str": "ヘブンバーンズレッド 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10085",
+        "str": "青春ブタ野郎はバニーガール先輩の夢を見ない 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10086",
+        "str": "ダンベル何キロ持てる？ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10087",
+        "str": "東方神霊廟 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10088",
+        "str": "東方神霊廟 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10089",
+        "str": "中二病でも恋がしたい！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10090",
+        "str": "中二病でも恋がしたい！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10091",
+        "str": "HARDCORE TANO*C 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10092",
+        "str": "HARDCORE TANO*C 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10093",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10094",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "10095",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "10096",
+        "str": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク 【10】",
+        "explainText": "-"
+    },
+    {
+        "id": "10097",
+        "str": "WIXOSS 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10098",
+        "str": "クラッシュフィーバー 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10099",
+        "str": "クラッシュフィーバー 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10100",
+        "str": "クラッシュフィーバー 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10101",
+        "str": "DECO*27 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10102",
+        "str": "DECO*27 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10103",
+        "str": "俺の妹がこんなに可愛いわけがない。 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10104",
+        "str": "俺の妹がこんなに可愛いわけがない。 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10105",
+        "str": "俺の妹がこんなに可愛いわけがない。 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10106",
+        "str": "#コンパス 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10107",
+        "str": "#コンパス 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "10108",
+        "str": "#コンパス 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "10109",
+        "str": "新サクラ大戦 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10110",
+        "str": "さなちゃんねる 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10111",
+        "str": "さなちゃんねる 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10112",
+        "str": "Arcaea 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10113",
+        "str": "Arcaea 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "10114",
+        "str": "世話やきキツネの仙狐さん 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10115",
+        "str": "映画「五等分の花嫁」 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10116",
+        "str": "映画「五等分の花嫁」 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10117",
+        "str": "映画「五等分の花嫁」 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10118",
+        "str": "映画「五等分の花嫁」 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10119",
+        "str": "映画「五等分の花嫁」 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10120",
+        "str": "映画「五等分の花嫁」 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10121",
+        "str": "Arcaea 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "10122",
+        "str": "Arcaea 【10】",
+        "explainText": "-"
+    },
+    {
+        "id": "10123",
+        "str": "WACCA 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10124",
+        "str": "WACCA 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10125",
+        "str": "WACCA 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10126",
+        "str": "ぼっち・ざ・ろっく！ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10127",
+        "str": "ぼっち・ざ・ろっく！ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10128",
+        "str": "ぼっち・ざ・ろっく！ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10129",
+        "str": "NEEDY GIRL OVERDOSE 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10130",
+        "str": "NEEDY GIRL OVERDOSE 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10131",
+        "str": "NEEDY GIRL OVERDOSE 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10132",
+        "str": "虚構推理 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10133",
+        "str": "虚構推理 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10134",
+        "str": "WACCA 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10135",
+        "str": "しぐれうい 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10136",
+        "str": "しぐれうい 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10137",
+        "str": "しぐれうい 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10138",
+        "str": "アイドルマスター シンデレラガールズ U149 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10139",
+        "str": "アイドルマスター シンデレラガールズ U149 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10140",
+        "str": "アイドルマスター シンデレラガールズ U149 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10141",
+        "str": "アイドルマスター シンデレラガールズ U149 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10142",
+        "str": "アイドルマスター シンデレラガールズ U149 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10143",
+        "str": "アイドルマスター シンデレラガールズ U149 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10144",
+        "str": "アイドルマスター シンデレラガールズ U149 【7】",
+        "explainText": "-"
+    },
+    {
+        "id": "10145",
+        "str": "アイドルマスター シンデレラガールズ U149 【8】",
+        "explainText": "-"
+    },
+    {
+        "id": "10146",
+        "str": "アイドルマスター シンデレラガールズ U149 【9】",
+        "explainText": "-"
+    },
+    {
+        "id": "10147",
+        "str": "アイドルマスター シンデレラガールズ U149 【10】",
+        "explainText": "-"
+    },
+    {
+        "id": "10148",
+        "str": "まちカドまぞく 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10149",
+        "str": "音楽的同位体プロジェクト 可不・星界 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10150",
+        "str": "音楽的同位体プロジェクト 可不・星界 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10151",
+        "str": "音楽的同位体プロジェクト 可不・星界 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10152",
+        "str": "▽▲TRiNITY▲▽ 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10153",
+        "str": "▽▲TRiNITY▲▽ 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10154",
+        "str": "▽▲TRiNITY▲▽ 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10155",
+        "str": "▽▲TRiNITY▲▽ 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10156",
+        "str": "恋する小惑星 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10157",
+        "str": "恋する小惑星 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10158",
+        "str": "異世界おじさん 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10159",
+        "str": "異世界おじさん 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10160",
+        "str": "東北ずん子 【1】",
+        "explainText": "-"
+    },
+    {
+        "id": "10161",
+        "str": "東北ずん子 【2】",
+        "explainText": "-"
+    },
+    {
+        "id": "10162",
+        "str": "東北ずん子 【3】",
+        "explainText": "-"
+    },
+    {
+        "id": "10163",
+        "str": "ヘブンバーンズレッド 【4】",
+        "explainText": "-"
+    },
+    {
+        "id": "10164",
+        "str": "ヘブンバーンズレッド 【5】",
+        "explainText": "-"
+    },
+    {
+        "id": "10165",
+        "str": "ヘブンバーンズレッド 【6】",
+        "explainText": "-"
+    },
+    {
+        "id": "10170",
+        "str": "アイドルマスター シンデレラガールズ U149 【11】",
+        "explainText": "-"
+    },
+    {
+        "id": "20001",
+        "str": "魔大陸の三姫霊",
+        "explainText": "-"
+    },
+    {
+        "id": "20002",
+        "str": "シビュラ精霊記 ～Strive Against Fate～",
+        "explainText": "-"
+    },
+    {
+        "id": "20003",
+        "str": "破壊と再生　剣の後継者",
+        "explainText": "-"
+    },
+    {
+        "id": "20004",
+        "str": "カゲロウリレイション",
+        "explainText": "-"
+    },
+    {
+        "id": "20005",
+        "str": "HaNaMiNa",
+        "explainText": "-"
+    },
+    {
+        "id": "20006",
+        "str": "双炎のラストソング",
+        "explainText": "-"
+    },
+    {
+        "id": "20007",
+        "str": "世界襲撃♥ハネムーン",
+        "explainText": "-"
+    },
+    {
+        "id": "20008",
+        "str": "舞ヶ原シンセ研究会",
+        "explainText": "-"
+    },
+    {
+        "id": "20009",
+        "str": "勧善懲悪",
+        "explainText": "-"
+    },
+    {
+        "id": "20010",
+        "str": "残されし秩序の守護者",
+        "explainText": "-"
+    },
+    {
+        "id": "20011",
+        "str": "最後の審判 ～ abyss of despair",
+        "explainText": "-"
+    },
+    {
+        "id": "20012",
+        "str": "未来の燈火",
+        "explainText": "-"
+    },
+    {
+        "id": "20013",
+        "str": "大地の後継者たち",
+        "explainText": "-"
+    },
+    {
+        "id": "20014",
+        "str": "First story of the SeelischTact",
+        "explainText": "-"
+    },
+    {
+        "id": "20015",
+        "str": "不器用な魔女と優しい錬金術師　～始まりの音色～",
+        "explainText": "-"
+    },
+    {
+        "id": "20016",
+        "str": "GUMIN LIFE",
+        "explainText": "-"
+    },
+    {
+        "id": "20017",
+        "str": "なかよし！？ハッピーアニマリア",
+        "explainText": "-"
+    },
+    {
+        "id": "25001",
+        "str": "イングリット・オーリック・コーネル",
+        "explainText": "-"
+    },
+    {
+        "id": "25002",
+        "str": "シルヴィアス",
+        "explainText": "-"
+    },
+    {
+        "id": "25003",
+        "str": "ジョニー・サイアスティン",
+        "explainText": "-"
+    },
+    {
+        "id": "25004",
+        "str": "魔法使いアルテラ",
+        "explainText": "-"
+    },
+    {
+        "id": "25005",
+        "str": "新田 ちえ",
+        "explainText": "-"
+    },
+    {
+        "id": "25006",
+        "str": "MDA-21【レグルス】",
+        "explainText": "-"
+    },
+    {
+        "id": "25007",
+        "str": "ジュナ・サラキア",
+        "explainText": "-"
+    },
+    {
+        "id": "25008",
+        "str": "ワイズマン",
+        "explainText": "-"
+    },
+    {
+        "id": "25009",
+        "str": "ヴェルゼビュートネメシス",
+        "explainText": "-"
+    },
+    {
+        "id": "25010",
+        "str": "マリーメイア・クレスケンス",
+        "explainText": "-"
+    },
+    {
+        "id": "25011",
+        "str": "伊賀崎ノ楠子",
+        "explainText": "-"
+    },
+    {
+        "id": "25012",
+        "str": "イロドリミドリ／色彩過剰のダイアリーミュージック",
+        "explainText": "-"
+    },
+    {
+        "id": "25013",
+        "str": "オールドブルー",
+        "explainText": "-"
+    },
+    {
+        "id": "25014",
+        "str": "クーデルカ・プルミエール",
+        "explainText": "-"
+    },
+    {
+        "id": "25015",
+        "str": "エイハヴ",
+        "explainText": "-"
+    },
+    {
+        "id": "25016",
+        "str": "第八皇女エルルーン",
+        "explainText": "-"
+    },
+    {
+        "id": "25017",
+        "str": "宍戸 美鈴",
+        "explainText": "-"
+    },
+    {
+        "id": "25018",
+        "str": "リー・メイメイ",
+        "explainText": "-"
+    },
+    {
+        "id": "25019",
+        "str": "ティータ・アヴェニアス",
+        "explainText": "-"
+    },
+    {
+        "id": "25020",
+        "str": "MIR-203【セレネ・シェリル】",
+        "explainText": "-"
+    },
+    {
+        "id": "25021",
+        "str": "御影 昴",
+        "explainText": "-"
+    },
+    {
+        "id": "25022",
+        "str": "向来 隼",
+        "explainText": "-"
+    },
+    {
+        "id": "25023",
+        "str": "ナイ",
+        "explainText": "-"
+    },
+    {
+        "id": "25024",
+        "str": "京極院 桜花",
+        "explainText": "-"
+    },
+    {
+        "id": "25025",
+        "str": "スカイフェザー",
+        "explainText": "-"
+    },
+    {
+        "id": "25026",
+        "str": "アンプルール",
+        "explainText": "-"
+    },
+    {
+        "id": "30001",
+        "str": "KING of Performai The 3rd ～優勝～",
+        "explainText": "-"
+    },
+    {
+        "id": "30002",
+        "str": "KING of Performai The 3rd ～FINALIST～",
+        "explainText": "-"
+    },
+    {
+        "id": "30003",
+        "str": "チュウニペンギン＆ショウニペンギン (CRYSTAL)",
+        "explainText": "-"
+    },
+    {
+        "id": "30004",
+        "str": "チュウニペンギン＆ショウニペンギン (PARADISE)",
+        "explainText": "-"
+    },
+    {
+        "id": "31000",
+        "str": "KING of Performai The 4th ～優勝～",
+        "explainText": "-"
+    },
+    {
+        "id": "31001",
+        "str": "KING of Performai The 4th ～FINALIST～",
+        "explainText": "-"
+    },
+    {
+        "id": "31010",
+        "str": "KOP4th International ver. CHAMPION",
+        "explainText": null
+    },
+    {
+        "id": "31011",
+        "str": "KOP4th International ver. BEST8",
+        "explainText": null
+    },
+    {
+        "id": "41000",
+        "str": "♥♥♥星咲 あかり♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41001",
+        "str": "♥♥♥藤沢 柚子♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41002",
+        "str": "♥♥♥三角 葵♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41003",
+        "str": "♥♥♥高瀬 梨緒♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41004",
+        "str": "♥♥♥結城 莉玖♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41005",
+        "str": "♥♥♥藍原 椿♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41006",
+        "str": "♥♥♥早乙女 彩華♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41007",
+        "str": "♥♥♥桜井 春菜♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41008",
+        "str": "♥♥♥九條 楓♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41009",
+        "str": "♥♥♥柏木 咲姫♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41010",
+        "str": "♥♥♥井之原 小星♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41011",
+        "str": "♥♥♥逢坂 茜♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41012",
+        "str": "♥♥♥珠洲島 有栖♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41013",
+        "str": "♥♥♥柏木 美亜♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41014",
+        "str": "♥♥♥日向 千夏♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41015",
+        "str": "♥♥♥東雲 つむぎ♥♥♥",
+        "explainText": "-"
+    },
+    {
+        "id": "41016",
+        "str": "♥♥♥皇城 セツナ♥♥♥",
+        "explainText": "-"
+    }
+]
