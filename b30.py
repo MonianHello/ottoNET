@@ -329,16 +329,24 @@ def process_r10(id):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
     rows = cursor.fetchall()
+    rows = list(reversed(rows))
     columns = [description[0] for description in cursor.description]
     user_data = []
     count = 0
-    for row in reversed(rows):
-        if row[19] in [0,1,2,3,4]:
+    for row, next_row in zip(rows, rows[1:] + [None]):
+        if row[19] in [0, 1, 2, 3, 4]:
             if count >= 30:
                 break
+
+            #如果某次游玩取得了不低于SSS的评价但Rating值不足以更新这30次游玩的成绩，该次记录不会参与最近30次游玩的计算。
+            #这里通过判断前后rating是否变化来得知是否更新了r30，实际上这样只能知道是否更新了r10
+            if (next_row is not None) and (int(row[47]) >= 1007500) and (next_row[40] == row[40]):
+                continue
+            
             row_dict = dict(zip(columns, row))
             user_data.append(row_dict)
             count += 1
+
     conn.close()
     difficulty_mapping = {
         "0": "basic",

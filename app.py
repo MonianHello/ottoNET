@@ -3,6 +3,8 @@ import sqlite3
 import b30 as ratTools
 import io
 import os
+import json
+from PIL import Image, ImageFont, ImageDraw, ImageFilter
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -64,7 +66,6 @@ def quickloginapi():
             return jsonify(error='非法操作'), 403
     else:
         return jsonify(user_list)  # 返回用户列表
-    
 
 @app.route('/api/news', methods=['POST'])
 def newsapi():
@@ -77,7 +78,6 @@ def newsapi():
             return jsonify({"news": news_content}), 200
     else:
         return jsonify({"news": "内部绝赞测试中"}), 200
-
 
 @app.route('/api/b30', methods=['POST'])
 def b30api():
@@ -158,8 +158,7 @@ def user_dataapi():
     cursor.execute("SELECT * FROM chusan_user_data WHERE card_id = '{}'".format(id))
     rows = cursor.fetchall()
     columns = [description[0] for description in cursor.description]
-    for row in reversed(rows):
-        row_dict = dict(zip(columns, row))
+    row_dict = dict(zip(columns, rows[0]))
     conn.close()
     
     return jsonify(row_dict)
@@ -192,6 +191,155 @@ def loginapi():
     else:
         return jsonify(error='未查询到用户'), 404
 
+@app.route('/api/user_item')
+def user_itemapi():
+
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else :
+        user_id = request.cookies.get("db_id")
+        
+        try:
+            assert(user_id.isdecimal())
+        except AssertionError as e:
+            return jsonify(error='非法操作'), 403
+        
+    json_data = []
+
+    # 当前装备物品
+    
+    user_data_response = user_dataapi()
+    try:
+        if user_data_response.status_code == 200:
+            user_data = json.loads((user_data_response.response)[0].decode('utf-8'))
+    except:
+        return jsonify(error='非法操作'), 403
+    
+    json_data.append(user_data)
+
+    # 当前持有物品
+
+    conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute("SELECT item_id, item_kind, stock FROM chusan_user_item WHERE user_id = '{}'".format(user_id))
+    rows = cursor.fetchall()
+
+    item_types = {
+        "Nameplate": [],
+        "Frame": [],
+        "Trophy": [],
+        "Skill": [],
+        "Ticket": [],
+        "Present": [],
+        "Music": [],
+        "Map Icon": [],
+        "System Voice": [],
+        "Symbol Chat": [],
+        "Avatar Accessory": []
+    }
+
+    for row in rows:
+        item_id = row[0]
+        item_kind = row[1]
+        stock = row[2]
+        if item_kind == 1:
+            item_types["Nameplate"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 2:
+            item_types["Frame"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 3:
+            item_types["Trophy"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 4:
+            item_types["Skill"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 5:
+            item_types["Ticket"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 6:
+            item_types["Present"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 7:
+            item_types["Music"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 8:
+            item_types["Map Icon"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 9:
+            item_types["System Voice"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 10:
+            item_types["Symbol Chat"].append({"item_id": item_id, "stock": stock})
+        elif item_kind == 11:
+            item_types["Avatar Accessory"].append({"item_id": item_id, "stock": stock})
+
+    #Trophy 部分
+
+    user_trophy_list=[]
+    matched_trophies = []
+
+    for item in item_types['Trophy']:
+        user_trophy_list.append(item['item_id'])
+
+    try:
+        assert(user_data["trophy_id"] in user_trophy_list)
+    except AssertionError as e:
+        return jsonify(error='账户数据异常(已设置的收藏品尚未获得，通常是由于绕过前端直接操作数据库造成的。)'), 403
+    
+    try:
+        with open("masterdata/Trophy_output.json", 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        
+        for trophy_id in user_trophy_list:
+            for item in data:
+                if str(item["id"]) == str(trophy_id):
+                    trophy_name = item["str"]
+                    explainText = item["explainText"]
+                    rarity = int(item["rareType"])
+                    matched_trophies.append({
+                        "id": trophy_id,
+                        "name": trophy_name,
+                        "explainText": explainText,
+                        "rarity": rarity
+                    })
+                    break
+        # print(json.dumps(matched_trophies, ensure_ascii=False, indent=4))
+    except:
+        pass
+
+    json_data.append(matched_trophies)
+
+    #nameplate 部分
+
+    user_nameplate_list=[]
+    matched_nameplates = []
+
+    for item in item_types['Nameplate']:
+        user_nameplate_list.append(item['item_id'])
+    try:
+        assert(user_data["nameplate_id"] in user_nameplate_list)
+    except AssertionError as e:
+        return jsonify(error='账户数据异常(已设置的收藏品尚未获得，通常是由于绕过前端直接操作数据库造成的。)'), 403
+    
+    try:
+        with open("masterdata/Nameplate_output.json", 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        
+        for nameplate_id in user_nameplate_list:
+            for item in data:
+                if str(item["id"]) == str(nameplate_id):
+                    nameplate_name = item["str"]
+                    explainText = item["explainText"]
+                    matched_nameplates.append({
+                        "id": nameplate_id,
+                        "name": nameplate_name,
+                        "explainText": explainText,
+                        "src": "static/NamePlate/{}.png".format(str(nameplate_id).zfill(5))
+                    })
+                    break
+        # print(json.dumps(matched_nameplates, ensure_ascii=False, indent=4))
+    except:
+        pass
+
+    json_data.append(matched_nameplates)
+
+    #chara 部分
+
+    return jsonify(json_data)
+
+
 @app.route('/')
 def indexPage():
     """
@@ -212,12 +360,17 @@ def loginPage():
         return redirect(url_for('cardPage'))
     return send_from_directory('static', 'login.html')
 
-# 登录页面路由
+# 测试路由
 @app.route('/test')
 def testPage():
     """
     提供登录页面
     """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else :
+        user_id = request.cookies.get("db_id")
+    
     return send_from_directory('static', 'test.html')
 
 # 主页路由
@@ -230,7 +383,7 @@ def cardPage():
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'card.html')
 
-# 服务路由
+# 游玩记录路由
 @app.route('/playlog')
 def playlogPage():
     """
@@ -240,7 +393,7 @@ def playlogPage():
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'playlog.html')
 
-# 服务路由
+# b30图片路由
 @app.route('/b30')
 def b30Page():
     """
