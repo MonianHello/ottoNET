@@ -111,10 +111,13 @@
           </div>
         </div>
     </nav>
-
+    
     <div class="container">
-      <div class="row">
-          <div class="col-md-4 offset-md-8 mt-5">
+        <div class="row">
+          <div class="col-md-5 offset-md-1 mt-5">
+              <div id="userInfoImageContainer"></div>
+          </div>
+          <div class="col-md-4 offset-md-2 mt-5">
               <div class="card">
                   <div class="card-body">
                       <h5 class="card-title">卡片信息</h5>
@@ -173,6 +176,21 @@
             .catch(error => console.error('Error:', error));
         }
 
+        function fetchUserInfoImage(ElementId) {
+            fetch('/api/user_info_image', {
+                method: 'POST'
+            })
+            .then(response => response.blob())
+            .then(imageBlob => {
+                const imageUrl = URL.createObjectURL(imageBlob);
+                const imageElement = document.createElement('img');
+                imageElement.src = imageUrl;
+                imageElement.classList.add('img-fluid');
+                document.getElementById(ElementId).appendChild(imageElement);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
         const aimeIdCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('aime_id='));
 
         if (aimeIdCookie) {
@@ -200,6 +218,7 @@
             cardInfo_play_count.textContent = `游玩次数 : ${data.play_count}`;
             fetchRatingImage(data.highest_rating,'bestRatingImageContainer');
             fetchRatingImage(data.player_rating,'currentRatingImageContainer');
+            fetchUserInfoImage('userInfoImageContainer');
         })
         .catch(error => {
             console.error('Error fetching user data:', error);

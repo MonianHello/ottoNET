@@ -122,6 +122,25 @@ def rating_imageapi():
     
     return send_file(img_byte_array, mimetype='image/png')
 
+@app.route('/api/user_info_image', methods=['POST'])
+def user_info_imageapi():
+    """
+    返回个人信息图片
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+
+    id = request.cookies.get("db_id")
+    if id is None:
+        return jsonify(error='非法操作'), 403
+
+    rating_image = ratTools.get_user_info_pic(id)
+    img_byte_array = io.BytesIO()
+    rating_image.save(img_byte_array, format='PNG')
+    img_byte_array.seek(0)
+    
+    return send_file(img_byte_array, mimetype='image/png')
+
 @app.route('/api/user_data', methods=['POST'])
 def user_dataapi():
     """

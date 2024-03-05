@@ -340,7 +340,6 @@ def process_r10(id):
             user_data.append(row_dict)
             count += 1
     conn.close()
-
     difficulty_mapping = {
         "0": "basic",
         "1": "advanced",
@@ -529,8 +528,6 @@ def get_user_info_json(id):
         user_data.append(row_dict)
     conn.close()
     pass
-
-
 
 def get_user_info_pic(id):
     # 获取用户数据
