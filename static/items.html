@@ -7,21 +7,22 @@
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <script src="/static/js/bootstrap.bundle.min.js"></script>
     <style>
-        .item-container {
+        .Trophy-container {
             text-align: center;
             position: relative;
         }
-        .item-image {
+        .Trophy-image {
             display: block;
             margin: 0 auto;
+            max-width: 100%;
         }
-        .item-name {
+        .Trophy-name {
             position: absolute;
             margin: auto;
             width: 100%;
             bottom: 0;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%,0);
             padding: 10px;
             color: #000000;
         }
@@ -133,9 +134,29 @@
         </div>
     </nav>
 
-    <div id="avatarSection"></div>
-    <div id="itemSection"></div>
-    <div id="namePlateSection"></div>
+    <div class="container" style="max-width: 100%;max-height: 100%;">
+        <div class="row">
+            <div class="col-md-4 offset-md-1 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">称号</h5>
+                        <!-- <div id="avatarSection"></div> -->
+                        <div id="trophySection"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 offset-md-2 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">姓名框</h5>
+                        <!-- <div id="avatarSection"></div> -->
+                        <div id="nameplateSection"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script>
         // Function to display avatar data
@@ -149,24 +170,23 @@
 
         // Function to display item data
         function displayItems(data) {
-            var itemSection = document.getElementById('itemSection');
-            itemSection.innerHTML = '<h2>Items</h2>';
+            var trophySection = document.getElementById('trophySection');
             data.forEach(function(item) {
-                var itemHTML = '<div class="item-container">';
-                itemHTML += '<img class="item-image" src="/static/trophy/' + getRarityImage(item.rarity) + '">';
-                itemHTML += '<p class="item-name">' + item.name + '</p>';
+                var itemHTML = '<div class="Trophy-container">';
+                itemHTML += '<img class="Trophy-image"  src="/static/trophy/' + getRarityImage(item.rarity) + '">';
+                itemHTML += '<p class="Trophy-name">' + item.name + '</p>';
                 itemHTML += '</div>';
                 itemHTML += '<p style="text-align: center;">' + item.explainText + '</p></br>'; 
-                itemSection.innerHTML += itemHTML;
+                trophySection.innerHTML += itemHTML;
             });
         }
 
         // Function to display name plate data
         function displayNamePlates(data) {
-            var namePlateSection = document.getElementById('namePlateSection');
-            namePlateSection.innerHTML = '<h2>Name Plates</h2>';
+            var nameplateSection = document.getElementById('nameplateSection');
             data.forEach(function(namePlate) {
-                namePlateSection.innerHTML += '<img src="' + namePlate.src + '" alt="' + namePlate.name + '">';
+                nameplateSection.innerHTML += '<img style="max-width: 100%;"  src="' + namePlate.src + '">';
+                nameplateSection.innerHTML += '<p style="text-align: center;">' + namePlate.name + '</p>';
             });
         }
 
@@ -205,7 +225,7 @@
             .then(response => response.json())
             .then(data => {
                 // Call functions to display data
-                displayAvatar(data[0]);
+                // displayAvatar(data[0]);
                 displayItems(data[1]);
                 displayNamePlates(data[2]);
             })
