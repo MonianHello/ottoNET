@@ -1,57 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modal Test</title>
-  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Items</title>
+    <style>
+        .item-container {
+            text-align: center;
+            position: relative;
+        }
+        .item-image {
+            display: block;
+            margin: 0 auto;
+        }
+        .item-name {
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px;
+            color: #000000;
+}
+    </style>
 </head>
 <body>
+    <div id="avatarSection"></div>
+    <div id="itemSection"></div>
+    <div id="namePlateSection"></div>
 
-<button type="button" class="btn btn-primary" id="openModalBtn">
-  Open Modal
-</button>
-
-<div class="modal" id="musicDetailModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">乐曲名</h4>
-      </div>
-      <div class="modal-body" id="modalBodyContent">
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bootstrap JS -->
-<script src="static/js/jquery-3.6.0.min.js"></script>
-<script src="static/js/popper.min.js"></script>
-<script src="static/js/bootstrap.bundle.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $('#openModalBtn').click(function(){
-      // Send POST request to /api/playlog/1
-      $.ajax({
-        url: '/api/playlog/1',
-        type: 'POST',
-        dataType: 'json', // Ensure that response is treated as JSON
-        success: function(data) {
-          // Convert JSON data to string
-          var jsonString = JSON.stringify(data, null, 2);
-          // Place the JSON string into modal body
-          $('#musicDetailModal .modal-body').html('<pre>' + jsonString + '</pre>');
-          // Show the modal
-          $('#musicDetailModal').modal('show');
-        },
-        error: function(xhr, status, error) {
-          // Handle error if any
-          console.error(error);
+    <script>
+        // Function to display avatar data
+        function displayAvatar(data) {
+            var avatarSection = document.getElementById('avatarSection');
+            avatarSection.innerHTML = '<h2>Avatar</h2>';
+            avatarSection.innerHTML += '<p>Avatar Back: ' + data.avatar_back + '</p>';
+            avatarSection.innerHTML += '<p>Avatar Face: ' + data.avatar_face + '</p>';
+            // Add more avatar data display if needed
         }
-      });
-    });
-  });
-</script>
 
+        // Function to display item data
+        function displayItems(data) {
+            var itemSection = document.getElementById('itemSection');
+            itemSection.innerHTML = '<h2>Items</h2>';
+            data.forEach(function(item) {
+                var itemHTML = '<div class="item-container">';
+                itemHTML += '<img class="item-image" src="/static/trophy/' + getRarityImage(item.rarity) + '">';
+                itemHTML += '<p class="item-name">' + item.name + '</p>';
+                itemHTML += '</div>';
+                itemHTML += '<p style="text-align: center;">' + item.explainText + '</p></br>'; 
+                itemSection.innerHTML += itemHTML;
+            });
+        }
+
+        // Function to display name plate data
+        function displayNamePlates(data) {
+            var namePlateSection = document.getElementById('namePlateSection');
+            namePlateSection.innerHTML = '<h2>Name Plates</h2>';
+            data.forEach(function(namePlate) {
+                namePlateSection.innerHTML += '<img src="' + namePlate.src + '" alt="' + namePlate.name + '">';
+            });
+        }
+
+        // Function to get the rarity image filename based on rarity
+        function getRarityImage(rarity) {
+            switch(rarity) {
+                case 0:
+                    return 'normal.png';
+                case 1:
+                    return 'bronze.png';
+                case 2:
+                    return 'silver.png';
+                case 3:
+                    return 'gold.png';
+                case 4:
+                    return 'gold.png';
+                case 5:
+                    return 'platina.png';
+                case 6:
+                    return 'platina.png';
+                case 7:
+                    return 'rainbow.png';
+                case 8:
+                    return 'ongeki.png';
+                case 9:
+                    return 'staff.png';
+                case 10:
+                    return 'ongeki.png';
+                default:
+                    return 'normal.png';
+            }
+        }
+
+        // Fetch JSON data from the server
+        fetch('/api/user_item')
+            .then(response => response.json())
+            .then(data => {
+                // Call functions to display data
+                displayAvatar(data[0]);
+                displayItems(data[1]);
+                displayNamePlates(data[2]);
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
 </body>
 </html>

@@ -36,7 +36,7 @@ def create_rating_image(number):
     formatted_number = f"{number:.2f}"  # 保留两位小数，但不在整数部分填充0
     
     # 评分图片存储的目录
-    rating_dir = 'assets/rating'
+    rating_dir = 'static/rating'
     
     # 分割格式化后的数字为整数部分和小数部分
     integer_part, decimal_part = formatted_number.split('.')
@@ -578,7 +578,7 @@ def get_user_info_pic(id):
         print("找不到文件：",e)
     img = img.convert("RGBA")
 
-    nameplate = Image.open('pics/chu_nameplate.png')
+    nameplate = Image.open('static/pics/chu_nameplate.png')
     img.paste(nameplate, (0, 0), nameplate.split()[3])
     
     default_UI_Character = default_UI_Character.resize((82,82))
@@ -597,7 +597,7 @@ def get_user_info_pic(id):
     trophy_rarity_to_color = [
         'normal', 'bronze', 'silver', 'gold', 'gold', 'platina', 'platina', 'rainbow', 'ongeki', 'staff', 'ongeki'
     ]
-    trophy_pic = Image.open(f'assets/trophy/{trophy_rarity_to_color[rarity]}.png')
+    trophy_pic = Image.open(f'static/trophy/{trophy_rarity_to_color[rarity]}.png')
     img.paste(trophy_pic, (145, 46), trophy_pic.split()[3])
     font_style = ImageFont.truetype("fonts/KOZGOPRO-BOLD.OTF", 23)
     left_bound = 157
@@ -627,9 +627,9 @@ def get_user_info_pic(id):
 
 def chunib30(userid, server='aqua', version='2.15'):
     if version == '2.15':
-        pic = Image.open('pics/chub30sunp.png')
+        pic = Image.open('static/pics/chub30sunp.png')
     elif version == '2.20':
-        pic = Image.open('pics/chub30lmn.png')
+        pic = Image.open('static/pics/chub30lmn.png')
     draw = ImageDraw.Draw(pic)
 
     user_team = ""

@@ -4,7 +4,6 @@ import b30 as ratTools
 import io
 import os
 import json
-from PIL import Image, ImageFont, ImageDraw, ImageFilter
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -288,6 +287,9 @@ def user_itemapi():
                     trophy_name = item["str"]
                     explainText = item["explainText"]
                     rarity = int(item["rareType"])
+                    # 因为有些歌是直接修改器改出来的，把不应该拿到的称号也一起发到账户里了。这里先简单屏蔽一下，以后再说：
+                    if len(item["id"]) == 4 and int(item["id"][0]) in [5,6,7]:
+                        continue
                     matched_trophies.append({
                         "id": trophy_id,
                         "name": trophy_name,
@@ -335,10 +337,7 @@ def user_itemapi():
 
     json_data.append(matched_nameplates)
 
-    #chara 部分
-
     return jsonify(json_data)
-
 
 @app.route('/')
 def indexPage():

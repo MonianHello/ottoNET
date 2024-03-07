@@ -325,7 +325,11 @@
                 }
                 
                 const rankImage = getRankImage(item.score);
-                const fullComboImage = item.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
+                let fullComboImage = '';
+
+                if (!item.isAllJustice) {
+                    fullComboImage = item.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
+                }
                 const allJusticeImage = item.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
                 const newRecordImage = item.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
 
