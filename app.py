@@ -372,6 +372,19 @@ def testPage():
     
     return send_from_directory('static', 'test.html')
 
+# 测试路由
+@app.route('/items')
+def itemsPage():
+    """
+    提供登录页面
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else :
+        user_id = request.cookies.get("db_id")
+    
+    return send_from_directory('static', 'items.html')
+
 # 主页路由
 @app.route('/card')
 def cardPage():
