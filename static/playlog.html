@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,24 +13,29 @@
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+
         @font-face {
             font-family: 'Geometr415';
             src: url('/static/Geometr415-Blk-BT-Black.ttf') format('truetype');
         }
+
         @font-face {
             font-family: 'ITC-Avant-Garde';
             src: url('/static/ITC-Avant-Garde-Demi-Oblique-SWA.ttf') format('truetype');
         }
+
         @font-face {
             font-family: 'Geometr415';
             src: url('/static/Geometr415-Blk-BT-Black.ttf') format('truetype');
         }
+
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
         }
+
         /* html {
             background-image: url('/static/pics/pause-overlay.png'); 
             background-size: cover;
@@ -41,11 +47,13 @@
         #image {
             margin-bottom: 1rem;
         }
+
         .error-message {
             color: red;
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
+
         .error-container {
             margin-bottom: 1rem;
             padding: 0.75rem 1.25rem;
@@ -54,26 +62,30 @@
             color: #dc3545;
             background-color: #f8d7da;
         }
+
         #bg-video {
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
             object-fit: cover;
             z-index: -1;
             filter: blur(3px);
         }
+
         .container {
-        overflow: auto;
+            overflow: auto;
         }
+
         .card {
             backdrop-filter: blur(10px) saturate(180%);
             background-color: rgba(255, 255, 255, 0.75);
         }
+
         .navbar {
-            background-color: rgba(255, 255, 255, 0.8); 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .navbar-nav .nav-link {
@@ -82,27 +94,31 @@
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: rgba(0, 0, 0, 0.1); 
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
-        .nav-link.active::before{
+        .nav-link.active::before {
             content: "▶";
         }
+
         .pagination {
             justify-content: center;
         }
+
         .jacket {
-          width: 128px;
-          height: 128px;
+            width: 128px;
+            height: 128px;
         }
+
         #level {
             color: rgba(255, 255, 255, 0.95);
             border-radius: 5px;
         }
+
         #level[data-difficulty="WORLD'S END"] {
-            background-image: linear-gradient(135deg, #fbb340, #fbb340 25%, #53ca2f 25%, #53ca2f 50%, #6699CC 50%, #6699CC 75%,#CC99CC 75%);
+            background-image: linear-gradient(135deg, #fbb340, #fbb340 25%, #53ca2f 25%, #53ca2f 50%, #6699CC 50%, #6699CC 75%, #CC99CC 75%);
         }
-        
+
         #level[data-difficulty="MASTER"] {
             background-color: #8200dc;
         }
@@ -116,7 +132,7 @@
         }
 
         #level[data-difficulty="ULTIMA"] {
-            background-color: #8A8A8A; 
+            background-color: #8A8A8A;
         }
 
         #level[data-difficulty="BASIC"] {
@@ -128,10 +144,11 @@
             color: rgba(255, 255, 255, 0.95);
             border-radius: 5px;
         }
+
         #musicDetailModalLabel_musicDifficulty[data-difficulty="WORLD'S END"] {
-            background-image: linear-gradient(135deg, #fbb340, #fbb340 25%, #53ca2f 25%, #53ca2f 50%, #6699CC 50%, #6699CC 75%,#CC99CC 75%);
+            background-image: linear-gradient(135deg, #fbb340, #fbb340 25%, #53ca2f 25%, #53ca2f 50%, #6699CC 50%, #6699CC 75%, #CC99CC 75%);
         }
-        
+
         #musicDetailModalLabel_musicDifficulty[data-difficulty="MASTER"] {
             background-color: #8200dc;
         }
@@ -145,14 +162,12 @@
         }
 
         #musicDetailModalLabel_musicDifficulty[data-difficulty="ULTIMA"] {
-            background-color: #8A8A8A; 
+            background-color: #8A8A8A;
         }
 
         #musicDetailModalLabel_musicDifficulty[data-difficulty="BASIC"] {
             background-color: #19aa19;
         }
-
-
 
         .pagination {
             display: flex;
@@ -172,9 +187,9 @@
             background-color: #007bff;
             color: #fff;
         }
-
     </style>
 </head>
+
 <body>
 
     <video autoplay muted loop id="bg-video">
@@ -184,90 +199,93 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">otto NET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" id="logout" href="#">登出</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/card">卡片</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/items">收藏品</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/playlog">游玩记录</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/b30">b30</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">关于</a>
-            </li>
-            </ul>
-            <ul class="navbar-nav">
-                
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="logout" href="#">登出</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/card">卡片</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/items">收藏品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/playlog">游玩记录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/b30">b30</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container" style="max-width: 100%;max-height: 100%;">
-        <div class="row" >
-          <div class="col-md-5 offset-md-6 mt-5">
-              <div class="card" style="max-height: 200px; margin-bottom: 20px; padding: 10px;">
-                <div class="card-body">
-                    <h5 class="card-title">游玩记录</h5>
-                    <div style="overflow: auto; max-height: 150px;">
-                        <p class="card-text">由新到旧</p>
+        <div class="row">
+            <div class="col-md-5 offset-md-6 mt-5">
+                <div class="card" style="max-height: 200px; margin-bottom: 20px; padding: 10px;">
+                    <div class="card-body">
+                        <h5 class="card-title">游玩记录</h5>
+                        <div style="overflow: auto; max-height: 150px;">
+                            <p class="card-text">由新到旧</p>
+                        </div>
                     </div>
                 </div>
+                <div id="json-container"
+                    style="backdrop-filter: blur(10px) saturate(180%);background-color: rgba(255, 255, 255, 0.75);border-radius: 10px;">
+                </div>
+                <nav aria-label="Page navigation" id="pagination-nav"></nav>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="pageSizeSelect">每页显示：</label>
+                    <select class="form-select" id="pageSizeSelect" onchange="changePageSize(this)">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="all">全部</option>
+                    </select>
+                </div>
             </div>
-            <div id="json-container" style="backdrop-filter: blur(10px) saturate(180%);background-color: rgba(255, 255, 255, 0.75);border-radius: 10px;">
-            </div>
-            <nav aria-label="Page navigation" id="pagination-nav"></nav>
-            <div class="input-group mb-3">
-              <label class="input-group-text" for="pageSizeSelect">每页显示：</label>
-              <select class="form-select" id="pageSizeSelect" onchange="changePageSize(this)">
-                  <option value="5">5</option>
-                  <option value="10" selected>10</option>
-                  <option value="20">20</option>
-                  <option value="all">全部</option>
-              </select>
-          </div>
-          </div>
         </div>
     </div>
-    
-  
+
+
 
     <!-- b30部分 -->
 
     <script>
         var jsonData; // 声明一个全局变量用于存储JSON数据
-      
+
         // 页面加载时从API获取JSON数据并展示
-        $(document).ready(function() {
-          fetchJSONData('/api/playlog');
+        $(document).ready(function () {
+            fetchJSONData('/api/playlog');
         });
-      
+
         function fetchJSONData(url) {
-          $.ajax({
-            url: url,
-            type: 'POST',
-            success: function(data) {
-              jsonData = data; // 将获取的数据存储到全局变量中
-              // 在页面加载时显示第一页的内容
-              showPage(1, 10);
-            },
-            error: function(xhr, status, error) {
-              console.error('Error fetching JSON data:', error);
-            }
-          });
+            $.ajax({
+                url: url,
+                type: 'POST',
+                success: function (data) {
+                    jsonData = data; // 将获取的数据存储到全局变量中
+                    // 在页面加载时显示第一页的内容
+                    showPage(1, 10);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error fetching JSON data:', error);
+                }
+            });
         }
         function getRankImage(score) {
             if (score >= 1009000) return '13';
@@ -293,18 +311,18 @@
                 },
                 body: JSON.stringify({ number: rating })
             })
-            .then(response => response.blob())
-            .then(imageBlob => {
-                const imageUrl = URL.createObjectURL(imageBlob);
-                return imageUrl;
-            })
-            .catch(error => console.error('Error:', error));
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    return imageUrl;
+                })
+                .catch(error => console.error('Error:', error));
         }
-        
+
         function showPage(pageNumber, pageSize) {
             var startIndex = (pageNumber - 1) * pageSize;
             var endIndex = startIndex + pageSize;
-            
+
             if (pageSize === 'all') {
                 startIndex = 0;
                 endIndex = jsonData.length;
@@ -320,13 +338,13 @@
                     <!-- 数据行 -->
             `;
 
-            dataToShow.forEach(function(item) {
-                if(item.rating){
-                    var formattedRating = "rat:"+item.rating.toFixed(2);
-                }else{
+            dataToShow.forEach(function (item) {
+                if (item.rating) {
+                    var formattedRating = "rat:" + item.rating.toFixed(2);
+                } else {
                     var formattedRating = '';
                 }
-                
+
                 const rankImage = getRankImage(item.score);
                 let fullComboImage = '';
 
@@ -346,7 +364,8 @@
                                 <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel !== 0 ? item.playLevel : ''}</span>
                                 <span style="font-family: Arial, sans-serif;">${formatDateTime(item.userPlayDate)}</span>
                             </div>
-                            ${item.musicName}</br>
+                            <div>${item.musicName}</div>
+                            </br>
                             <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> <span style="font-family: 'Geometr415';">${formattedRating}</span></br>
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">
                             <div style="text-align: right;">
@@ -371,10 +390,10 @@
             createPagination(pageNumber, pageSize);
 
 
-            
+
             var buttons = document.querySelectorAll('.detailbtn');
             // 遍历按钮列表
-            buttons.forEach(function(button) {
+            buttons.forEach(function (button) {
                 // 为每个按钮添加点击事件监听器
                 button.addEventListener('click', function () {
                     var musicDetail = new bootstrap.Modal(document.getElementById('musicDetailModal'));
@@ -384,80 +403,80 @@
                     fetch(`/api/playlog/${dbPlaylogID}`, {
                         method: 'POST',
                     })
-                    .then(response => response.json()) // 将响应转换为文本格式
-                    .then(data => {
-                        data = data[0]
-                        console.log(data)
+                        .then(response => response.json()) // 将响应转换为文本格式
+                        .then(data => {
+                            data = data[0]
+                            console.log(data)
 
-                        //模态框内容
-                        if(data.rating){
-                            var singleformattedRating = "rat:"+data.rating.toFixed(4);
-                        }else{
-                            var singleformattedRating = '';
-                        }
-
-
-                        var musicDetailModalLabel_musicName = document.getElementById('musicDetailModalLabel_musicName');
-                        musicDetailModalLabel_musicName.textContent = data.musicName;
-
-                        var musicDetailModalLabel_score = document.getElementById('musicDetailModalLabel_score');
-                        musicDetailModalLabel_score.textContent = data.score;
-
-                        var musicDetailModalLabel_rating = document.getElementById('musicDetailModalLabel_rating');
-                        musicDetailModalLabel_rating.textContent = singleformattedRating;
-
-                        var musicDetailModalLabel_userPlayDate = document.getElementById('musicDetailModalLabel_userPlayDate');
-                        musicDetailModalLabel_userPlayDate.textContent = formatDateTime(data.userPlayDate,2);
-
-                        var musicDetailModalLabel_countcritical = document.getElementById('musicDetailModalLabel_countcritical');
-                        musicDetailModalLabel_countcritical.textContent = data.countcritical;
-
-                        var musicDetailModalLabel_countjustice = document.getElementById('musicDetailModalLabel_countjustice');
-                        musicDetailModalLabel_countjustice.textContent = data.countjustice;
-
-                        var musicDetailModalLabel_countattack = document.getElementById('musicDetailModalLabel_countattack');
-                        musicDetailModalLabel_countattack.textContent = data.countattack;
-
-                        var musicDetailModalLabel_countmiss = document.getElementById('musicDetailModalLabel_countmiss');
-                        musicDetailModalLabel_countmiss.textContent = data.countmiss;
+                            //模态框内容
+                            if (data.rating) {
+                                var singleformattedRating = "rat:" + data.rating.toFixed(4);
+                            } else {
+                                var singleformattedRating = '';
+                            }
 
 
-                        var musicDetailModalLabel_musicDifficulty = document.getElementById('musicDetailModalLabel_musicDifficulty');
-                        data.playLevel !== 0 ? data.playLevel : ''
-                        musicDetailModalLabel_musicDifficulty.dataset.difficulty = String(data.musicDifficulty).toUpperCase();
-                        musicDetailModalLabel_musicDifficulty.textContent = String(data.musicDifficulty).toUpperCase() + " " +data.playLevel;
+                            var musicDetailModalLabel_musicName = document.getElementById('musicDetailModalLabel_musicName');
+                            musicDetailModalLabel_musicName.textContent = data.musicName;
 
-                        var musicDetailModalLabel_designer = document.getElementById('musicDetailModalLabel_designer');
-                        musicDetailModalLabel_designer.textContent = data.designer;
+                            var musicDetailModalLabel_score = document.getElementById('musicDetailModalLabel_score');
+                            musicDetailModalLabel_score.textContent = data.score;
 
-                        var musicDetailModalLabel_version = document.getElementById('musicDetailModalLabel_version');
-                        musicDetailModalLabel_version.textContent = data.version;
+                            var musicDetailModalLabel_rating = document.getElementById('musicDetailModalLabel_rating');
+                            musicDetailModalLabel_rating.textContent = singleformattedRating;
 
-                        var musicDetailModalLabel_catname = document.getElementById('musicDetailModalLabel_catname');
-                        musicDetailModalLabel_catname.textContent = data.catname;
+                            var musicDetailModalLabel_userPlayDate = document.getElementById('musicDetailModalLabel_userPlayDate');
+                            musicDetailModalLabel_userPlayDate.textContent = formatDateTime(data.userPlayDate, 2);
 
-                        var musicDetailModalLabel_artist = document.getElementById('musicDetailModalLabel_artist');
-                        musicDetailModalLabel_artist.textContent = data.artist;
+                            var musicDetailModalLabel_countcritical = document.getElementById('musicDetailModalLabel_countcritical');
+                            musicDetailModalLabel_countcritical.textContent = data.countcritical;
 
-                        var musicDetailModalLabel_bpm = document.getElementById('musicDetailModalLabel_bpm');
-                        musicDetailModalLabel_bpm.textContent = data.bpm;
+                            var musicDetailModalLabel_countjustice = document.getElementById('musicDetailModalLabel_countjustice');
+                            musicDetailModalLabel_countjustice.textContent = data.countjustice;
 
-                        var musicDetailModalLabel_jacketFile = document.getElementById('musicDetailModalLabel_jacketFile');
-                        musicDetailModalLabel_jacketFile.src = "static/jackets/" + data.jacketFile;
+                            var musicDetailModalLabel_countattack = document.getElementById('musicDetailModalLabel_countattack');
+                            musicDetailModalLabel_countattack.textContent = data.countattack;
 
-                        const rankImage = getRankImage(data.score);
-                        var fullComboImage = data.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
-                        var allJusticeImage = data.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
-                        var newRecordImage = data.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
+                            var musicDetailModalLabel_countmiss = document.getElementById('musicDetailModalLabel_countmiss');
+                            musicDetailModalLabel_countmiss.textContent = data.countmiss;
 
-                        musicDetailModalLabel_pics = 
-                        `${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">`
 
-                        $('#musicDetailModalLabel_pics').empty()
-                        $('#musicDetailModalLabel_pics').append(musicDetailModalLabel_pics);
+                            var musicDetailModalLabel_musicDifficulty = document.getElementById('musicDetailModalLabel_musicDifficulty');
+                            data.playLevel !== 0 ? data.playLevel : ''
+                            musicDetailModalLabel_musicDifficulty.dataset.difficulty = String(data.musicDifficulty).toUpperCase();
+                            musicDetailModalLabel_musicDifficulty.textContent = String(data.musicDifficulty).toUpperCase() + " " + data.playLevel;
 
-                    })
-                    .catch(error => console.error('Error:', error));
+                            var musicDetailModalLabel_designer = document.getElementById('musicDetailModalLabel_designer');
+                            musicDetailModalLabel_designer.textContent = data.designer;
+
+                            var musicDetailModalLabel_version = document.getElementById('musicDetailModalLabel_version');
+                            musicDetailModalLabel_version.textContent = data.version;
+
+                            var musicDetailModalLabel_catname = document.getElementById('musicDetailModalLabel_catname');
+                            musicDetailModalLabel_catname.textContent = data.catname;
+
+                            var musicDetailModalLabel_artist = document.getElementById('musicDetailModalLabel_artist');
+                            musicDetailModalLabel_artist.textContent = data.artist;
+
+                            var musicDetailModalLabel_bpm = document.getElementById('musicDetailModalLabel_bpm');
+                            musicDetailModalLabel_bpm.textContent = data.bpm;
+
+                            var musicDetailModalLabel_jacketFile = document.getElementById('musicDetailModalLabel_jacketFile');
+                            musicDetailModalLabel_jacketFile.src = "static/jackets/" + data.jacketFile;
+
+                            const rankImage = getRankImage(data.score);
+                            var fullComboImage = data.isFullCombo ? `<img src="/static/pics/icons/icon_fullcombo.png"/>` : '';
+                            var allJusticeImage = data.isAllJustice ? `<img src="/static/pics/icons/icon_alljustice.png"/>` : '';
+                            var newRecordImage = data.isNewRecord ? `<img src="/static/pics/icons/icon_new.png"/>` : '';
+
+                            musicDetailModalLabel_pics =
+                                `${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">`
+
+                            $('#musicDetailModalLabel_pics').empty()
+                            $('#musicDetailModalLabel_pics').append(musicDetailModalLabel_pics);
+
+                        })
+                        .catch(error => console.error('Error:', error));
                 });
             });
 
@@ -483,7 +502,7 @@
             var selectedPageSize = selectElement.value;
             showPage(1, selectedPageSize);
         }
-        function formatDateTime(timestamp,type=1) {
+        function formatDateTime(timestamp, type = 1) {
             const date = new Date(timestamp);
             date.setHours(date.getHours() - 1); // 将时间减去1小时
             const year = date.getFullYear();
@@ -493,12 +512,12 @@
             const minute = String(date.getMinutes()).padStart(2, '0');
             const second = String(date.getSeconds()).padStart(2, '0');
 
-            if(type==1){
+            if (type == 1) {
                 return `${month}-${day} ${hour}:${minute}`;
-            }else if(type==2){
+            } else if (type == 2) {
                 return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
             }
-            
+
         }
         document.addEventListener('DOMContentLoaded', () => {
             const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));
@@ -516,45 +535,50 @@
         });
     </script>
     <!-- 模态框 -->
-    <div class="modal fade" id="musicDetailModal" tabindex="-1" aria-labelledby="musicDetailModalLabel" aria-hidden="true">
+    <div class="modal fade" id="musicDetailModal" tabindex="-1" aria-labelledby="musicDetailModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="musicDetailModalLabel_musicName">音乐标题</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="musicDetailModalLabel_musicName">音乐标题</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
 
+                </div>
+                <div class="modal-body">
+                    <p style="text-align: center;" id="musicDetailModalLabel_userPlayDate"></p>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td>
+                                <img id="musicDetailModalLabel_jacketFile" style="width: 128px;height: 128px;">
+                            </td>
+                            <td>
+                                <span id="musicDetailModalLabel_musicDifficulty" data-difficulty=""
+                                    style="font-size:medium"></span></br>
+                                <span style="font-family: Geometr415; font-size: 34px;"
+                                    id="musicDetailModalLabel_score"></span>
+                                <span style="font-family: 'Geometr415';" id="musicDetailModalLabel_rating"></span></br>
+                                <span id="musicDetailModalLabel_pics"></span></br>
+                                <span>判定:</span>
+                                <span style="color: #f2d218;" id="musicDetailModalLabel_countcritical"></span> /
+                                <span style="color: #ee9105;" id="musicDetailModalLabel_countjustice"></span> /
+                                <span style="color: #26ff0f;" id="musicDetailModalLabel_countattack"></span> /
+                                <span style="color: #646464;" id="musicDetailModalLabel_countmiss"></span>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p>铺面设计:<span id="musicDetailModalLabel_designer"></span></p>
+                    <p>铺面版本:<span id="musicDetailModalLabel_version"></span></p>
+                    <p>铺面分类:<span id="musicDetailModalLabel_catname"></span></p>
+                    <p>乐曲作者:<span id="musicDetailModalLabel_artist"></span></p>
+                    <p>乐曲BPM:<span id="musicDetailModalLabel_bpm"></span></p>
+                </div>
             </div>
-            <div class="modal-body">
-                <p style="text-align: center;" id="musicDetailModalLabel_userPlayDate"></p><hr>
-            <table>
-                <tr >
-                    <td>
-                        <img id="musicDetailModalLabel_jacketFile" style="width: 128px;height: 128px;">
-                    </td>
-                    <td>
-                        <span id="musicDetailModalLabel_musicDifficulty" data-difficulty="" style="font-size:medium"></span></br>
-                        <span style="font-family: Geometr415; font-size: 34px;" id="musicDetailModalLabel_score"></span>
-                        <span style="font-family: 'Geometr415';" id="musicDetailModalLabel_rating"></span></br>
-                        <span id="musicDetailModalLabel_pics"></span></br>
-                        <span>判定:</span>
-                        <span style="color: #f2d218;" id="musicDetailModalLabel_countcritical"></span> /
-                        <span style="color: #ee9105;" id="musicDetailModalLabel_countjustice"></span> /
-                        <span style="color: #26ff0f;" id="musicDetailModalLabel_countattack"></span> /
-                        <span style="color: #646464;" id="musicDetailModalLabel_countmiss"></span>
-                        
-                    </td>
-                </tr>
-            </table>
-                <hr>
-                <p>铺面设计:<span id="musicDetailModalLabel_designer"></span></p>
-                <p>铺面版本:<span id="musicDetailModalLabel_version"></span></p>
-                <p>铺面分类:<span id="musicDetailModalLabel_catname"></span></p>
-                <p>乐曲作者:<span id="musicDetailModalLabel_artist"></span></p>
-                <p>乐曲BPM:<span id="musicDetailModalLabel_bpm"></span></p>
-            </div>
-        </div>
         </div>
     </div>
-  
+
 </body>
+
 </html>

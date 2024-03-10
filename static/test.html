@@ -74,7 +74,6 @@
             content: "▶";
         }
     </style>
-
     <style>
         .audio-btn[avatar] {
             font-size: calc(.5vw + .3vh)
@@ -339,37 +338,47 @@
         </div>
     </nav>
 
-    <!-- <div class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 offset-md-8 mt-5">
+            <div class="col-md-4 mt-5">
                 <div class="card" style="height: auto; padding: 10px;">
                     <div class="card-body">
-                        <h5 class="card-title">card-title</h5>
-                        <p class="card-text">card-text</p>
+                        <h5 class="card-title">预览</h5>
+                        <div avatar="" class="avatarPreview">
+                            <div avatar="" class="avatarContainer">
+                                <img avatar="" id="avatarFeet" src="static/Avatar/01400001.png">
+                                <img avatar="" id="avatarBody" src="static/Avatar/01400001.png">
+                                <img avatar="" id="avatarFace" src="static/Avatar/Face.webp">
+                                <img avatar="" id="avatarLeftHand" src="static/Avatar/LeftHand.webp">
+                                <img avatar="" id="avatarRightHand" src="static/Avatar/RightHand.webp">
+                                <img avatar="" id="avatarWear" src="static/Avatar/01100001.png">
+                                <img avatar="" id="avatarHead" src="static/Avatar/01200001.png">
+                                <img avatar="" id="avatarFaceWear" src="static/Avatar/01300001.png">
+                                <img avatar="" id="avatarItemLeft" src="static/Avatar/01500001.png">
+                                <img avatar="" id="avatarItemRight" src="static/Avatar/01500001.png">
+                                <img avatar="" id="avatarBack" src="static/Avatar/01700001.png">
+                            </div>
+                        </div>
+                        </br>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" style="width: -webkit-fill-available;" class="btn btn-primary btn-block">重置</button>
+                            </div>
+                            <div class="col">
+                                <button type="button" style="width: -webkit-fill-available;" class="btn btn-success btn-block" disabled>保存更改</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-
-    <div avatar="" class="avatarPreview">
-        <div avatar="" class="avatarContainer">
-            <img avatar="" id="avatarFeet" src="static/Avatar/01400001.png">
-            <img avatar="" id="avatarBody" src="static/Avatar/01400001.png">
-            <img avatar="" id="avatarFace" src="static/Avatar/Face.webp">
-            <img avatar="" id="avatarLeftHand" src="static/Avatar/LeftHand.webp">
-            <img avatar="" id="avatarRightHand" src="static/Avatar/RightHand.webp">
-            <img avatar="" id="avatarWear" src="static/Avatar/01100001.png">
-            <img avatar="" id="avatarHead" src="static/Avatar/01200001.png">
-            <img avatar="" id="avatarFaceWear" src="static/Avatar/01300001.png">
-            <img avatar="" id="avatarItemLeft" src="static/Avatar/01500001.png">
-            <img avatar="" id="avatarItemRight" src="static/Avatar/01500001.png">
-            <img avatar="" id="avatarBack" src="static/Avatar/01700001.png">
-        </div>
     </div>
 
+    
+    
+
     <script>
-        
+
         function pad(num, size) {
             var s = num + "";
             while (s.length < size) s = "0" + s;
