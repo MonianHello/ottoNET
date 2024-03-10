@@ -1,108 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Items</title>
+    <title>template</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/marked.min.js"></script>
     <style>
-        .item-container {
-            text-align: center;
-            position: relative;
+        @font-face {
+            font-family: 'Server Fonts';
+            src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
-        .item-image {
-            display: block;
-            margin: 0 auto;
+
+        body {
+            font-family: 'Server Fonts', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
         }
-        .item-name {
-            position: absolute;
-            margin: auto;
-            width: 100%;
+
+        #image {
+            margin-bottom: 1rem;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .error-container {
+            margin-bottom: 1rem;
+            padding: 0.75rem 1.25rem;
+            border: 1px solid #dc3545;
+            border-radius: 0.25rem;
+            color: #dc3545;
+            background-color: #f8d7da;
+        }
+
+        #bg-video {
+            position: fixed;
+            left: 0;
             bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 10px;
-            color: #000000;
-}
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .card {
+            backdrop-filter: blur(10px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.75);
+        }
+
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            border-radius: 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-link.active::before {
+            content: "▶";
+        }
     </style>
-</head>
-<body>
-    <div id="avatarSection"></div>
-    <div id="itemSection"></div>
-    <div id="namePlateSection"></div>
 
-    <script>
-        // Function to display avatar data
-        function displayAvatar(data) {
-            var avatarSection = document.getElementById('avatarSection');
-            avatarSection.innerHTML = '<h2>Avatar</h2>';
-            avatarSection.innerHTML += '<p>Avatar Back: ' + data.avatar_back + '</p>';
-            avatarSection.innerHTML += '<p>Avatar Face: ' + data.avatar_face + '</p>';
-            // Add more avatar data display if needed
+    <style>
+        .audio-btn[avatar] {
+            font-size: calc(.5vw + .3vh)
         }
 
-        // Function to display item data
-        function displayItems(data) {
-            var itemSection = document.getElementById('itemSection');
-            itemSection.innerHTML = '<h2>Items</h2>';
-            data.forEach(function(item) {
-                var itemHTML = '<div class="item-container">';
-                itemHTML += '<img class="item-image" src="/static/trophy/' + getRarityImage(item.rarity) + '">';
-                itemHTML += '<p class="item-name">' + item.name + '</p>';
-                itemHTML += '</div>';
-                itemHTML += '<p style="text-align: center;">' + item.explainText + '</p></br>'; 
-                itemSection.innerHTML += itemHTML;
-            });
+        img[avatar] {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
         }
 
-        // Function to display name plate data
-        function displayNamePlates(data) {
-            var namePlateSection = document.getElementById('namePlateSection');
-            namePlateSection.innerHTML = '<h2>Name Plates</h2>';
-            data.forEach(function(namePlate) {
-                namePlateSection.innerHTML += '<img src="' + namePlate.src + '" alt="' + namePlate.name + '">';
-            });
+        .namePlate[avatar] img[avatar] {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10%;
+            margin-bottom: 7%
         }
 
-        // Function to get the rarity image filename based on rarity
-        function getRarityImage(rarity) {
-            switch(rarity) {
-                case 0:
-                    return 'normal.png';
-                case 1:
-                    return 'bronze.png';
-                case 2:
-                    return 'silver.png';
-                case 3:
-                    return 'gold.png';
-                case 4:
-                    return 'gold.png';
-                case 5:
-                    return 'platina.png';
-                case 6:
-                    return 'platina.png';
-                case 7:
-                    return 'rainbow.png';
-                case 8:
-                    return 'ongeki.png';
-                case 9:
-                    return 'staff.png';
-                case 10:
-                    return 'ongeki.png';
-                default:
-                    return 'normal.png';
+        .mapIcon[avatar] img[avatar],
+        .avatarIcon[avatar] img[avatar] {
+            width: 50%;
+            height: 50%;
+            object-fit: contain;
+            margin-bottom: 10%
+        }
+
+        .systemVoice[avatar] img[avatar] {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+            margin-top: 5%
+        }
+
+        #avatarCard[avatar],
+        #voiceCard[avatar] {
+            height: 580px
+        }
+
+        .avatarPreview[avatar] {
+            max-width: 15em;
+            margin: auto
+        }
+
+        .avatarPreview[avatar] img[avatar] {
+            position: absolute;
+            object-fit: none;
+            transform: translate(-50%)
+        }
+
+        .avatarContainer[avatar],
+        .guiguiContainer[avatar] {
+            position: relative;
+            aspect-ratio: .925170068027211;
+            max-width: 100%;
+            max-height: 100%
+        }
+
+        .guiguiContainer[avatar] .guiguiSVG[avatar] {
+            position: absolute;
+            transform: translate(-50%, -50%) scale(2);
+            top: 50%;
+            left: 50%;
+            width: 100%
+        }
+
+        .guiguiContainer[avatar] .avatarHead[avatar] {
+            position: absolute;
+            top: 24.9%;
+            left: 32%;
+            width: 62%;
+            object-fit: contain
+        }
+
+        #avatarFeet[avatar] {
+            -webkit-clip-path: inset(80.7% 14.7% 0 0);
+            clip-path: inset(80.7% 14.7% 0 0);
+            z-index: 0;
+            left: 57%;
+            top: 20%;
+            width: 44%;
+            object-fit: inherit
+        }
+
+        #avatarBody[avatar] {
+            -webkit-clip-path: inset(0 0 19.3% 0);
+            clip-path: inset(0 0 19.3% 0);
+            z-index: 1;
+            left: 50%;
+            top: 25.5%;
+            width: 44%;
+            object-fit: inherit
+        }
+
+        #avatarFace[avatar] {
+            z-index: 2;
+            left: 50%;
+            top: 28%;
+            width: 20%;
+            object-fit: inherit
+        }
+
+        #avatarLeftHand[avatar] {
+            z-index: 5;
+            left: 26.3%;
+            top: 52%;
+            width: 13%;
+            object-fit: inherit
+        }
+
+        #avatarRightHand[avatar] {
+            z-index: 5;
+            right: 13.7%;
+            top: 52%;
+            width: 12.7%;
+            object-fit: inherit
+        }
+
+        #avatarHead[avatar] {
+            z-index: 3;
+            left: 50.4%;
+            top: 6%;
+            object-fit: inherit;
+            width: 68%
+        }
+
+        #avatarWear[avatar] {
+            z-index: 4;
+            left: 50%;
+            top: 31%;
+            object-fit: inherit;
+            width: 88%
+        }
+
+        #avatarFaceWear[avatar] {
+            z-index: 4;
+            left: 50%;
+            top: 27%;
+            width: 40%;
+            object-fit: initial
+        }
+
+        #avatarArms[avatar] {
+            z-index: 5;
+            left: 23.2%;
+            top: 52%
+        }
+
+        #avatarItemLeft[avatar] {
+            -webkit-clip-path: inset(0 50% 0 0);
+            clip-path: inset(0 50% 0 0);
+            z-index: 6;
+            left: 42%;
+            top: 11%;
+            width: 75%;
+            object-fit: initial
+        }
+
+        #avatarItemRight[avatar] {
+            -webkit-clip-path: inset(0 0 0 50%);
+            clip-path: inset(0 0 0 50%);
+            z-index: 6;
+            left: 58%;
+            top: 10%;
+            width: 75%;
+            object-fit: initial
+        }
+
+        #avatarBack[avatar] {
+            object-fit: contain;
+            z-index: 0;
+            left: 50%;
+            width: 100%;
+            height: 100%
+        }
+
+        .voiceButton[avatar] {
+            background-color: #333
+        }
+
+        .voiceButton[avatar]:hover {
+            background-color: #999;
+            cursor: pointer
+        }
+
+        @media only screen and (max-width: 767px) {
+            .audio-btn[avatar] {
+                font-size: 1.5vw
             }
         }
 
-        // Fetch JSON data from the server
-        fetch('/api/user_item')
+        @media only screen and (max-width: 575px) {
+            .audio-btn[avatar] {
+                font-size: 2.1vw
+            }
+        }
+
+        .item-title[avatar] {
+            background-color: #202c3a
+        }
+
+        .item-body[avatar] {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-height: 5em;
+            aspect-ratio: 1.8
+        }
+
+        .item-body[avatar] img[avatar] {
+            object-fit: contain;
+            max-width: 100%;
+            max-height: 100%
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="/static/video/mv.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="logout" href="#">登出</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/card">卡片</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/items">收藏品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">装扮</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/playlog">游玩记录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/b30">b30</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-8 mt-5">
+                <div class="card" style="height: auto; padding: 10px;">
+                    <div class="card-body">
+                        <h5 class="card-title">card-title</h5>
+                        <p class="card-text">card-text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div avatar="" class="avatarPreview">
+        <div avatar="" class="avatarContainer">
+            <img avatar="" id="avatarFeet" src="static/Avatar/01400001.png">
+            <img avatar="" id="avatarBody" src="static/Avatar/01400001.png">
+            <img avatar="" id="avatarFace" src="static/Avatar/Face.webp">
+            <img avatar="" id="avatarLeftHand" src="static/Avatar/LeftHand.webp">
+            <img avatar="" id="avatarRightHand" src="static/Avatar/RightHand.webp">
+            <img avatar="" id="avatarWear" src="static/Avatar/01100001.png">
+            <img avatar="" id="avatarHead" src="static/Avatar/01200001.png">
+            <img avatar="" id="avatarFaceWear" src="static/Avatar/01300001.png">
+            <img avatar="" id="avatarItemLeft" src="static/Avatar/01500001.png">
+            <img avatar="" id="avatarItemRight" src="static/Avatar/01500001.png">
+            <img avatar="" id="avatarBack" src="static/Avatar/01700001.png">
+        </div>
+    </div>
+
+    <script>
+        
+        function pad(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
+        }
+
+        window.onload = function() {
+            fetch('/api/user_data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                })
+            })
             .then(response => response.json())
             .then(data => {
-                // Call functions to display data
-                displayAvatar(data[0]);
-                displayItems(data[1]);
-                displayNamePlates(data[2]);
+                document.getElementById("avatarFeet").src = "static/Avatar/" + pad(data.avatar_skin,8) + ".png";
+                document.getElementById("avatarBody").src = "static/Avatar/" + pad(data.avatar_skin,8) + ".png";
+                document.getElementById("avatarWear").src = "static/Avatar/" + pad(data.avatar_wear,8) + ".png";
+                document.getElementById("avatarHead").src = "static/Avatar/" + pad(data.avatar_head,8) + ".png";
+                document.getElementById("avatarFaceWear").src = "static/Avatar/" + pad(data.avatar_front,8) + ".png";
+                document.getElementById("avatarItemLeft").src = "static/Avatar/" + pad(data.avatar_item,8) + ".png";
+                document.getElementById("avatarItemRight").src = "static/Avatar/" + pad(data.avatar_item,8) + ".png";
+                document.getElementById("avatarBack").src = "static/Avatar/" + pad(data.avatar_back,8) + ".png";
             })
-            .catch(error => console.error('Error fetching data:', error));
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));
+
+            if (hasDbIdCookie) {
+                document.getElementById('logout').addEventListener('click', () => {
+                    document.cookie.split(';').forEach(cookie => {
+                        const eqPos = cookie.indexOf('=');
+                        const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                        document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';
+                    });
+                    window.location.href = '/login';
+                });
+            }
+        });
     </script>
+
 </body>
+
 </html>
