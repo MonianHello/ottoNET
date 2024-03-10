@@ -8,6 +8,8 @@
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <script src="/static/js/bootstrap.bundle.min.js"></script>
     <script src="/static/js/marked.min.js"></script>
+    <script src="/static/js/html2canvas.min.js"></script>
+
     <style>
         @font-face {
             font-family: 'Server Fonts';
@@ -362,11 +364,60 @@
                         </br>
                         <div class="row">
                             <div class="col">
-                                <button type="button" style="width: -webkit-fill-available;" class="btn btn-primary btn-block">重置</button>
+                                <button type="button" id="reloadButton" class="btn btn-primary btn-block" style="width: -webkit-fill-available;">重置</button>
                             </div>
                             <div class="col">
-                                <button type="button" style="width: -webkit-fill-available;" class="btn btn-success btn-block" disabled>保存更改</button>
+                                <button type="button" id="randomizeButton" class="btn btn-primary block" style="width: -webkit-fill-available;">随机</button>
                             </div>
+                        </div></br>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" id="downloadButton" style="width: -webkit-fill-available;"class="btn btn-danger btn-block">恢复默认</button>
+                            </div>
+                            <div class="col">
+                                <button type="button" id="defaultButton" style="width: -webkit-fill-available;"class="btn btn-success btn-block" disabled>保存更改</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="height: auto; padding: 10px;">
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">物品</h5> -->
+                        <div class="col">服装
+                            <select id="WearDropdown" class="form-select">
+                            </select>
+                        </div>
+
+                        <div class="col">头饰
+                            <select id="HeadDropdown" class="form-select">
+                            </select>
+                        </div>
+
+                        <div class="col">面部
+                            <select id="FaceWearDropdown" class="form-select">
+                            </select>
+                        </div>
+                        <!-- <div class="col">
+                            <select id="SkinDropdown" class="form-select">
+                                <option >Select Skin</option>
+                            </select>
+                        </div> -->
+
+                        <div class="col">道具
+                            <select id="ItemDropdown" class="form-select">
+                            </select>
+                        </div>
+                        <!-- <div class="col">
+                            <select id="FrontDropdown" class="form-select">
+                                <option >Select Front</option>
+                            </select>
+                        </div> -->
+
+                        <div class="col">背景
+                            <select id="BackDropdown" class="form-select">
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -374,41 +425,51 @@
         </div>
     </div>
 
-    
-    
-
     <script>
-
         function pad(num, size) {
             var s = num + "";
             while (s.length < size) s = "0" + s;
             return s;
         }
 
-        window.onload = function() {
+        //加载用户数据、更新下拉框
+        function loadUserData() {
             fetch('/api/user_data', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({
+                body: JSON.stringify({})
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("avatarFeet").src = "static/Avatar/" + pad(data.avatar_skin, 8) + ".png";
+                    document.getElementById("avatarBody").src = "static/Avatar/" + pad(data.avatar_skin, 8) + ".png";
+                    document.getElementById("avatarWear").src = "static/Avatar/" + pad(data.avatar_wear, 8) + ".png";
+                    document.getElementById("avatarHead").src = "static/Avatar/" + pad(data.avatar_head, 8) + ".png";
+                    document.getElementById("avatarFaceWear").src = "static/Avatar/" + pad(data.avatar_front, 8) + ".png";
+                    document.getElementById("avatarItemLeft").src = "static/Avatar/" + pad(data.avatar_item, 8) + ".png";
+                    document.getElementById("avatarItemRight").src = "static/Avatar/" + pad(data.avatar_item, 8) + ".png";
+                    document.getElementById("avatarBack").src = "static/Avatar/" + pad(data.avatar_back, 8) + ".png";
+
+                    document.getElementById("WearDropdown").value = data.avatar_wear;
+                    document.getElementById("HeadDropdown").value = data.avatar_head;
+                    document.getElementById("FaceWearDropdown").value = data.avatar_face;
+                    document.getElementById("ItemDropdown").value = data.avatar_item;
+                    document.getElementById("BackDropdown").value = data.avatar_back;
                 })
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("avatarFeet").src = "static/Avatar/" + pad(data.avatar_skin,8) + ".png";
-                document.getElementById("avatarBody").src = "static/Avatar/" + pad(data.avatar_skin,8) + ".png";
-                document.getElementById("avatarWear").src = "static/Avatar/" + pad(data.avatar_wear,8) + ".png";
-                document.getElementById("avatarHead").src = "static/Avatar/" + pad(data.avatar_head,8) + ".png";
-                document.getElementById("avatarFaceWear").src = "static/Avatar/" + pad(data.avatar_front,8) + ".png";
-                document.getElementById("avatarItemLeft").src = "static/Avatar/" + pad(data.avatar_item,8) + ".png";
-                document.getElementById("avatarItemRight").src = "static/Avatar/" + pad(data.avatar_item,8) + ".png";
-                document.getElementById("avatarBack").src = "static/Avatar/" + pad(data.avatar_back,8) + ".png";
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+        // 在页面加载完成时调用函数
+        window.onload = function () {
+            loadUserData();
         };
+        // 各种按钮
+        document.getElementById("reloadButton").addEventListener("click", function () {
+            loadUserData();
+        });
 
         document.addEventListener('DOMContentLoaded', () => {
             const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));
@@ -423,6 +484,70 @@
                     window.location.href = '/login';
                 });
             }
+        });
+    </script>
+    <script>
+        // Fetch JSON data
+        fetch('static/Avatardata.json')
+            .then(response => response.json())
+            .then(data => {
+                populateDropdown('WearDropdown', data.Wear);
+                populateDropdown('HeadDropdown', data.Head);
+                populateDropdown('FaceWearDropdown', data.Face);
+                // populateDropdown('SkinDropdown', data.Skin);
+                populateDropdown('ItemDropdown', data.Item);
+                // populateDropdown('FrontDropdown', data.Front);
+                populateDropdown('BackDropdown', data.Back);
+
+                // 添加事件监听器到下拉菜单
+                const dropdowns = document.querySelectorAll('.form-select');
+                dropdowns.forEach(dropdown => {
+                    dropdown.addEventListener('change', event => {
+                        const selectedItemId = event.target.value;
+                        const imageId = dropdown.id.replace('Dropdown', ''); // 提取图片ID的部分
+                        if (imageId == 'Item') { // Item特殊一点，要分左右手
+                            const imagePath = "static/Avatar/" + pad(selectedItemId, 8) + ".png"; // 构建图片路径
+                            document.getElementById("avatarItemLeft").src = imagePath;
+                            document.getElementById("avatarItemRight").src = imagePath;
+                        } else {
+                            const imageElement = document.getElementById("avatar" + imageId);
+                            const imagePath = "static/Avatar/" + pad(selectedItemId, 8) + ".png"; // 构建图片路径
+                            imageElement.src = imagePath; // 设置图片源 
+                        }
+                    });
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+
+        // Function to populate dropdowns
+        function populateDropdown(dropdownId, options) {
+            const dropdown = document.getElementById(dropdownId);
+            options.forEach(option => {
+                const optionElement = document.createElement('option');
+                optionElement.value = option.id;
+                optionElement.textContent = option.str;
+                dropdown.appendChild(optionElement);
+            });
+        }
+
+        document.getElementById('randomizeButton').addEventListener('click', () => {
+            const dropdowns = document.querySelectorAll('.form-select');
+            dropdowns.forEach(dropdown => {
+                const randomIndex = Math.floor(Math.random() * dropdown.options.length); // Generate random index
+                dropdown.selectedIndex = randomIndex; // Set selected index to random index
+                const selectedItemId = dropdown.options[randomIndex].value;
+                const imageId = dropdown.id.replace('Dropdown', ''); // Extract the part of the image ID
+                const imageElement = document.getElementById("avatar" + imageId);
+                if (imageId == 'Item') { // Item特殊一点，要分左右手
+                    const imagePath = "static/Avatar/" + pad(selectedItemId, 8) + ".png"; // 构建图片路径
+                    document.getElementById("avatarItemLeft").src = imagePath;
+                    document.getElementById("avatarItemRight").src = imagePath;
+                } else {
+                    const imageElement = document.getElementById("avatar" + imageId);
+                    const imagePath = "static/Avatar/" + pad(selectedItemId, 8) + ".png"; // 构建图片路径
+                    imageElement.src = imagePath; // 设置图片源 
+                }
+            });
         });
     </script>
 
