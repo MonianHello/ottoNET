@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,14 @@
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
         }
+
         /* html {
             background-image: url('/static/pics/pause-overlay.png'); 
             background-size: cover;
@@ -29,11 +32,13 @@
         #image {
             margin-bottom: 1rem;
         }
+
         .error-message {
             color: red;
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
+
         .error-container {
             margin-bottom: 1rem;
             padding: 0.75rem 1.25rem;
@@ -42,23 +47,26 @@
             color: #dc3545;
             background-color: #f8d7da;
         }
+
         #bg-video {
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100vw; 
+            width: 100vw;
             height: 100vh;
             object-fit: cover;
             z-index: -1;
             filter: blur(3px);
         }
+
         .card {
             backdrop-filter: blur(10px) saturate(180%);
             background-color: rgba(255, 255, 255, 0.75);
         }
+
         .navbar {
-            background-color: rgba(255, 255, 255, 0.8); 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .navbar-nav .nav-link {
@@ -67,15 +75,15 @@
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: rgba(0, 0, 0, 0.1); 
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
-        .nav-link.active::before{
+        .nav-link.active::before {
             content: "▶";
         }
-
     </style>
 </head>
+
 <body>
 
     <video autoplay muted loop id="bg-video">
@@ -85,20 +93,22 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">otto NET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">nav-link</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">nav-link</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-8 mt-5">
@@ -131,4 +141,5 @@
     </script>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,14 @@
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
         }
+
         /* html {
             background-image: url('/static/pics/pause-overlay.png'); 
             background-size: cover;
@@ -29,11 +32,13 @@
         #image {
             margin-bottom: 1rem;
         }
+
         .error-message {
             color: red;
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
+
         .error-container {
             margin-bottom: 1rem;
             padding: 0.75rem 1.25rem;
@@ -42,23 +47,26 @@
             color: #dc3545;
             background-color: #f8d7da;
         }
+
         #bg-video {
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
             object-fit: cover;
             z-index: -1;
             filter: blur(3px);
         }
+
         .card {
             backdrop-filter: blur(10px) saturate(180%);
             background-color: rgba(255, 255, 255, 0.75);
         }
+
         .navbar {
-            background-color: rgba(255, 255, 255, 0.8); 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .navbar-nav .nav-link {
@@ -67,15 +75,15 @@
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: rgba(0, 0, 0, 0.1); 
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
-        .nav-link.active::before{
+        .nav-link.active::before {
             content: "▶";
         }
-
     </style>
 </head>
+
 <body>
 
     <video autoplay muted loop id="bg-video">
@@ -85,46 +93,50 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">otto NET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/login">登录</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">关于</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/login">登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    
+
     <div class="container">
         <div class="row">
-            <div class="col-md-4 offset-md-2 mt-3">
+            <div class="col-md-4 offset-md-2 mt-5">
                 <div class="row justify-content-center align-items-center">
                     <!-- 保留部分 -->
                 </div>
             </div>
-            <div class="col-md-4 offset-md-2 mt-3">
+            <div class="col-md-4 offset-md-2 mt-5">
                 <div class="card" style="padding: 10px;">
                     <div class="card-body">
                         <h5 class="card-title">Aime登录</h5>
                         <div id="errorContainer1" class="error-container d-none"></div>
                         <form id="loginForm">
-                                <label for="aime_id" class="form-label">不要直接使用卡片背面印刷的卡号</br>在游戏登录前使用查看卡号功能来确认卡号</br></br>*ACCESS CODE是访问您账户的唯一凭据，请务必妥当保存</label>
-                                <input type="text" class="form-control mb-3" id="aime_id" placeholder="ACCESS CODE">
-                                <button type="submit" class="btn btn-primary" style="width: 100%;">登录</button>  
+                            <label for="aime_id"
+                                class="form-label">不要直接使用卡片背面印刷的卡号</br>在游戏登录前使用查看卡号功能来确认卡号</br></br>*ACCESS
+                                CODE是访问您账户的唯一凭据，请务必妥当保存</label>
+                            <input type="text" class="form-control mb-3" id="aime_id" placeholder="ACCESS CODE">
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">登录</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-8 mt-5">
@@ -133,15 +145,15 @@
                         <h5 class="card-title">快速登录</h5>
                         <div id="errorContainer2" class="error-container d-none"></div>
                         <p class="card-text">不想找/找不到自己的卡号？</br>请在下方选择您的昵称快速登录</br></br>*快速登录下无法进行收藏品及设置的修改</p>
-                            <div id="userList">
-                            </div>
+                        <div id="userList">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-8 mt-5">
@@ -157,27 +169,28 @@
             </div>
         </div>
     </div>
-    
-    
+
+
 
     <script>
         const aimeIdInput = document.getElementById('aime_id');
         const aimeIdErrorMessage = document.getElementById('aimeIdErrorMessage');
         const errorContainer1 = document.getElementById('errorContainer1');
 
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
             event.preventDefault();
             submitForm();
         });
 
-        fetch('/api/news', {method: 'POST'})
-        .then(response => {
-            if (response.ok) {
-                return response.json();
-            }})
-        .then(data => {
-            const newsContent = marked.parse(data.news);
-            document.getElementById('news-content').innerHTML = newsContent;
+        fetch('/api/news', { method: 'POST' })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                }
+            })
+            .then(data => {
+                const newsContent = marked.parse(data.news);
+                document.getElementById('news-content').innerHTML = newsContent;
             })
 
         function quicklogin(userId) {
@@ -188,40 +201,40 @@
                 },
                 body: JSON.stringify({ id: userId })
             })
-            .then(response => {
-                if (response.ok) {
-                    window.location.href = '/card';
-                } else {
-                    errorContainer2.textContent = '登录失败 '+response.statusText;
-                    errorContainer2.classList.remove('d-none');
-                }
-            })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = '/card';
+                    } else {
+                        errorContainer2.textContent = '登录失败 ' + response.statusText;
+                        errorContainer2.classList.remove('d-none');
+                    }
+                })
         }
 
         fetch('/api/quicklogin', { method: 'POST' })
-        .then(response => {
-            if (!response.ok) {
-                errorContainer2.textContent = '登录失败 '+response.statusText;
-                errorContainer2.classList.remove('d-none');
-                return;
-            }
-            return response.json();
-        })
-        .then(data => {
-            if (!data) return;
-            const userListDiv = document.getElementById('userList');
-            const buttonGroup = document.createElement('div');
-            buttonGroup.classList.add('btn-group-vertical');
-            data.forEach(user => {
-                const button = document.createElement('button');
-                button.textContent = user.user_name;
-                button.classList.add('btn', '.btn-info', 'btn-block'); // 添加 btn-block 类
-                button.addEventListener('click', () => quicklogin(user.id));
-                buttonGroup.appendChild(button);
-            });
-            buttonGroup.style.width = '100%';
-            userListDiv.appendChild(buttonGroup);
-        })
+            .then(response => {
+                if (!response.ok) {
+                    errorContainer2.textContent = '登录失败 ' + response.statusText;
+                    errorContainer2.classList.remove('d-none');
+                    return;
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (!data) return;
+                const userListDiv = document.getElementById('userList');
+                const buttonGroup = document.createElement('div');
+                buttonGroup.classList.add('btn-group-vertical');
+                data.forEach(user => {
+                    const button = document.createElement('button');
+                    button.textContent = user.user_name;
+                    button.classList.add('btn', '.btn-info', 'btn-block'); // 添加 btn-block 类
+                    button.addEventListener('click', () => quicklogin(user.id));
+                    buttonGroup.appendChild(button);
+                });
+                buttonGroup.style.width = '100%';
+                userListDiv.appendChild(buttonGroup);
+            })
 
         function submitForm() {
             var aime_id = document.getElementById('aime_id').value;
@@ -234,20 +247,21 @@
                     aime_id: aime_id
                 })
             })
-            .then(response => {
-                if (response.ok) {
-                    window.location.href = '/';
-                } else if(response.status === 404) {
-                    errorContainer1.textContent = '未使用的Aime卡无法进行注册，请在支持Aime的游戏中进行游玩后再试。';
-                    errorContainer1.classList.remove('d-none');
-                } else if(response.status === 403) {
-                    errorContainer1.textContent = '请检查卡号格式是否正确。';
-                    errorContainer1.classList.remove('d-none');
-                } 
-            })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = '/';
+                    } else if (response.status === 404) {
+                        errorContainer1.textContent = '未使用的Aime卡无法进行注册，请在支持Aime的游戏中进行游玩后再试。';
+                        errorContainer1.classList.remove('d-none');
+                    } else if (response.status === 403) {
+                        errorContainer1.textContent = '请检查卡号格式是否正确。';
+                        errorContainer1.classList.remove('d-none');
+                    }
+                })
         }
 
     </script>
 
 </body>
+
 </html>

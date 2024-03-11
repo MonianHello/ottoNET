@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,14 @@
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
         }
+
         /* html {
             background-image: url('/static/pics/pause-overlay.png'); 
             background-size: cover;
@@ -28,11 +31,13 @@
         #image {
             margin-bottom: 1rem;
         }
+
         .error-message {
             color: red;
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
+
         .error-container {
             margin-bottom: 1rem;
             padding: 0.75rem 1.25rem;
@@ -41,23 +46,26 @@
             color: #dc3545;
             background-color: #f8d7da;
         }
+
         #bg-video {
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
             object-fit: cover;
             z-index: -1;
             filter: blur(3px);
         }
+
         .card {
             backdrop-filter: blur(10px) saturate(180%);
             background-color: rgba(255, 255, 255, 0.75);
         }
+
         .navbar {
-            background-color: rgba(255, 255, 255, 0.8); 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .navbar-nav .nav-link {
@@ -66,14 +74,15 @@
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: rgba(0, 0, 0, 0.1); 
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
-        .nav-link.active::before{
+        .nav-link.active::before {
             content: "▶";
         }
     </style>
 </head>
+
 <body>
 
     <video autoplay="autoplay" loop="loop" muted="muted" playsinline="" preload="auto" id="bg-video">
@@ -83,70 +92,76 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">otto NET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" id="logout" href="#">登出</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/card">卡片</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/items">收藏品</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/playlog">游玩记录</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/b30">b30</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">关于</a>
-            </li>
-            </ul>
-            <ul class="navbar-nav">
-                
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="logout" href="#">登出</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/card">卡片</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/items">收藏品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/playlog">游玩记录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/b30">b30</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+
+                </ul>
+            </div>
         </div>
     </nav>
-    
+
     <div class="container">
         <div class="row">
-          <div class="col-md-5 offset-md-1 mt-5">
-              <div id="userInfoImageContainer"></div>
-          </div>
-          <div class="col-md-4 offset-md-2 mt-5">
-              <div class="card">
-                  <div class="card-body">
-                      <h5 class="card-title">卡片信息</h5>
-                      <p><span class="card-text" id="cardInfo_user_name" style="word-spacing: 0.5em;">Loading...</span><span id="cardInfo_play_count" style="float: right;">Loading...</span></p>
-                      <div style="display: flex; justify-content: space-evenly; width: 100%;">
-                        <div id="bestRatingContainer" style="display: flex; flex-direction: column; align-items: center;">
-                            <p class="card-text" id="bestRating">历史最高</p>
-                            <div id="bestRatingImageContainer"></div>
+            <div class="col-md-5 offset-md-1 mt-5">
+                <div id="userInfoImageContainer"></div>
+            </div>
+            <div class="col-md-4 offset-md-2 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">卡片信息</h5>
+                        <p><span class="card-text" id="cardInfo_user_name"
+                                style="word-spacing: 0.5em;">Loading...</span><span id="cardInfo_play_count"
+                                style="float: right;">Loading...</span></p>
+                        <div style="display: flex; justify-content: space-evenly; width: 100%;">
+                            <div id="bestRatingContainer"
+                                style="display: flex; flex-direction: column; align-items: center;">
+                                <p class="card-text" id="bestRating">历史最高</p>
+                                <div id="bestRatingImageContainer"></div>
+                            </div>
+                            <div id="currentRatingContainer"
+                                style="display: flex; flex-direction: column; align-items: center;">
+                                <p class="card-text" id="currentRating">当前</p>
+                                <div id="currentRatingImageContainer"></div>
+                            </div>
                         </div>
-                        <div id="currentRatingContainer" style="display: flex; flex-direction: column; align-items: center;">
-                            <p class="card-text" id="currentRating">当前</p>
-                            <div id="currentRatingImageContainer"></div>
-                        </div>
-                      </div>
-                      </br>                                                    
-                      <p class="card-text" id="cookieInfo_aime_id">ACCESS CODE: 因快速登录隐藏</p>
-                      <p class="card-text" id="cardInfo_first_play_date">Loading...</p>
-                      <p class="card-text" id="cardInfo_last_play_date">Loading...</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  
+                        </br>
+                        <p class="card-text" id="cookieInfo_aime_id">ACCESS CODE: 因快速登录隐藏</p>
+                        <p class="card-text" id="cardInfo_first_play_date">Loading...</p>
+                        <p class="card-text" id="cardInfo_last_play_date">Loading...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script>
+
+    <script>
         function formatDateTime(timestamp) {
             const date = new Date(timestamp);
             date.setHours(date.getHours() - 1); // 将时间减去1小时
@@ -161,7 +176,7 @@
         }
 
 
-        function fetchRatingImage(number,ElementId) {
+        function fetchRatingImage(number, ElementId) {
             fetch('/api/rating_image', {
                 method: 'POST',
                 headers: {
@@ -169,29 +184,29 @@
                 },
                 body: JSON.stringify({ number: number })
             })
-            .then(response => response.blob())
-            .then(imageBlob => {
-                const imageUrl = URL.createObjectURL(imageBlob);
-                const imageElement = document.createElement('img');
-                imageElement.src = imageUrl;
-                document.getElementById(ElementId).appendChild(imageElement);
-            })
-            .catch(error => console.error('Error:', error));
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    const imageElement = document.createElement('img');
+                    imageElement.src = imageUrl;
+                    document.getElementById(ElementId).appendChild(imageElement);
+                })
+                .catch(error => console.error('Error:', error));
         }
 
         function fetchUserInfoImage(ElementId) {
             fetch('/api/user_info_image', {
                 method: 'POST'
             })
-            .then(response => response.blob())
-            .then(imageBlob => {
-                const imageUrl = URL.createObjectURL(imageBlob);
-                const imageElement = document.createElement('img');
-                imageElement.src = imageUrl;
-                imageElement.classList.add('img-fluid');
-                document.getElementById(ElementId).appendChild(imageElement);
-            })
-            .catch(error => console.error('Error:', error));
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    const imageElement = document.createElement('img');
+                    imageElement.src = imageUrl;
+                    imageElement.classList.add('img-fluid');
+                    document.getElementById(ElementId).appendChild(imageElement);
+                })
+                .catch(error => console.error('Error:', error));
         }
 
         const aimeIdCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('aime_id='));
@@ -209,23 +224,23 @@
             body: JSON.stringify({
             })
         })
-        .then(response => response.json())
-        .then(data => {
-            const cardInfo_user_name = document.getElementById('cardInfo_user_name');
-            cardInfo_user_name.textContent = `Lv${data.level} ${data.user_name}`;
-            const cardInfo_first_play_date = document.getElementById('cardInfo_first_play_date');
-            cardInfo_first_play_date.textContent = `首次游玩: ${formatDateTime(data.first_play_date)}`;
-            const cardInfo_last_play_date = document.getElementById('cardInfo_last_play_date');
-            cardInfo_last_play_date.textContent = `上次游玩: ${formatDateTime(data.last_play_date)}`;
-            const cardInfo_play_count = document.getElementById('cardInfo_play_count');
-            cardInfo_play_count.textContent = `游玩次数 : ${data.play_count}`;
-            fetchRatingImage(data.highest_rating,'bestRatingImageContainer');
-            fetchRatingImage(data.player_rating,'currentRatingImageContainer');
-            fetchUserInfoImage('userInfoImageContainer');
-        })
-        .catch(error => {
-            console.error('Error fetching user data:', error);
-        });
+            .then(response => response.json())
+            .then(data => {
+                const cardInfo_user_name = document.getElementById('cardInfo_user_name');
+                cardInfo_user_name.textContent = `Lv${data.level} ${data.user_name}`;
+                const cardInfo_first_play_date = document.getElementById('cardInfo_first_play_date');
+                cardInfo_first_play_date.textContent = `首次游玩: ${formatDateTime(data.first_play_date)}`;
+                const cardInfo_last_play_date = document.getElementById('cardInfo_last_play_date');
+                cardInfo_last_play_date.textContent = `上次游玩: ${formatDateTime(data.last_play_date)}`;
+                const cardInfo_play_count = document.getElementById('cardInfo_play_count');
+                cardInfo_play_count.textContent = `游玩次数 : ${data.play_count}`;
+                fetchRatingImage(data.highest_rating, 'bestRatingImageContainer');
+                fetchRatingImage(data.player_rating, 'currentRatingImageContainer');
+                fetchUserInfoImage('userInfoImageContainer');
+            })
+            .catch(error => {
+                console.error('Error fetching user data:', error);
+            });
 
         document.addEventListener('DOMContentLoaded', () => {
             const hasDbIdCookie = document.cookie.split(';').some(cookie => cookie.trim().startsWith('db_id='));
@@ -242,6 +257,7 @@
             }
         });
 
-  </script>
+    </script>
 </body>
+
 </html>

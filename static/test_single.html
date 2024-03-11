@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,6 @@
 
 
     <style>
-
         .container {
             position: relative;
             width: 340px;
@@ -15,9 +15,10 @@
             border-radius: 20px;
             background-color: #f0f0f0;
             padding: 20px;
-            margin-bottom: 20px; /* 添加间距 */
+            margin-bottom: 20px;
+            /* 添加间距 */
         }
-        
+
         .container::before {
             content: '';
             position: absolute;
@@ -38,7 +39,8 @@
         }
 
         #level {
-            font-family: Arial, sans-serif; /* 使用默认字体 */
+            font-family: Arial, sans-serif;
+            /* 使用默认字体 */
             position: relative;
             font-size: 24px;
             font-weight: bold;
@@ -57,15 +59,15 @@
         }
 
         #level[data-level="ADVANCED"] {
-            color: rgb(254, 170, 0); 
+            color: rgb(254, 170, 0);
         }
 
         #level[data-level="ULTIMA"] {
-            color: rgb(0, 0, 0); 
+            color: rgb(0, 0, 0);
         }
 
         #level[data-level="BASIC"] {
-            color: rgb(82, 171, 18); 
+            color: rgb(82, 171, 18);
         }
 
         .placeholder {
@@ -77,7 +79,8 @@
             border-radius: 10px;
             background-color: rgba(0, 0, 0, 0.2);
             overflow: hidden;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 添加亚克力效果 */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            /* 添加亚克力效果 */
         }
 
 
@@ -90,7 +93,7 @@
         .song-title {
             position: absolute;
             top: 30%;
-            left: 152px; 
+            left: 152px;
             max-width: calc(100% - 172px);
             text-align: left;
             font-size: 14px;
@@ -105,7 +108,7 @@
             font-family: tahoma, '\5b8b\4f53', sans-serif;
             position: absolute;
             top: 55%;
-            left: 152px; 
+            left: 152px;
             text-align: left;
             font-size: 26px;
         }
@@ -113,13 +116,15 @@
         .rating {
             position: absolute;
             top: 57%;
-            right: 25px; 
+            right: 25px;
         }
 
         .placeholder-icons {
             position: absolute;
-            bottom: 20px; /* 调整到容器底部的距离 */
-            right: 20px; /* 调整到容器右侧的距离 */
+            bottom: 20px;
+            /* 调整到容器底部的距离 */
+            right: 20px;
+            /* 调整到容器右侧的距离 */
         }
 
         .placeholder-icon {
@@ -127,7 +132,8 @@
             width: 64px;
             height: 18px;
             background-color: #ffffff00;
-            margin-left: 5px; /* 添加占位图之间的间距 */
+            margin-left: 5px;
+            /* 添加占位图之间的间距 */
         }
     </style>
     <script>
@@ -142,161 +148,163 @@
                 },
                 body: JSON.stringify({ number: number })
             })
-            .then(response => response.blob())
-            .then(imageBlob => {
-                const imageUrl = URL.createObjectURL(imageBlob);
-                const imageElement = document.createElement('img');
-                imageElement.src = imageUrl;
-                document.getElementById(ElementId).appendChild(imageElement);
-            })
-            .catch(error => console.error('Error:', error));
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    const imageElement = document.createElement('img');
+                    imageElement.src = imageUrl;
+                    document.getElementById(ElementId).appendChild(imageElement);
+                })
+                .catch(error => console.error('Error:', error));
         }
     </script>
-    
+
 </head>
+
 <body>
     <script>
-    function generateSongDetails(data) {
-        const container = document.createElement('div');
+        function generateSongDetails(data) {
+            const container = document.createElement('div');
 
-        data.forEach(song => {
-            const songContainer = document.createElement('div');
-            songContainer.classList.add('container');
+            data.forEach(song => {
+                const songContainer = document.createElement('div');
+                songContainer.classList.add('container');
 
-            const {
-                isAllJustice,
-                isFullCombo,
-                jacketFile,
-                musicDifficulty,
-                musicName,
-                playLevel,
-                rating,
-                score
-            } = song;
+                const {
+                    isAllJustice,
+                    isFullCombo,
+                    jacketFile,
+                    musicDifficulty,
+                    musicName,
+                    playLevel,
+                    rating,
+                    score
+                } = song;
 
-            const span = document.createElement('span');
-            span.id = 'level';
-            span.dataset.level = musicDifficulty.toUpperCase();
-            span.textContent = `${musicDifficulty.toUpperCase()} ${playLevel}`;
+                const span = document.createElement('span');
+                span.id = 'level';
+                span.dataset.level = musicDifficulty.toUpperCase();
+                span.textContent = `${musicDifficulty.toUpperCase()} ${playLevel}`;
 
-            const line = document.createElement('div');
-            line.classList.add('line');
+                const line = document.createElement('div');
+                line.classList.add('line');
 
-            const placeholder = document.createElement('div');
-            placeholder.classList.add('placeholder');
-            const img = document.createElement('img');
-            img.src = `jackets/${jacketFile}`;
-            placeholder.appendChild(img);
+                const placeholder = document.createElement('div');
+                placeholder.classList.add('placeholder');
+                const img = document.createElement('img');
+                img.src = `jackets/${jacketFile}`;
+                placeholder.appendChild(img);
 
-            const songTitle = document.createElement('div');
-            songTitle.classList.add('song-title');
-            songTitle.textContent = musicName;
+                const songTitle = document.createElement('div');
+                songTitle.classList.add('song-title');
+                songTitle.textContent = musicName;
 
-            const scoreDiv = document.createElement('div');
-            scoreDiv.classList.add('score');
-            scoreDiv.textContent = score;
+                const scoreDiv = document.createElement('div');
+                scoreDiv.classList.add('score');
+                scoreDiv.textContent = score;
 
-            const ratingDiv = document.createElement('div');
-            ratingDiv.classList.add('rating');
-            const containerId = ratingCounter++; // 生成唯一的容器 ID
-            ratingDiv.id = `rating_${containerId}`;
-            songContainer.appendChild(ratingDiv);
-            fetchRatingImage(rating * 100, containerId); // 调用 fetchRatingImage 函数并传入容器 ID
+                const ratingDiv = document.createElement('div');
+                ratingDiv.classList.add('rating');
+                const containerId = ratingCounter++; // 生成唯一的容器 ID
+                ratingDiv.id = `rating_${containerId}`;
+                songContainer.appendChild(ratingDiv);
+                fetchRatingImage(rating * 100, containerId); // 调用 fetchRatingImage 函数并传入容器 ID
 
-            const placeholderIcons = document.createElement('div');
-            placeholderIcons.classList.add('placeholder-icons');
+                const placeholderIcons = document.createElement('div');
+                placeholderIcons.classList.add('placeholder-icons');
 
-            const placeholderIcon1 = document.createElement('div');
-            placeholderIcon1.classList.add('placeholder-icon');
-            const iconClear = document.createElement('img');
-            iconClear.src = 'pics/icons/icon_clear.png';
-            if (isAllJustice) {
-                iconClear.style.display = 'none';
+                const placeholderIcon1 = document.createElement('div');
+                placeholderIcon1.classList.add('placeholder-icon');
+                const iconClear = document.createElement('img');
+                iconClear.src = 'pics/icons/icon_clear.png';
+                if (isAllJustice) {
+                    iconClear.style.display = 'none';
+                }
+                placeholderIcon1.appendChild(iconClear);
+                placeholderIcons.appendChild(placeholderIcon1);
+
+                const placeholderIcon2 = document.createElement('div');
+                placeholderIcon2.classList.add('placeholder-icon');
+                if (!isAllJustice) {
+                    const ranks = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+                    ranks.forEach(rank => {
+                        const iconRank = document.createElement('img');
+                        iconRank.style.display = 'none';
+                        iconRank.src = `pics/icons/icon_rank_${rank}.png`;
+                        placeholderIcon2.appendChild(iconRank);
+                    });
+                }
+                placeholderIcons.appendChild(placeholderIcon2);
+
+                const placeholderIcon3 = document.createElement('div');
+                placeholderIcon3.classList.add('placeholder-icon');
+                if (!isAllJustice && !isFullCombo) {
+                    const iconFullCombo = document.createElement('img');
+                    iconFullCombo.style.display = 'none';
+                    iconFullCombo.src = 'pics/icons/icon_fullcombo.png';
+                    placeholderIcon3.appendChild(iconFullCombo);
+
+                    const iconAllJustice = document.createElement('img');
+                    iconAllJustice.style.display = 'none';
+                    iconAllJustice.src = 'pics/icons/icon_alljustice.png';
+                    placeholderIcon3.appendChild(iconAllJustice);
+                }
+                placeholderIcons.appendChild(placeholderIcon3);
+
+                songContainer.appendChild(span);
+                songContainer.appendChild(line);
+                songContainer.appendChild(placeholder);
+                songContainer.appendChild(songTitle);
+                songContainer.appendChild(scoreDiv);
+                songContainer.appendChild(placeholderIcons);
+
+                container.appendChild(songContainer);
+            });
+
+            return container;
+        }
+
+        const jsonData = [
+            {
+                "isAllJustice": 0,
+                "isFullCombo": 0,
+                "isdeleted": false,
+                "jacketFile": "9e6a43c316deda23.jpg",
+                "musicDifficulty": "expert",
+                "musicName": "Titania",
+                "playLevel": 13.8,
+                "rating": 14.65516,
+                "score": 996379
+            },
+            {
+                "isAllJustice": 0,
+                "isFullCombo": 0,
+                "isdeleted": false,
+                "jacketFile": "a47535dc3b60837d.jpg",
+                "musicDifficulty": "expert",
+                "musicName": "LAMIA",
+                "playLevel": 13.9,
+                "rating": 14.220040000000001,
+                "score": 983001
+            },
+            {
+                "isAllJustice": 0,
+                "isFullCombo": 0,
+                "isdeleted": false,
+                "jacketFile": "8205ea9449f1b000.jpg",
+                "musicDifficulty": "expert",
+                "musicName": "神威",
+                "playLevel": 13.8,
+                "rating": 14.17988,
+                "score": 984497
             }
-            placeholderIcon1.appendChild(iconClear);
-            placeholderIcons.appendChild(placeholderIcon1);
-
-            const placeholderIcon2 = document.createElement('div');
-            placeholderIcon2.classList.add('placeholder-icon');
-            if (!isAllJustice) {
-                const ranks = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
-                ranks.forEach(rank => {
-                    const iconRank = document.createElement('img');
-                    iconRank.style.display = 'none';
-                    iconRank.src = `pics/icons/icon_rank_${rank}.png`;
-                    placeholderIcon2.appendChild(iconRank);
-                });
-            }
-            placeholderIcons.appendChild(placeholderIcon2);
-
-            const placeholderIcon3 = document.createElement('div');
-            placeholderIcon3.classList.add('placeholder-icon');
-            if (!isAllJustice && !isFullCombo) {
-                const iconFullCombo = document.createElement('img');
-                iconFullCombo.style.display = 'none';
-                iconFullCombo.src = 'pics/icons/icon_fullcombo.png';
-                placeholderIcon3.appendChild(iconFullCombo);
-
-                const iconAllJustice = document.createElement('img');
-                iconAllJustice.style.display = 'none';
-                iconAllJustice.src = 'pics/icons/icon_alljustice.png';
-                placeholderIcon3.appendChild(iconAllJustice);
-            }
-            placeholderIcons.appendChild(placeholderIcon3);
-
-            songContainer.appendChild(span);
-            songContainer.appendChild(line);
-            songContainer.appendChild(placeholder);
-            songContainer.appendChild(songTitle);
-            songContainer.appendChild(scoreDiv);
-            songContainer.appendChild(placeholderIcons);
-
-            container.appendChild(songContainer);
-        });
-
-        return container;
-    }
-
-    const jsonData = [
-    {
-        "isAllJustice": 0,
-        "isFullCombo": 0,
-        "isdeleted": false,
-        "jacketFile": "9e6a43c316deda23.jpg",
-        "musicDifficulty": "expert",
-        "musicName": "Titania",
-        "playLevel": 13.8,
-        "rating": 14.65516,
-        "score": 996379
-    },
-    {
-        "isAllJustice": 0,
-        "isFullCombo": 0,
-        "isdeleted": false,
-        "jacketFile": "a47535dc3b60837d.jpg",
-        "musicDifficulty": "expert",
-        "musicName": "LAMIA",
-        "playLevel": 13.9,
-        "rating": 14.220040000000001,
-        "score": 983001
-    },
-    {
-        "isAllJustice": 0,
-        "isFullCombo": 0,
-        "isdeleted": false,
-        "jacketFile": "8205ea9449f1b000.jpg",
-        "musicDifficulty": "expert",
-        "musicName": "神威",
-        "playLevel": 13.8,
-        "rating": 14.17988,
-        "score": 984497
-    }
-];
+        ];
 
 
-    const containerElement = generateSongDetails(jsonData);
-    document.body.appendChild(containerElement);
+        const containerElement = generateSongDetails(jsonData);
+        document.body.appendChild(containerElement);
     </script>
 
 </body>
+
 </html>

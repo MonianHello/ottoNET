@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +9,49 @@
     <script src="/static/js/bootstrap.bundle.min.js"></script>
     <style>
         .Trophy-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             position: relative;
         }
+
         .Trophy-image {
             display: block;
             margin: 0 auto;
             max-width: 100%;
         }
+
         .Trophy-name {
             position: absolute;
             margin: auto;
             width: 100%;
-            bottom: 0;
             left: 50%;
-            transform: translate(-50%,0);
+            transform: translate(-50%, 0);
+            white-space: nowrap;
             padding: 10px;
             color: #000000;
         }
+
+        @media (max-width: 430px) {
+            .Trophy-name {
+                font-size: 12px;
+                /* 当容器宽度小于等于430px时，设置较小的字体大小 */
+            }
+        }
+
         @font-face {
             font-family: 'Server Fonts';
             src: url('/static/sourcehansans-medium.otf') format('truetype');
         }
+
         body {
             font-family: 'Server Fonts', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
         }
+
         /* html {
             background-image: url('/static/pics/pause-overlay.png'); 
             background-size: cover;
@@ -47,11 +63,13 @@
         #image {
             margin-bottom: 1rem;
         }
+
         .error-message {
             color: red;
             font-size: 0.875rem;
             margin-top: 0.25rem;
         }
+
         .error-container {
             margin-bottom: 1rem;
             padding: 0.75rem 1.25rem;
@@ -60,23 +78,26 @@
             color: #dc3545;
             background-color: #f8d7da;
         }
+
         #bg-video {
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
             object-fit: cover;
             z-index: -1;
             filter: blur(3px);
         }
+
         .card {
             backdrop-filter: blur(10px) saturate(180%);
             background-color: rgba(255, 255, 255, 0.75);
         }
+
         .navbar {
-            background-color: rgba(255, 255, 255, 0.8); 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .navbar-nav .nav-link {
@@ -85,14 +106,15 @@
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: rgba(0, 0, 0, 0.1); 
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
-        .nav-link.active::before{
+        .nav-link.active::before {
             content: "▶";
         }
     </style>
 </head>
+
 <body>
 
     <video autoplay="autoplay" loop="loop" muted="muted" playsinline="" preload="auto" id="bg-video">
@@ -102,41 +124,43 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">otto NET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" id="logout" href="#">登出</a>
-            </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/card">卡片</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="/items">收藏品</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/playlog">游玩记录</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/b30">b30</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">关于</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">otto NET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="logout" href="#">登出</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/card">卡片</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/items">收藏品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/playlog">游玩记录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/b30">b30</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container" style="max-width: 100%;max-height: 100%;">
         <div class="row">
-            <div class="col-md-4 offset-md-1 mt-5">
+            <div class="col-md-4 offset-md-0 mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">称号</h5>
@@ -145,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 offset-md-2 mt-5">
+            <div class="col-md-4 offset-md-0 mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">姓名框</h5>
@@ -171,12 +195,14 @@
         // Function to display item data
         function displayItems(data) {
             var trophySection = document.getElementById('trophySection');
-            data.forEach(function(item) {
+            data.forEach(function (item) {
+
                 var itemHTML = '<div class="Trophy-container">';
                 itemHTML += '<img class="Trophy-image"  src="/static/trophy/' + getRarityImage(item.rarity) + '">';
                 itemHTML += '<p class="Trophy-name">' + item.name + '</p>';
-                itemHTML += '</div>';
-                itemHTML += '<p style="text-align: center;">' + item.explainText + '</p></br>'; 
+                itemHTML += '</div><br>';
+                itemHTML += '<p style="text-align: center;">' + item.explainText + '</p><br>';
+
                 trophySection.innerHTML += itemHTML;
             });
         }
@@ -184,7 +210,7 @@
         // Function to display name plate data
         function displayNamePlates(data) {
             var nameplateSection = document.getElementById('nameplateSection');
-            data.forEach(function(namePlate) {
+            data.forEach(function (namePlate) {
                 nameplateSection.innerHTML += '<img style="max-width: 100%;"  src="' + namePlate.src + '">';
                 nameplateSection.innerHTML += '<p style="text-align: center;">' + namePlate.name + '</p>';
             });
@@ -192,7 +218,7 @@
 
         // Function to get the rarity image filename based on rarity
         function getRarityImage(rarity) {
-            switch(rarity) {
+            switch (rarity) {
                 case 0:
                     return 'normal.png';
                 case 1:
@@ -248,4 +274,5 @@
     </script>
 
 </body>
+
 </html>
