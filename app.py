@@ -7,6 +7,10 @@ import json
 
 app = Flask(__name__, static_url_path='/static')
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(app.root_path, 'static/favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 @app.route('/static/video/<path:filename>')
 def serve_video(filename):
     # 设置缓存控制头
@@ -404,6 +408,16 @@ def playlogPage():
     if 'db_id' not in request.cookies:
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'playlog.html')
+
+# 企鹅换装路由
+@app.route('/avatar')
+def avatarPage():
+    """
+    提供企鹅换装路由
+    """
+    if 'db_id' not in request.cookies:
+        return redirect(url_for('loginPage'))
+    return send_from_directory('static', 'avatar.html')
 
 # b30图片路由
 @app.route('/b30')
