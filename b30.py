@@ -338,11 +338,14 @@ def process_r10(id):
             if count >= 30:
                 break
 
-            #如果某次游玩取得了不低于SSS的评价但Rating值不足以更新这30次游玩的成绩，该次记录不会参与最近30次游玩的计算。
-            #这里通过判断前后rating是否变化来得知是否更新了r30，实际上这样只能知道是否更新了r10
+            # 如果某次游玩取得了不低于SSS的评价但Rating值不足以更新这30次游玩的成绩，该次记录不会参与最近30次游玩的计算。
+            # 这里通过判断前后rating是否变化来得知是否更新了r30，实际上这样只能知道是否更新了r10
+
+            # 也可能是**如果**游玩后无法更新r30就不会参与计算，判断是放在游玩前的，**如果**
+
             if (next_row is not None) and (int(row[47]) >= 1007500) and (next_row[40] == row[40]):
                 continue
-            
+
             row_dict = dict(zip(columns, row))
             user_data.append(row_dict)
             count += 1
@@ -366,7 +369,7 @@ def process_r10(id):
     sdhd_music_info = {music['id']: music for music in sdhd_music_data}
     # 解析用户数据
     rating_list = []
-    
+
     # 遍历用户数据，计算rating，并构造需要的数据结构
     for record in user_data:
         music_id = str(record["music_id"])
@@ -515,9 +518,9 @@ def b30single(single_data, version='2.15'):
 
     if 'isAllJustice' in single_data:
         font = ImageFont.truetype('fonts/FOT-RodinNTLGPro-DB.ttf', 35)
-        if single_data['isAllJustice'] == 'true' or single_data['isAllJustice'] is True:
-            draw.text((530, 105), "AJ", '#000000', font)
-        elif single_data['isFullCombo'] == 'true' or single_data['isFullCombo'] is True:
+        if single_data['isAllJustice'] == 'true' or int(single_data['isAllJustice']) == 1 or single_data['isAllJustice'] is True:
+            draw.text((530, 105), "AJ", '#ee9105', font)
+        elif single_data['isFullCombo'] == 'true' or int(single_data['isFullCombo']) == 1 or single_data['isFullCombo'] is True:
             draw.text((530, 105), "FC", '#000000', font)
             
     pic = pic.resize((280, 105))

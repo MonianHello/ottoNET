@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, make_response, send_file, send_from_directory, redirect, url_for
 import sqlite3
-import b30 as ratTools
+import b30 as rattools
 import io
 import os
 import json
@@ -20,13 +20,13 @@ def b30pic():
     if not ('db_id' in request.cookies):
         return jsonify(error='未登录'), 403
     else:
-        return send_file(ratTools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
+        return send_file(rattools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
 
 @app.route('/api/playlog/<playlog_id>', methods=['POST'])
 def playlog(playlog_id):
     if not playlog_id.isdigit():
         return jsonify(error='非法操作'), 403
-    data = ratTools.single_music_playlog(playlog_id)
+    data = rattools.single_music_playlog(playlog_id)
     return jsonify(data), 200
 
 @app.route('/api/quicklogin', methods=['POST'])
@@ -86,7 +86,7 @@ def b30api():
     if not ('db_id' in request.cookies):
         return jsonify(error='未登录'), 403
     else:
-        return jsonify(ratTools.process_b30(request.cookies.get("db_id"))[:30]), 200
+        return jsonify(rattools.process_b30(request.cookies.get("db_id"))[:30]), 200
 
 @app.route('/api/playlog', methods=['POST'])
 def playlogapi():
@@ -96,7 +96,7 @@ def playlogapi():
     if not ('db_id' in request.cookies):
         return jsonify(error='未登录'), 403
     else:
-        return jsonify(ratTools.playlog(request.cookies.get("db_id"))), 200
+        return jsonify(rattools.playlog(request.cookies.get("db_id"))), 200
     
 @app.route('/api/r10', methods=['POST'])
 def r10api():
@@ -106,7 +106,7 @@ def r10api():
     if not ('db_id' in request.cookies):
         return jsonify(error='未登录'), 403
     else:
-        return jsonify(ratTools.process_r10(request.cookies.get("db_id"))[:10]), 200
+        return jsonify(rattools.process_r10(request.cookies.get("db_id"))[:10]), 200
 
 @app.route('/api/rating_image', methods=['POST'])
 def rating_imageapi():
@@ -114,7 +114,7 @@ def rating_imageapi():
     if number is None:
         return jsonify(error='非法操作'), 403
 
-    rating_image = ratTools.create_rating_image(number)
+    rating_image = rattools.create_rating_image(number)
     img_byte_array = io.BytesIO()
     rating_image.save(img_byte_array, format='PNG')
     img_byte_array.seek(0)
@@ -133,7 +133,7 @@ def user_info_imageapi():
     if id is None:
         return jsonify(error='非法操作'), 403
 
-    rating_image = ratTools.get_user_info_pic(id)
+    rating_image = rattools.get_user_info_pic(id)
     img_byte_array = io.BytesIO()
     rating_image.save(img_byte_array, format='PNG')
     img_byte_array.seek(0)
