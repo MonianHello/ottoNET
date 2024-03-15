@@ -356,6 +356,9 @@
                 <div class="card" style="height: auto; padding: 10px;">
                     <div class="card-body">
                         <h5 class="card-title">预览</h5>
+                        <!-- <div id="errorContainer" class="error-container" style="text-align: center;">在快速登录下无法修改用户数据</div> -->
+                        <div id="errorContainer" class="error-container" style="text-align: center;">
+                            目前无法直接修改用户数据<br>请将导出结果发送至系统管理员</div>
                         <div id="infoContainer" class="info-container d-none"></div>
                         <div avatar="" class="avatarPreview">
                             <div avatar="" class="avatarContainer">
@@ -386,7 +389,7 @@
                         <div class="row">
                             <div class="col">
                                 <button type="button" id="downloadButton" style="width: -webkit-fill-available;"
-                                    class="btn btn-danger btn-block">恢复默认</button>
+                                    class="btn btn-danger btn-block" disabled>恢复默认</button>
                             </div>
                             <div class="col">
                                 <button type="button" id="exportButton" style="width: -webkit-fill-available;"
@@ -404,39 +407,70 @@
                 <div class="card" style="height: auto; padding: 10px;">
                     <div class="card-body">
                         <!-- <h5 class="card-title">物品</h5> -->
-                        <div class="col">服装
-                            <select id="WearDropdown" class="form-select">
-                            </select>
+                        <div style="text-align: center;">
+                            可通过按钮修改是否锁定（随机无法更改）
+                        </div><br>
+                        服装
+                        <div class="row">
+                            
+                            <div class="col">
+                                
+                                <select id="WearDropdown" class="form-select"></select>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="WearLockCheckbox">
+                                    <label class="form-check-label" for="WearLockCheckbox"></label>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="col">头饰
-                            <select id="HeadDropdown" class="form-select">
-                            </select>
+                        头饰
+                        <div class="row">
+                            <div class="col">
+                                <select id="HeadDropdown" class="form-select"></select>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="HeadLockCheckbox">
+                                    <label class="form-check-label" for="HeadLockCheckbox"></label>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="col">面部
-                            <select id="FaceWearDropdown" class="form-select">
-                            </select>
+                        面部
+                        <div class="row">
+                            <div class="col">
+                                <select id="FaceWearDropdown" class="form-select"></select>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="FaceWearLockCheckbox">
+                                    <label class="form-check-label" for="FaceWearLockCheckbox"></label>
+                                </div>
+                            </div>
                         </div>
-                        <!-- <div class="col">
-                            <select id="SkinDropdown" class="form-select">
-                                <option >Select Skin</option>
-                            </select>
-                        </div> -->
-
-                        <div class="col">道具
-                            <select id="ItemDropdown" class="form-select">
-                            </select>
+                        道具
+                        <div class="row">
+                            <div class="col">
+                                <select id="ItemDropdown" class="form-select"></select>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="ItemLockCheckbox">
+                                    <label class="form-check-label" for="ItemLockCheckbox"></label>
+                                </div>
+                            </div>
                         </div>
-                        <!-- <div class="col">
-                            <select id="FrontDropdown" class="form-select">
-                                <option >Select Front</option>
-                            </select>
-                        </div> -->
-
-                        <div class="col">背景
-                            <select id="BackDropdown" class="form-select">
-                            </select>
+                        背景
+                        <div class="row">
+                            <div class="col">
+                                <select id="BackDropdown" class="form-select"></select>
+                            </div>
+                            <div class="col-auto">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="BackLockCheckbox">
+                                    <label class="form-check-label" for="BackLockCheckbox"></label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -488,6 +522,11 @@
         // 各种按钮
         document.getElementById("reloadButton").addEventListener("click", function () {
             loadUserData();
+            var checkboxes = document.querySelectorAll("input.form-check-input");
+            // 将每个checkbox的选中状态设置为false
+            checkboxes.forEach(function(checkbox) {
+                checkbox.checked = false;
+            });
         });
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -550,10 +589,17 @@
         document.getElementById('randomizeButton').addEventListener('click', () => {
             const dropdowns = document.querySelectorAll('.form-select');
             dropdowns.forEach(dropdown => {
-                const randomIndex = Math.floor(Math.random() * dropdown.options.length); // Generate random index
-                dropdown.selectedIndex = randomIndex; // Set selected index to random index
-                const selectedItemId = dropdown.options[randomIndex].value;
-                const imageId = dropdown.id.replace('Dropdown', ''); // Extract the part of the image ID
+                const lockCheckboxId = dropdown.id.replace('Dropdown', 'LockCheckbox');
+                const lockCheckbox = document.getElementById(lockCheckboxId);
+                const isLocked = lockCheckbox.checked;
+
+                if (!isLocked) {
+                    const randomIndex = Math.floor(Math.random() * dropdown.options.length);
+                    dropdown.selectedIndex = randomIndex;
+                }
+
+                const selectedItemId = dropdown.options[dropdown.selectedIndex].value;
+                const imageId = dropdown.id.replace('Dropdown', '');
                 const imageElement = document.getElementById("avatar" + imageId);
                 if (imageId == 'Item') { // Item特殊一点，要分左右手
                     const imagePath = "static/Avatar/" + pad(selectedItemId, 8) + ".png"; // 构建图片路径
@@ -566,8 +612,8 @@
                 }
             });
         });
-        
-        document.getElementById('exportButton').addEventListener('click', function() {
+
+        document.getElementById('exportButton').addEventListener('click', function () {
             var data = {
                 wear: document.getElementById('WearDropdown').value,
                 head: document.getElementById('HeadDropdown').value,
@@ -578,9 +624,11 @@
 
             var jsonData = JSON.stringify(data);
             var infoContainer = document.getElementById('infoContainer');
+            var errorContainer = document.getElementById('errorContainer');
             infoContainer.textContent = "请保存以下装扮代码：\n";
             infoContainer.textContent += btoa(jsonData);
             infoContainer.classList.remove('d-none');
+            errorContainer.classList.add('d-none');
         });
 
     </script>
