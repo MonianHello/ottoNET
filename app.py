@@ -7,6 +7,8 @@ import json
 
 app = Flask(__name__, static_url_path='/static')
 
+# 静态资源
+
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(app.root_path, 'static/favicon.ico', mimetype='image/vnd.microsoft.icon')
@@ -16,15 +18,7 @@ def serve_video(filename):
     # 设置缓存控制头
     return send_from_directory(app.static_folder, 'video/' + filename, cache_timeout=604800)
 
-@app.route('/b30')
-def b30pic():
-    """
-    返回b30图片
-    """
-    if not ('db_id' in request.cookies):
-        return jsonify(error='未登录'), 403
-    else:
-        return send_file(rattools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
+# API
 
 @app.route('/api/playlog/<playlog_id>', methods=['POST'])
 def playlog(playlog_id):
@@ -343,6 +337,8 @@ def user_itemapi():
 
     return jsonify(json_data)
 
+# 页面
+
 @app.route('/')
 def indexPage():
     """
@@ -352,6 +348,16 @@ def indexPage():
         return redirect(url_for('cardPage'))
     else:
         return redirect(url_for('loginPage'))
+
+@app.route('/b30')
+def b30pic():
+    """
+    返回b30图片
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    else:
+        return send_file(rattools.chunib30(request.cookies.get("db_id")), as_attachment=False), 200
 
 # 登录页面路由
 @app.route('/login')
@@ -376,11 +382,11 @@ def testPage():
     
     return send_from_directory('static', 'test.html')
 
-# 测试路由
+# 收藏品路由
 @app.route('/items')
 def itemsPage():
     """
-    提供登录页面
+    提供收藏品页面
     """
     if not ('db_id' in request.cookies):
         return jsonify(error='未登录'), 403
@@ -418,16 +424,6 @@ def avatarPage():
     if 'db_id' not in request.cookies:
         return redirect(url_for('loginPage'))
     return send_from_directory('static', 'avatar.html')
-
-# b30图片路由
-@app.route('/b30')
-def b30Page():
-    """
-    提供主页页面
-    """
-    if 'db_id' not in request.cookies:
-        return redirect(url_for('loginPage'))
-    return send_from_directory('static', 'b30.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081,debug=True)
