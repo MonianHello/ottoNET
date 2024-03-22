@@ -4,7 +4,7 @@ b30部分代码来自watagashi-uni/Unibot
 
 *本视频中出现的图片、文本、视频等内容受株式会社SEGA版权保护。
 
-项目将在未来开源，敬请期待
+数据库连接目前仅支持sqlite，请全局替换`../rinsama-aqua/data/db.sqlite`（
 
 ## NET简介：
 
