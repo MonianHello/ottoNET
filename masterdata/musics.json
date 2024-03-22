@@ -1,5 +1,53 @@
 [
     {
+        "name": "不可解",
+        "id": "2500",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "2aa0e4f4f579e4ff.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "海に化ける",
+        "id": "2501",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "8347f7b54f46f4c5.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "パラレルサーチライト",
+        "id": "2502",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "8f91117f0cfcdc93.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 13.1,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "アイデン貞貞メルトダウン",
         "id": "2497",
         "genreNames": [
@@ -11,7 +59,7 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 12.1,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -27,7 +75,7 @@
             "advanced": 6.0,
             "expert": 9.5,
             "master": 13.0,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -43,7 +91,7 @@
             "advanced": 6.0,
             "expert": 10.2,
             "master": 13.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -59,7 +107,7 @@
             "advanced": 6.0,
             "expert": 9.5,
             "master": 11.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -75,7 +123,7 @@
             "advanced": 6.0,
             "expert": 9.0,
             "master": 12.6,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -91,7 +139,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 11.5,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -107,7 +155,7 @@
             "advanced": 6.0,
             "expert": 10.0,
             "master": 13.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -123,7 +171,7 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 12.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -139,7 +187,7 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 12.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -155,7 +203,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -169,9 +217,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 5.0,
-            "expert": 8.5,
-            "master": 11.6,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -185,9 +233,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 5.0,
-            "expert": 8.0,
-            "master": 10.7,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -201,9 +249,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 7.5,
-            "expert": 9.5,
-            "master": 13.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -217,9 +265,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 6.0,
-            "expert": 8.5,
-            "master": 12.3,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -233,9 +281,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 6.0,
-            "expert": 8.0,
-            "master": 12.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -251,7 +299,7 @@
             "advanced": 6.0,
             "expert": 9.5,
             "master": 12.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -267,7 +315,7 @@
             "advanced": 6.0,
             "expert": 10.0,
             "master": 12.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -474,7 +522,7 @@
             "basic": 3.0,
             "advanced": 6.0,
             "expert": 8.5,
-            "master": 12.1,
+            "master": 12.3,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -490,7 +538,7 @@
             "basic": 2.0,
             "advanced": 7.0,
             "expert": 12.0,
-            "master": 14.5,
+            "master": 14.7,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -1963,7 +2011,7 @@
             "advanced": 6.0,
             "expert": 9.0,
             "master": 11.9,
-            "ultima": 14.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2219,7 +2267,7 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 12.8,
-            "ultima": 14.0,
+            "ultima": 14.2,
             "world's end": 0.0
         }
     },
@@ -2240,6 +2288,70 @@
         }
     },
     {
+        "name": "ミラクルペイント",
+        "id": "2518",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "6add44572b7b8cce.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ブラック★ロックシューター",
+        "id": "2519",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "94f9d229cf91aa84.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "イナイイナイ依存症",
+        "id": "2515",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "ad77b91f22a551dd.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 11.1,
+            "master": 14.2,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "バグ",
+        "id": "2517",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "42d5ffcebd5ec929.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.6,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "てらてら",
         "id": "2513",
         "genreNames": [
@@ -2251,7 +2363,7 @@
             "advanced": 7.0,
             "expert": 9.0,
             "master": 12.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2267,7 +2379,7 @@
             "advanced": 6.0,
             "expert": 9.0,
             "master": 12.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2283,7 +2395,7 @@
             "advanced": 5.0,
             "expert": 8.5,
             "master": 13.2,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2299,7 +2411,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2315,7 +2427,7 @@
             "advanced": 6.0,
             "expert": 10.5,
             "master": 13.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2331,7 +2443,7 @@
             "advanced": 6.0,
             "expert": 9.0,
             "master": 13.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2347,7 +2459,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2363,7 +2475,7 @@
             "advanced": 7.0,
             "expert": 10.2,
             "master": 13.5,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2379,7 +2491,7 @@
             "advanced": 5.0,
             "expert": 8.5,
             "master": 12.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -2395,7 +2507,7 @@
             "advanced": 7.5,
             "expert": 12.0,
             "master": 14.4,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -6074,7 +6186,7 @@
             "basic": 3.0,
             "advanced": 6.0,
             "expert": 9.0,
-            "master": 11.9,
+            "master": 12.5,
             "ultima": 14.3,
             "world's end": 0.0
         }
@@ -6361,9 +6473,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 6.0,
-            "expert": 9.0,
-            "master": 12.6,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -6377,9 +6489,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -7728,7 +7840,7 @@
         }
     },
     {
-        "name": "WARNING × WARNING × WARNING",
+        "name": "WARNING×WARNING×WARNING",
         "id": "572",
         "genreNames": [
             "東方Project"
@@ -8731,7 +8843,7 @@
             "advanced": 7.5,
             "expert": 13.5,
             "master": 14.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9035,7 +9147,7 @@
             "advanced": 7.0,
             "expert": 12.0,
             "master": 14.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9403,7 +9515,7 @@
             "advanced": 6.0,
             "expert": 11.8,
             "master": 14.1,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9419,7 +9531,7 @@
             "advanced": 7.0,
             "expert": 12.1,
             "master": 14.2,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9563,7 +9675,7 @@
             "advanced": 7.5,
             "expert": 12.7,
             "master": 14.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9579,7 +9691,7 @@
             "advanced": 8.0,
             "expert": 13.6,
             "master": 14.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9627,7 +9739,7 @@
             "advanced": 6.0,
             "expert": 11.5,
             "master": 14.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9643,7 +9755,7 @@
             "advanced": 6.0,
             "expert": 11.0,
             "master": 13.6,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9755,7 +9867,7 @@
             "advanced": 7.0,
             "expert": 11.2,
             "master": 13.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9771,7 +9883,7 @@
             "advanced": 8.0,
             "expert": 11.7,
             "master": 14.4,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9787,7 +9899,7 @@
             "advanced": 7.0,
             "expert": 10.0,
             "master": 13.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9803,7 +9915,7 @@
             "advanced": 8.5,
             "expert": 13.7,
             "master": 14.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -9819,7 +9931,87 @@
             "advanced": 9.0,
             "expert": 13.3,
             "master": 14.5,
-            "ultima": 0.0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "D-Birth",
+        "id": "2536",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "e5d646426fd0801e.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "GIGA BLAST",
+        "id": "2537",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "79b1429c107478c2.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 7.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Longinus",
+        "id": "2538",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "98cfe15bbf406031.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Ωκεανος",
+        "id": "2539",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "c54d971a915748b6.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Love's Theme of BADASS ～バッド・アス 愛のテーマ～",
+        "id": "2540",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "5717d5cde3d50eb0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -10379,7 +10571,7 @@
             "advanced": 7.5,
             "expert": 10.9,
             "master": 14.5,
-            "ultima": 14.7,
+            "ultima": 14.6,
             "world's end": 0.0
         }
     },
@@ -11387,7 +11579,7 @@
             "advanced": 7.0,
             "expert": 11.9,
             "master": 14.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -11401,9 +11593,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 7.0,
-            "expert": 14.0,
+            "expert": 11.3,
             "master": 14.2,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -12315,7 +12507,7 @@
             "advanced": 7.0,
             "expert": 9.5,
             "master": 12.6,
-            "ultima": 14.6,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -12571,7 +12763,23 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 12.0,
-            "ultima": 0.0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ラビットランド・メッセンジャー",
+        "id": "2550",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "2ada4abd53e380f3.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 13.1,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -12905,9 +13113,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 6.0,
-            "expert": 10.0,
-            "master": 14.2,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14185,9 +14393,9 @@
         "difficulties": {
             "basic": 4.0,
             "advanced": 9.5,
-            "expert": 12.0,
-            "master": 14.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14203,7 +14411,7 @@
             "advanced": 9.5,
             "expert": 13.5,
             "master": 15.1,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14219,7 +14427,7 @@
             "advanced": 6.0,
             "expert": 10.0,
             "master": 14.0,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14235,7 +14443,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.7,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14251,7 +14459,7 @@
             "advanced": 7.5,
             "expert": 12.3,
             "master": 14.5,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14267,7 +14475,7 @@
             "advanced": 7.5,
             "expert": 13.2,
             "master": 14.6,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14283,7 +14491,23 @@
             "advanced": 7.5,
             "expert": 13.3,
             "master": 14.2,
-            "ultima": 0.0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Mutation",
+        "id": "2556",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "6539e0d5d93f4e83.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.0,
+            "expert": 12.8,
+            "master": 14.9,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14473,9 +14697,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 6.0,
-            "expert": 8.5,
-            "master": 13.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14489,9 +14713,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.1,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14523,7 +14747,7 @@
             "advanced": 6.0,
             "expert": 8.5,
             "master": 12.3,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14649,9 +14873,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 6.0,
-            "expert": 10.3,
-            "master": 12.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -14923,6 +15147,22 @@
             "advanced": 7.0,
             "expert": 10.9,
             "master": 14.2,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Catch Me If You Can",
+        "id": "2559",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "73f0080b80162f0e.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 0,
+            "master": 0,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -15370,7 +15610,7 @@
             "basic": 2.0,
             "advanced": 7.5,
             "expert": 12.3,
-            "master": 14.6,
+            "master": 14.5,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -15417,9 +15657,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 8.5,
-            "expert": 13.4,
-            "master": 14.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -15433,9 +15673,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 9.5,
-            "expert": 13.7,
-            "master": 14.8,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -15451,7 +15691,23 @@
             "advanced": 8.5,
             "expert": 13.7,
             "master": 14.9,
-            "ultima": 0.0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Adverse Gaff",
+        "id": "2557",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "515f131aba69f277.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 8.0,
+            "expert": 13.2,
+            "master": 14.8,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -15656,9 +15912,25 @@
         "jaketFile": "6e46224559e92381.jpg",
         "difficulties": {
             "basic": 5.0,
-            "advanced": 11.5,
+            "advanced": 11.9,
             "expert": 14.3,
             "master": 15.2,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ラストピースに祝福と栄光を",
+        "id": "2579",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "2ad19c9da7f807e4.jpg",
+        "difficulties": {
+            "basic": 5.0,
+            "advanced": 10.0,
+            "expert": 14.1,
+            "master": 15.3,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -20152,7 +20424,7 @@
         "jaketFile": "13d56abff3019fef.jpg",
         "difficulties": {
             "basic": 5.0,
-            "advanced": 12.0,
+            "advanced": 12.3,
             "expert": 14.5,
             "master": 15.4,
             "ultima": 0,
@@ -20553,7 +20825,7 @@
         "difficulties": {
             "basic": 4.0,
             "advanced": 9.5,
-            "expert": 13.9,
+            "expert": 13.6,
             "master": 15.3,
             "ultima": 0,
             "world's end": 0.0
@@ -20713,9 +20985,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 6.0,
-            "expert": 11.0,
-            "master": 13.8,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20729,9 +21001,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 5.0,
-            "expert": 11.1,
-            "master": 13.6,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20745,9 +21017,9 @@
         "difficulties": {
             "basic": 3.0,
             "advanced": 6.0,
-            "expert": 10.9,
-            "master": 13.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20761,9 +21033,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 6.0,
-            "expert": 11.7,
-            "master": 14.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20777,9 +21049,9 @@
         "difficulties": {
             "basic": 4.0,
             "advanced": 9.5,
-            "expert": 13.7,
-            "master": 14.9,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20793,9 +21065,9 @@
         "difficulties": {
             "basic": 5.0,
             "advanced": 11.0,
-            "expert": 14.3,
-            "master": 15.4,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20811,7 +21083,7 @@
             "advanced": 5.0,
             "expert": 8.5,
             "master": 11.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20827,7 +21099,7 @@
             "advanced": 6.0,
             "expert": 10.0,
             "master": 12.9,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20843,7 +21115,7 @@
             "advanced": 6.0,
             "expert": 9.5,
             "master": 12.2,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20859,7 +21131,7 @@
             "advanced": 6.0,
             "expert": 10.1,
             "master": 13.0,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20875,7 +21147,7 @@
             "advanced": 9.5,
             "expert": 13.1,
             "master": 15.0,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20889,9 +21161,9 @@
         "difficulties": {
             "basic": 2.0,
             "advanced": 7.0,
-            "expert": 11.8,
+            "expert": 11.3,
             "master": 13.8,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20907,7 +21179,7 @@
             "advanced": 7.5,
             "expert": 11.1,
             "master": 14.6,
-            "ultima": 0.0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20923,7 +21195,135 @@
             "advanced": 6.0,
             "expert": 10.3,
             "master": 13.4,
-            "ultima": 0.0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "lucky omen",
+        "id": "2574",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "07aef52349843386.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 10.4,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Sunlight Starlight",
+        "id": "2575",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "c170f8680f69b4a4.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 10.7,
+            "master": 14.1,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ワーカーホリック",
+        "id": "2576",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "9fd5da213db55b55.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 13.1,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Overturn",
+        "id": "2577",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "131d1386984ce146.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.0,
+            "master": 14.3,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "First Light",
+        "id": "2578",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "ab1f8aec640e9d31.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 10.3,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "シル・ヴ・プレジデント",
+        "id": "8275",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "08387606c829a936.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "うまぴょい伝説",
+        "id": "8276",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "4e20abe3e2d1b084.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "レーイレーイ",
+        "id": "8277",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "69c42af6e2583d45.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20937,9 +21337,9 @@
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
-            "expert": 0.0,
-            "master": 0.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20953,9 +21353,9 @@
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
-            "expert": 0.0,
-            "master": 0.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -20969,9 +21369,9 @@
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
-            "expert": 0.0,
-            "master": 0.0,
-            "ultima": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
             "world's end": 0.0
         }
     },
@@ -21949,6 +22349,3984 @@
             "master": 0,
             "ultima": 0,
             "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Sinfonie Nr. 9 d-moll op. 125",
+        "id": "50",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0050.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 1.0,
+            "expert": 1.0,
+            "master": 1.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Sinfonie Nr. 9 d-moll op. 125 (Master)",
+        "id": "81",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0081.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 1.0,
+            "expert": 1.0,
+            "master": 1.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "Pretender",
+        "id": "1000",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1000.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "ごまかし",
+        "id": "1001",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1001.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.0,
+            "master": 12.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "真赤な誓い",
+        "id": "1003",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1003.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "モノノケ・イン・ザ・フィクション",
+        "id": "1018",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1018.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "キラメキライダー☆",
+        "id": "1024",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1024.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "甲賀忍法帖",
+        "id": "1036",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1036.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "町かどタンジェント",
+        "id": "1045",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1045.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "歩いていこう！",
+        "id": "1046",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1046.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 4.0,
+            "expert": 8.0,
+            "master": 11.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "君のせい",
+        "id": "1049",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1049.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "Phantom Joke",
+        "id": "1050",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1050.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.3,
+            "master": 13.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "もってけ!セーラーふく",
+        "id": "1053",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1053.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "サクリファイス",
+        "id": "1054",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1054.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 9.5,
+            "master": 13.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "Paradise Lost",
+        "id": "1093",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1093.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "Deep in Abyss",
+        "id": "1095",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1095.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "乙女のルートはひとつじゃない！",
+        "id": "2088",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2088.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "Garakuta Doll Play (sasakure.UK clutter remix)",
+        "id": "242",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0242.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "Title",
+        "id": "415",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0415.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "GEMINI -M-",
+        "id": "608",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0608.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Starlight Disco",
+        "id": "408",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0408.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "コーチンズカップ・クラシック",
+        "id": "805",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0805.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2379",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2379.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2378",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2378.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2377",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2377.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2376",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2376.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2375",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2375.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "Random",
+        "id": "2374",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2374.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "euphoric field（English）",
+        "id": "183",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0183.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "ぶいえす!!らいばる!!",
+        "id": "312",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0312.png",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.0,
+            "expert": 11.0,
+            "master": 14.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "This game",
+        "id": "314",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0314.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "Redo",
+        "id": "417",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0417.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.8,
+            "ultima": 13.7,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "ようこそジャパリパークへ",
+        "id": "526",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0526.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "Love your enemies",
+        "id": "584",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0584.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.0,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Blooming Villain (ATLUS Konishi Remix)",
+        "id": "672",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0672.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 13.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "GROOVY",
+        "id": "673",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0673.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Mass Destruction (\"P3\" + \"P3F\" ver.)",
+        "id": "674",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0674.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "全ての人の魂の戦い (Daisuke Asakura Remix)",
+        "id": "675",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0675.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "TREAT OR TREAT?",
+        "id": "758",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0758.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "TRIGGER",
+        "id": "759",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0759.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 13.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "WORLD'S END",
+        "id": "779",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0779.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 12.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "NEVER SURRENDER",
+        "id": "789",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0789.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.0,
+            "master": 12.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "grilletto",
+        "id": "809",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0809.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "Lemon",
+        "id": "811",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0811.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 7.5,
+            "master": 10.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "BURST THE GRAVITY",
+        "id": "812",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0812.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "ヒプノシスマイク -Division Battle Anthem-",
+        "id": "813",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0813.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "ハッピー☆マテリアル",
+        "id": "814",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0814.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "Baby Sweet Berry Love",
+        "id": "847",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0847.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "Deal with the devil",
+        "id": "855",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0855.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 13.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "輪舞-revolution",
+        "id": "857",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0857.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "気ままな天使たち",
+        "id": "861",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0861.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "ハッピー・ハッピー・フレンズ",
+        "id": "862",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0862.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "ストライク・ザ・ブラッド",
+        "id": "866",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0866.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 10.9,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "徒花ネクロマンシー",
+        "id": "883",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0883.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "目覚めRETURNER",
+        "id": "884",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0884.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "nowhere",
+        "id": "890",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0890.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 10.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "Bull's Eye",
+        "id": "892",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0892.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "HELLO to DREAM",
+        "id": "902",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0902.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "君色Everyday",
+        "id": "903",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0903.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "お願いマッスル",
+        "id": "904",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0904.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "紅蓮華",
+        "id": "905",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0905.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "五等分の気持ち",
+        "id": "907",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0907.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "God knows...",
+        "id": "908",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0908.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "Ray ―はじまりのセカイ― (クロニクルアレンジver.)",
+        "id": "919",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0919.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "狩猟戦旗～REQUIEM",
+        "id": "920",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0920.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 14.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "アイドル活動！オンパレード！ver.",
+        "id": "924",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0924.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "ダイヤモンドハッピー",
+        "id": "925",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0925.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "かっとばせ！未来へ",
+        "id": "951",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0951.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "ALL FOR ONE★",
+        "id": "952",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0952.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "killy killy JOKER",
+        "id": "956",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0956.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "Lostorage",
+        "id": "957",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0957.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "チャージマン研！",
+        "id": "963",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0963.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 12.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "殺人レコード恐怖のメロディ",
+        "id": "964",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0964.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.2,
+            "master": 14.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "禁じられた遊び",
+        "id": "965",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0965.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "今宵mofumofu!!",
+        "id": "977",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0977.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.45.00",
+        "name": "さよならエレジー",
+        "id": "986",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0986.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.55.00",
+        "name": "脳裏上のクラッカー",
+        "id": "1051",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1051.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "なるがちゃんなぎにいよいよえれー目にあわされる話",
+        "id": "718",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0718.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.40.00",
+        "name": "【3Dサウンド】小野ちゃんが真夏のビーチでスイカを叩き割る話【イヤホン推奨】",
+        "id": "898",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0898.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.10.00",
+        "name": "【3Dサウンド】小夜ちゃんが秘密裏に手に入れたヤベエ機材でヤベエ音を録る話【イヤホン推奨】（EDテーマ：A.S.S.S.M.R.）",
+        "id": "2357",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2357.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.20.00",
+        "name": "HECATONCHEIR",
+        "id": "2598",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2598.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.8,
+            "master": 14.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "ゴー・トゥ・大都会",
+        "id": "2419",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_2419.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.3,
+            "master": 14.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "天体観測",
+        "id": "0",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0000.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 7.8,
+            "master": 10.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Scatman (Ski Ba Bop Ba Dop Bop)",
+        "id": "5",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0005.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.4,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "情熱大陸",
+        "id": "9",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0009.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.3,
+            "master": 13.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "All I Want",
+        "id": "10",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0010.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.6,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "紅蓮の弓矢",
+        "id": "12",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0012.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.2,
+            "master": 10.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "コネクト",
+        "id": "14",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0014.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 7.3,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "空色デイズ",
+        "id": "17",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0017.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.2,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Pursuing My True Self",
+        "id": "28",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0028.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "亡國覚醒カタルシス",
+        "id": "34",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0034.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.2,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "届かない恋 '13",
+        "id": "36",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0036.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "1/3の純情な感情",
+        "id": "39",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0039.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 7.6,
+            "master": 10.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "oath sign",
+        "id": "42",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0042.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.2,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "太陽曰く燃えよカオス",
+        "id": "43",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0043.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.1,
+            "master": 10.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "ブルーバード",
+        "id": "54",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0054.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 10.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "夏祭り",
+        "id": "55",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0055.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.4,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "そばかす",
+        "id": "56",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0056.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.4,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "STAY AWAY",
+        "id": "57",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0057.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.4,
+            "master": 9.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "魂のルフラン",
+        "id": "58",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0058.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 7.7,
+            "master": 9.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "only my railgun",
+        "id": "60",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0060.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.8,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "crossing field",
+        "id": "78",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0078.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 7.5,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "V.I.P",
+        "id": "84",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0084.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.8,
+            "master": 10.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "睡蓮花",
+        "id": "85",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0085.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 7.5,
+            "master": 10.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "キラーボール",
+        "id": "86",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0086.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 7.2,
+            "master": 10.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Butter-Fly",
+        "id": "87",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0087.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 10.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Emotions",
+        "id": "109",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0109.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.8,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Magia",
+        "id": "110",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0110.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.1,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "staple stable",
+        "id": "111",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0111.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.6,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "マジLOVE1000%",
+        "id": "112",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0112.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.2,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "君の知らない物語",
+        "id": "116",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0116.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 7.9,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "夏影",
+        "id": "124",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0124.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 4.0,
+            "expert": 8.3,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "Little Busters! ～TV animation ver.～",
+        "id": "125",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0125.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "Heart To Heart",
+        "id": "126",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0126.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Hacking to the Gate",
+        "id": "129",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0129.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 11.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "スカイクラッドの観測者",
+        "id": "130",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0130.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.4,
+            "master": 12.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "SAVIOR OF SONG",
+        "id": "154",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0154.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "ブルー・フィールド",
+        "id": "155",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0155.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.7,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Dance!",
+        "id": "176",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0176.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 9.1,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "WHITE ALBUM Live at Campus Fes",
+        "id": "182",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0182.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 7.5,
+            "master": 10.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "Last regrets",
+        "id": "184",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0184.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 4.0,
+            "expert": 7.7,
+            "master": 10.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "楽園の翼",
+        "id": "185",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0185.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 8.7,
+            "master": 11.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Signs Of Love (“Never More” ver.)",
+        "id": "206",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0206.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.8,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.00.00",
+        "name": "Your Affection (Daisuke Asakura Remix)",
+        "id": "207",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0207.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.7,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "君色シグナル",
+        "id": "209",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0209.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.3,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "青春はNon-Stop！",
+        "id": "214",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0214.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.9,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "Falling Roses",
+        "id": "215",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0215.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.6,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "カラフル。",
+        "id": "231",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0231.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 4.0,
+            "expert": 8.3,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "ファッとして桃源郷",
+        "id": "235",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0235.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.7,
+            "master": 13.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "フレンズ",
+        "id": "238",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0238.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "シュガーソングとビターステップ",
+        "id": "243",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0243.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.2,
+            "master": 13.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "絶世スターゲイト",
+        "id": "247",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0247.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.7,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.05.00",
+        "name": "激情！ミルキィ大作戦",
+        "id": "255",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0255.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "僕らの翼",
+        "id": "269",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0269.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 12.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "かくしん的☆めたまるふぉ～ぜっ!",
+        "id": "296",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0296.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 12.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "secret base ～君がくれたもの～ (10 years after Ver.)",
+        "id": "299",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0299.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 4.0,
+            "expert": 8.7,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "fake!fake!",
+        "id": "308",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0308.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.4,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "Rising Hope",
+        "id": "309",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0309.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.2,
+            "master": 13.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "Be My Friend",
+        "id": "311",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0311.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "ひだまりデイズ",
+        "id": "313",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0313.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.5,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.10.00",
+        "name": "オラシオン",
+        "id": "315",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0315.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.6,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "ノーポイッ!",
+        "id": "344",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0344.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "ムーンライト伝説",
+        "id": "345",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0345.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "Jumping!!",
+        "id": "348",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0348.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.3,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "極上スマイル",
+        "id": "349",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0349.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "FEEL×ALIVE",
+        "id": "350",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0350.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.6,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "ぶぉん！ぶぉん！らいど・おん！",
+        "id": "351",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0351.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 13.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "Star☆Glitter",
+        "id": "352",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0352.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.3,
+            "master": 12.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "H-A-J-I-M-A-R-I-U-T-A-!!",
+        "id": "353",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0353.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 10.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "だんご大家族",
+        "id": "355",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0355.png",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 4.0,
+            "expert": 7.8,
+            "master": 10.1,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "クローバー♣かくめーしょん",
+        "id": "356",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0356.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.1,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "ぐーちょきパレード",
+        "id": "357",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0357.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "My Soul,Your Beats!",
+        "id": "358",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0358.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 9.3,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "Thousand Enemies",
+        "id": "359",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0359.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "夢想歌",
+        "id": "360",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0360.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 11.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.15.00",
+        "name": "MY LIBERATION",
+        "id": "410",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0410.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.1,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "SAKURAスキップ",
+        "id": "419",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0419.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.3,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "Now Loading!!!!",
+        "id": "420",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0420.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "MEMORIA",
+        "id": "422",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0422.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "MIRU key way",
+        "id": "424",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0424.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "ガチャガチャきゅ～と・ふぃぎゅ@メイト",
+        "id": "454",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0454.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.6,
+            "master": 13.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "DreamRiser",
+        "id": "473",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0473.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "不安定な神様",
+        "id": "495",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0495.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "星灯",
+        "id": "501",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0501.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.6,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "Vitalization",
+        "id": "509",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0509.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.6,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "Philosophyz",
+        "id": "522",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0522.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "虹色のフリューゲル",
+        "id": "523",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0523.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "プレパレード",
+        "id": "529",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0529.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.8,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "オレンジ",
+        "id": "530",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0530.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "ホーリーナイト",
+        "id": "531",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0531.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.1,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.20.00",
+        "name": "ハレ晴レユカイ",
+        "id": "537",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0537.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "ヒトリゴト",
+        "id": "541",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0541.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.1,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "adrenaline!!!",
+        "id": "542",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0542.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "夢路らびりんす",
+        "id": "544",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0544.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "全力バタンキュー",
+        "id": "545",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0545.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Last Proof",
+        "id": "546",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0546.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "羽ばたきのバースデイ",
+        "id": "579",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0579.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.2,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "楔",
+        "id": "580",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0580.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.6,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Los! Los! Los!",
+        "id": "581",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0581.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.7,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Uncontrollable",
+        "id": "582",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0582.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 9.4,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "ガヴリールドロップキック",
+        "id": "591",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0591.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.8,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "あ・え・い・う・え・お・あお!!",
+        "id": "609",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0609.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.2,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "かーてんこーる!!!!!",
+        "id": "610",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0610.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "SEVENTH HAVEN",
+        "id": "611",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0611.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Bravely You",
+        "id": "612",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0612.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Link with U",
+        "id": "613",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0613.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.9,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "メニメニマニマニ",
+        "id": "620",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0620.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "ニホンゴワカリマセン",
+        "id": "621",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0621.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.1,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Get goal!",
+        "id": "622",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0622.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "Rolling Rolling!",
+        "id": "623",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0623.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.25.00",
+        "name": "灼熱スイッチ",
+        "id": "624",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0624.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.8,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "sister's noise",
+        "id": "639",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0639.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "POP TEAM EPIC",
+        "id": "640",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0640.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 12.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "青空のラプソディ",
+        "id": "642",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0642.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.8,
+            "master": 11.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Butterfly -CHUNITHM edit-",
+        "id": "644",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0644.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.4,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "コレカラ",
+        "id": "645",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0645.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 11.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "理燃-コトワリ-",
+        "id": "646",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0646.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.3,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "アルカテイル",
+        "id": "647",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0647.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "The Girls Are Alright!",
+        "id": "648",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0648.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "MIRACLE RUSH",
+        "id": "649",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0649.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Futuristic Player",
+        "id": "650",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0650.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.4,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Clattanoia",
+        "id": "651",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0651.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.4,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "L.L.L.",
+        "id": "652",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0652.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.2,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "Pilgrimage",
+        "id": "682",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0682.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 4.0,
+            "expert": 8.7,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "キミとボクのミライ",
+        "id": "724",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0724.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.1,
+            "master": 12.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "SHINY DAYS",
+        "id": "725",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0725.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.9,
+            "master": 10.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "Sparkling Daydream",
+        "id": "726",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0726.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "U.S.A.",
+        "id": "727",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0727.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.8,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "Don't say \"lazy\"",
+        "id": "728",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0728.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 13.0,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "FLY two BLUE",
+        "id": "769",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0769.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 7.5,
+            "master": 10.8,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "Wish me luck!!!!",
+        "id": "770",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0770.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 8.7,
+            "master": 11.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "The Other Side of the Wall",
+        "id": "778",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0778.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.3,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "One In A Billion",
+        "id": "794",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0794.png",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.1,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "GO",
+        "id": "808",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0808.png",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.4,
+            "master": 11.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.30.00",
+        "name": "怒槌～光吉猛修一部謎～",
+        "id": "719",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0719.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.35.00",
+        "name": "アリサのテーマ",
+        "id": "801",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_0801.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v1 1.50.00",
+        "name": "パリピ孔明 ＣＭソング",
+        "id": "1097",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_1097.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "悪魔の踊り方",
+        "id": "9964",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9964.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "ド屑",
+        "id": "9965",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9965.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 13.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "異星にいこうね",
+        "id": "9966",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9966.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 13.2,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "カノン",
+        "id": "9967",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9967.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "花となれ",
+        "id": "9968",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9968.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 11.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "deadeye",
+        "id": "9969",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9969.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 14.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "REL0VE REL1VE",
+        "id": "9970",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9970.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 13.6,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "酔いどれ知らず",
+        "id": "9971",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9971.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 13.5,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "白庭",
+        "id": "9972",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9972.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 14.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "Aiolos",
+        "id": "9973",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9973.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 14.9,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "うたかたのせかいで",
+        "id": "9974",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9974.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 14.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "プライマリー進化論",
+        "id": "9975",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9975.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "夜のサーカス",
+        "id": "9976",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9976.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "Shine In The Sky☆",
+        "id": "9979",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9979.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "Hydra",
+        "id": "9980",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9980.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 14.4,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "サラマンダー",
+        "id": "9986",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9986.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.3,
+            "ultima": 0,
+            "world's end": 0
+        }
+    },
+    {
+        "releaseTagName": "v2 2.15.00",
+        "name": "カレシのジュード",
+        "id": "9988",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "CHU_UI_Jacket_9988.png",
+        "difficulties": {
+            "basic": 0,
+            "advanced": 0,
+            "expert": 0,
+            "master": 12.5,
+            "ultima": 0,
+            "world's end": 0
         }
     }
 ]

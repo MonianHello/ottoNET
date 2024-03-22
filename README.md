@@ -2,7 +2,7 @@
 
 b30部分代码来自watagashi-uni/Unibot
 
-demo : [aqua.monian.one](aqua.monian.one) (不定时开)
+demo : [aqua.monian.one](http://aqua.monian.one) (不定时开)
 
 *本存储库中出现的图片、文本、视频等内容受株式会社SEGA版权保护。
 
