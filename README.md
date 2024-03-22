@@ -8,6 +8,10 @@ demo : [aqua.monian.one](aqua.monian.one) (不定时开)
 
 数据库连接目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite`（
 
+## 目前已知的问题：
+
+- safari浏览器无法正常播放背景视频
+
 ## NET简介：
 
 ottoNET是 适用于本地音游窝使用的 CHUNITHMSP独立NET服务，连接到Aqua数据库即可启动服务。
