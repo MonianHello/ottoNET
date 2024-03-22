@@ -483,7 +483,7 @@ def truncate_two_decimal_places(number):
     return float(str_number)
 
 
-def b30single(single_data, version='2.15'):
+def b30single(single_data, version='2.20'):
     color = {
         'master': (187, 51, 238),
         'expert': (238, 67, 102),
@@ -641,7 +641,7 @@ def get_user_info_pic(id):
     return img
 
 
-def chunib30(userid, server='aqua', version='2.15'):
+def chunib30(userid, server='aqua', version='2.20'):
     if version == '2.15':
         pic = Image.open('static/pics/chub30sunp.png')
     elif version == '2.20':
@@ -707,7 +707,7 @@ def chunib30(userid, server='aqua', version='2.15'):
     user_nameplate = get_user_info_pic(userid)
     pic.paste(user_nameplate, (57, 55), user_nameplate.split()[3])
 
-    text = 'ottoNET 内部测试\nrating以姓名框为准\n'
+    text = 'ottoNET 内部测试\nrating以姓名框为准\nCode:UniBot\n'
 
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Medium.otf", 24)
 
