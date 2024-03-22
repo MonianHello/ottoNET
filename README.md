@@ -6,7 +6,7 @@ demo : [aqua.monian.one](aqua.monian.one) (不定时开)
 
 *本存储库中出现的图片、文本、视频等内容受株式会社SEGA版权保护。
 
-项目数据库目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite` (
+数据库连接目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite`（
 
 ## NET简介：
 
