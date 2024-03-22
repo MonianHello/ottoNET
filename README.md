@@ -11,6 +11,7 @@ demo : [aqua.monian.one](aqua.monian.one) (不定时开)
 ## 目前已知的问题：
 
 - safari浏览器无法正常播放背景视频
+- 特定移动端下显示错位
 
 ## NET简介：
 
