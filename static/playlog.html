@@ -115,8 +115,6 @@
         #level {
             color: rgba(255, 255, 255, 0.95);
             border-radius: 5px;
-            white-space: nowrap;
-            max-width: 65%;
             text-align: center;
             width: 65%;
             line-height: 1em;
@@ -373,7 +371,7 @@
                         <td style="text-align: left;">
                             <div style="display: flex; justify-content: space-between;">
                                 <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel !== 0 ? item.playLevel : ''}</span>
-                                <span style="font-family: Arial, sans-serif;max-width: 30%;width: 30%;font-size: 12px;">${formatDateTime(item.userPlayDate)}</span>
+                                <span style="font-family: Arial, sans-serif;text-align:right;font-size: 12px;">${formatDateTime(item.userPlayDate)}</span>
                             </div>
                             <div style="word-break: break-word;">${item.musicName}</div>
                             </br>

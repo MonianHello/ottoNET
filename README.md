@@ -1,25 +1,54 @@
-# CHUNITHMSP ottoNET
+<p align="center">
+ <h2 align="center">CHUNITHM ottoNET</h2>
+ <p align="center">专为Chunithm rinsama本地服设计的Web服务</p>
+ <p align="center">*本存储库中所使用的部分资源受株式会社SEGA的版权保护。</p>
+ <p align="center">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MonianHello/ottoNET">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MonianHello/ottoNET">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/MonianHello/ottoNET">
+	<img alt="License" src="https://img.shields.io/badge/license-AGPL--3.0-blue">
+ </p>
+</p>
 
-b30部分代码来自watagashi-uni/Unibot
+---
 
-demo : [aqua.monian.one](http://aqua.monian.one) (不定时开)
+![](README\Snipaste_2024-03-24_17-00-45.png)
 
-*本存储库中出现的图片、文本、视频等内容受株式会社SEGA版权保护。
+## 开始使用
 
-数据库连接目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite`（
+数据库连接目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite` 为实际数据库路径
 
-## 目前已知的问题：
+1. **安装依赖** 在根目录下执行以下命令
 
-- safari浏览器无法正常播放背景视频
-- 特定移动端下显示错位
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## NET简介：
 
-ottoNET是 适用于本地音游窝使用的 CHUNITHMSP独立NET服务，连接到Aqua数据库即可启动服务。
+2. **运行项目** 安装完成依赖并确认数据库连接正常后，即可启动NET服务
 
-NET提供了快速登录等快捷功能，且没有完整的用户认证系统。因此不建议自行搭建后对外开放。
+    ```bash
+    python app.py
+    ```
 
-目前支持以下内容的查询：
+## NET特色
+
+- 响应式布局，移动端也能用
+
+- 提供快速登录功能，跳过繁琐验证
+- 游戏记录中可查询乐曲rating、乐曲信息等内容
+![](README\Snipaste_2024-03-24_17-04-06.png)
+
+- *一键获取b30，方便快捷
+![](static\piccache\d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35b30.jpg)
+
+*b30部分代码来自watagashi-uni/Unibot
+
+## NET简介
+
+ottoNET是适用于本地部署的CHUNITHM独立NET服务，连接到rinsama数据库即可启动服务。
+
+目前支持以下内容：
 
 - 个人信息
 - 游玩记录
@@ -27,7 +56,7 @@ NET提供了快速登录等快捷功能，且没有完整的用户认证系统�
 - 收藏品查看
 - *企鹅换装
 
-*企鹅换装功能会导出装扮的id，需要手动粘贴到数据库（鉴权没写好）
+*目前企鹅换装功能会导出装扮的base64编码后的id，需要手动修改数据库
 
 未来将会支持：
 
@@ -35,27 +64,14 @@ NET提供了快速登录等快捷功能，且没有完整的用户认证系统�
 - 歌曲详情
 - 排行榜
 
-*收藏品将通过扫描本地游戏文件建立数据库
+*收藏品将通过扫描HDD建立数据库
 
-## NET特色：
-
-响应式布局，移动端也能用
-
-提供快速登录功能，跳过繁琐验证
-
-游戏记录中可查询乐曲rating、乐曲信息等内容
-
-*一键获取b30图片，方便快捷
-
-*b30部分代码来自watagashi-uni/Unibot
-
-## TODO：
+## TODO
 
 - 最新最热
-- r10改为读表
-- 独立数据库连接
+- 独立化数据库连接
 
-## 开发者的话：
+## 开发者的话
 
 ottoNET是为 自己宿舍里的音游窝 开发的NET服务。
 
