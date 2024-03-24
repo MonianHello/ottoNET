@@ -12,7 +12,7 @@
 
 ---
 
-![](README\Snipaste_2024-03-24_17-00-45.png)
+![](README/Snipaste_2024-03-24_17-00-45.png)
 
 ## 开始使用
 
@@ -37,10 +37,10 @@
 
 - 提供快速登录功能，跳过繁琐验证
 - 游戏记录中可查询乐曲rating、乐曲信息等内容
-![](README\Snipaste_2024-03-24_17-04-06.png)
+![](README/Snipaste_2024-03-24_17-04-06.png)
 
 - *一键获取b30，方便快捷
-![](static\piccache\d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35b30.jpg)
+![](static/piccache/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35b30.jpg)
 
 *b30部分代码来自watagashi-uni/Unibot
 
