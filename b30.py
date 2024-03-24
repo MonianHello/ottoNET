@@ -329,33 +329,18 @@ def playlog(id):
 
 
 def process_r10(id):
-    # 获取用户r30数据
     conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM chusan_user_playlog WHERE user_id = '{}'".format(id))
+    cursor.execute("SELECT * FROM chusan_user_general_data WHERE id = {}".format(id))
     rows = cursor.fetchall()
-    rows = list(reversed(rows))
-    columns = [description[0] for description in cursor.description]
-    user_data = []
-    count = 0
-    for row, next_row in zip(rows, rows[1:] + [None]):
-        if row[19] in [0, 1, 2, 3, 4]:
-            if count >= 30:
-                break
-
-            # 如果某次游玩取得了不低于SSS的评价但Rating值不足以更新这30次游玩的成绩，该次记录不会参与最近30次游玩的计算。
-            # 这里通过判断前后rating是否变化来得知是否更新了r30，实际上这样只能知道是否更新了r10
-
-            # 也可能是**如果**游玩后无法更新r30就不会参与计算，判断是放在游玩前的，**如果**
-
-            if (next_row is not None) and (int(row[47]) >= 1007500) and (next_row[40] == row[40]):
-                continue
-
-            row_dict = dict(zip(columns, row))
-            user_data.append(row_dict)
-            count += 1
-
+    items = rows[0][2].split(',')
+    r30list = []
+    for item in items:
+        parts = item.split(':')
+        music_dict = {'music_id': int(parts[0]), 'level': int(parts[1]), 'score': int(parts[2])}
+        r30list.append(music_dict)
     conn.close()
+
     difficulty_mapping = {
         "0": "basic",
         "1": "advanced",
@@ -376,7 +361,7 @@ def process_r10(id):
     rating_list = []
 
     # 遍历用户数据，计算rating，并构造需要的数据结构
-    for record in user_data:
+    for record in r30list:
         music_id = str(record["music_id"])
         difficult_id = str(record["level"])
         score = int(record["score"])
@@ -634,9 +619,14 @@ def get_user_info_pic(id):
             trophy_name = trophy_name[:-1]
             text_width, text_height = draw.textsize(trophy_name, font=font_style)
         text_to_draw = trophy_name
-
     # 绘制文本
     draw.text((x, 54), text_to_draw, fill=(0, 0, 0), font=font_style)
+
+    team_pic = Image.open('static/team/rainbow.png')
+    img.paste(team_pic, (0, 0), team_pic.split()[3])
+    font_style = ImageFont.truetype("fonts/KOZGOPRO-BOLD.OTF", 18)
+    draw.text((240, 19), "ottoNET", fill=(0, 0, 0, 180), font=font_style)
+    draw.text((238, 17), "ottoNET", fill=(255, 255, 255), font=font_style)
 
     return img
 
@@ -672,6 +662,7 @@ def chunib30(userid, server='aqua', version='2.20'):
               stroke_fill="#38809A")
 
     ratings = process_r10(userid)
+
     rating_sum = 0
     for i in range(0, 10):
         try:
@@ -707,7 +698,7 @@ def chunib30(userid, server='aqua', version='2.20'):
     user_nameplate = get_user_info_pic(userid)
     pic.paste(user_nameplate, (57, 55), user_nameplate.split()[3])
 
-    text = 'ottoNET 内部测试\nrating以姓名框为准\nCode:UniBot\n'
+    text = 'ottoNET 内部测试\nDesigned by Watagashi-uni\nModified by MonianHello\n'
 
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Medium.otf", 24)
 
@@ -716,7 +707,7 @@ def chunib30(userid, server='aqua', version='2.20'):
     shadow_draw = ImageDraw.Draw(shadow_layer)
 
     # 绘制文字阴影
-    shadow_position = (1976, 996) if len(text.split('\n')) == 3 else (1976, 977)
+    shadow_position = (1886, 977) 
     shadow_draw.text(shadow_position, text, fill=(0, 0, 0, 150), font=font_style, align='right')
     shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(0.5))
     # 将带有阴影的图层合并到原始图像上
@@ -724,7 +715,7 @@ def chunib30(userid, server='aqua', version='2.20'):
 
     # 在原始图像上绘制不透明的文字
     draw = ImageDraw.Draw(pic)
-    text_position = (1975, 995) if len(text.split('\n')) == 3 else (1975, 976)
+    text_position = (1885, 976)
     draw.text(text_position, text, fill=(255, 255, 255), font=font_style, align='right')
 
     pic = pic.convert("RGB")

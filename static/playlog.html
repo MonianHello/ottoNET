@@ -106,13 +106,21 @@
         }
 
         .jacket {
-            width: 128px;
-            height: 128px;
+            width: 100%;
+            height: auto;
+            max-width: 128px;
+            max-height: 128px;
         }
 
         #level {
             color: rgba(255, 255, 255, 0.95);
             border-radius: 5px;
+            white-space: nowrap;
+            max-width: 65%;
+            text-align: center;
+            width: 65%;
+            line-height: 1em;
+            padding: 0.25em 0;
         }
 
         #level[data-difficulty="WORLD'S END"] {
@@ -359,15 +367,15 @@
 
                 tableHtml += `
                     <tr>
-                        <td style="text-align: center;">
+                        <td style="text-align: center;width:40%;">
                             <img src="static/jackets/${item.jacketFile}" class="jacket">
                         </td>
                         <td style="text-align: left;">
                             <div style="display: flex; justify-content: space-between;">
                                 <span id="level" data-difficulty="${item.musicDifficulty.toUpperCase()}">${item.musicDifficulty.toUpperCase()} ${item.playLevel !== 0 ? item.playLevel : ''}</span>
-                                <span style="font-family: Arial, sans-serif;">${formatDateTime(item.userPlayDate)}</span>
+                                <span style="font-family: Arial, sans-serif;max-width: 30%;width: 30%;font-size: 12px;">${formatDateTime(item.userPlayDate)}</span>
                             </div>
-                            <div>${item.musicName}</div>
+                            <div style="word-break: break-word;">${item.musicName}</div>
                             </br>
                             <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> <span style="font-family: 'Geometr415';">${formattedRating}</span></br>
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">
@@ -534,6 +542,20 @@
                     });
                     window.location.href = '/login';
                 });
+            }
+        });
+
+        window.addEventListener('DOMContentLoaded', function() {
+            var levelSpan = document.getElementById('level');
+            var containerWidth = levelSpan.offsetWidth;
+            var fontSize = parseInt(window.getComputedStyle(levelSpan).fontSize);
+            var textWidth = levelSpan.scrollWidth;
+
+            // 如果文本宽度大于容器宽度，则缩小字体大小
+            while (textWidth > containerWidth) {
+                fontSize -= 1;
+                levelSpan.style.fontSize = fontSize + 'px';
+                textWidth = levelSpan.scrollWidth;
             }
         });
     </script>
