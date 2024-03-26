@@ -12,7 +12,9 @@
 
 ---
 
-![](README/Snipaste_2024-03-24_17-00-45.png)
+![](http://monianhello.top/wp-content/uploads/2024/03/Snipaste_2024-03-24_17-00-45.png)
+
+DEMO:[aqua.monian.one](http://aqua.monian.one)
 
 ## 开始使用
 
@@ -20,27 +22,23 @@
 
 1. **安装依赖** 在根目录下执行以下命令
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 2. **运行项目** 安装完成依赖并确认数据库连接正常后，即可启动NET服务
 
-    ```bash
-    python app.py
-    ```
+   ```bash
+   python app.py
+   ```
 
 ## NET特色
 
 - 响应式布局，移动端也能用
-
 - 提供快速登录功能，跳过繁琐验证
 - 游戏记录中可查询乐曲rating、乐曲信息等内容
-![](README/Snipaste_2024-03-24_17-04-06.png)
-
+  ![](http://monianhello.top/wp-content/uploads/2024/03/Snipaste_2024-03-24_17-04-06.png)
 - *一键获取b30，方便快捷
-![](static/piccache/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35b30.jpg)
+  ![](http://monianhello.top/wp-content/uploads/2024/03/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35b30.jpg)
 
 *b30部分代码来自watagashi-uni/Unibot
 
