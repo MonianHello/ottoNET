@@ -234,18 +234,18 @@ def single_music_playlog(playlogid):
                     # 以下为歌曲信息
                     # 详细Level(13.8)
                     'playLevel': difficulty,
-                    'designer': "未知",
+                    'designer': " - ",
                     # 难度
                     'musicDifficulty': difficulty_level,
                     'version': "配信停止",
                     'musicName': music['name'],
                     'jacketFile': music['jaketFile'],
-                    'musicID': "未知",
+                    'musicID': " - ",
                     # 分类
                     # ['niconico', 'ORIGINAL', 'イロドリミドリ', '東方Project', 'POPS & ANIME', 'VARIETY', 'ゲキマイ']
-                    'catname': "未知",
-                    'artist': "未知",
-                    'bpm': "未知",
+                    'catname': " - ",
+                    'artist': " - ",
+                    'bpm': " - ",
                     # 'exInfo': music_ex_info,
                 })
 
@@ -637,8 +637,6 @@ def chunib30(userid, server='aqua', version='2.20'):
     elif version == '2.20':
         pic = Image.open('static/pics/chub30lmn.png')
     draw = ImageDraw.Draw(pic)
-
-    user_team = ""
 
     shadow = Image.new("RGBA", (320, 130), (0, 0, 0, 0))
     shadow.paste(Image.new("RGBA", (280, 105), (0, 0, 0, 50)), (5, 5))

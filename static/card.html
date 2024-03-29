@@ -155,6 +155,7 @@
                         </div>
                         </br>
                         <p class="card-text" id="cookieInfo_aime_id">ACCESS CODE: 因快速登录隐藏</p>
+                        <p class="card-text" id="cardInfo_op">Loading...</p>
                         <p class="card-text" id="cardInfo_first_play_date">Loading...</p>
                         <p class="card-text" id="cardInfo_last_play_date">Loading...</p>
                     </div>
@@ -237,6 +238,8 @@
                 cardInfo_last_play_date.textContent = `上次游玩: ${formatDateTime(data.last_play_date)}`;
                 const cardInfo_play_count = document.getElementById('cardInfo_play_count');
                 cardInfo_play_count.textContent = `游玩次数 : ${data.play_count}`;
+                const cardInfo_op = document.getElementById('cardInfo_op');
+                cardInfo_op.textContent = `Over Power : ${data.over_power_point / 100} (${data.over_power_rate / 100}%)`;
                 fetchRatingImage(data.highest_rating, 'bestRatingImageContainer');
                 fetchRatingImage(data.player_rating, 'currentRatingImageContainer');
                 fetchUserInfoImage('userInfoImageContainer');
