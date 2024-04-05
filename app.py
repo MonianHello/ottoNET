@@ -160,6 +160,39 @@ def user_dataapi():
     
     return jsonify(row_dict)
 
+@app.route('/api/music_detail', methods=['POST'])
+def music_detailapi():
+    """
+    查询数据库中的 music_detail
+    """
+    if not ('db_id' in request.cookies):
+        return jsonify(error='未登录'), 403
+    conn = sqlite3.connect('../rinsama-aqua/data/db.sqlite')
+    cursor = conn.cursor()
+    id = request.cookies.get("db_id")
+
+    if not (id.isdecimal()):
+        return jsonify(error='非法操作'), 403
+    
+    cursor.execute("SELECT * FROM chusan_user_music_detail WHERE user_id = '{}'".format(id))
+
+    rows = cursor.fetchall()
+    columns = [description[0] for description in cursor.description]
+    music_detail = []
+    count = 0
+    for row in reversed(rows):
+        row_dict = dict(zip(columns, row))
+        music_detail.append(row_dict)
+        count += 1
+    conn.close()
+    
+    """
+    备忘：
+    导入到rinNET时，删除"id"与"user_id"，删除下划线
+    """
+
+    return jsonify(music_detail)
+
 @app.route('/api/login', methods=['POST'])
 def loginapi():
     """
@@ -368,19 +401,6 @@ def loginPage():
     if 'db_id' in request.cookies:
         return redirect(url_for('cardPage'))
     return send_from_directory('static', 'login.html')
-
-# 测试路由
-@app.route('/test')
-def testPage():
-    """
-    提供登录页面
-    """
-    if not ('db_id' in request.cookies):
-        return jsonify(error='未登录'), 403
-    else :
-        user_id = request.cookies.get("db_id")
-    
-    return send_from_directory('static', 'test.html')
 
 # 收藏品路由
 @app.route('/items')
