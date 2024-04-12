@@ -149,6 +149,9 @@
         #musicDetailModalLabel_musicDifficulty {
             color: rgba(255, 255, 255, 0.95);
             border-radius: 5px;
+            text-align: center;
+            line-height: 1em;
+            padding: 0.25em 1em;
         }
 
         #musicDetailModalLabel_musicDifficulty[data-difficulty="WORLD'S END"] {
@@ -374,7 +377,7 @@
                                 <span style="font-family: Arial, sans-serif;text-align:right;font-size: 12px;">${formatDateTime(item.userPlayDate)}</span>
                             </div>
                             <div style="word-break: break-word;">${item.musicName}</div>
-                            </br>
+                            
                             <span style="font-family: Geometr415; font-size: 32px;">${item.score}</span> <span style="font-family: 'Geometr415';">${formattedRating}</span></br>
                             ${newRecordImage}${fullComboImage}${allJusticeImage}<img src="/static/pics/icons/icon_rank_${rankImage}.png">
                             <div style="text-align: right;">
@@ -576,18 +579,17 @@
                                 <img id="musicDetailModalLabel_jacketFile" style="width: 128px;height: 128px;">
                             </td>
                             <td>
-                                <span id="musicDetailModalLabel_musicDifficulty" data-difficulty=""
-                                    style="font-size:medium"></span></br>
+                                <div id="musicDetailModalLabel_musicDifficulty" data-difficulty=""
+                                    style="font-size:medium"></div>
                                 <span style="font-family: Geometr415; font-size: 34px;"
                                     id="musicDetailModalLabel_score"></span>
                                 <span style="font-family: 'Geometr415';" id="musicDetailModalLabel_rating"></span></br>
                                 <span id="musicDetailModalLabel_pics"></span></br>
                                 <span>判定:</span>
-                                <span style="color: #f2d218;" id="musicDetailModalLabel_countcritical"></span> /
-                                <span style="color: #ee9105;" id="musicDetailModalLabel_countjustice"></span> /
-                                <span style="color: #26ff0f;" id="musicDetailModalLabel_countattack"></span> /
+                                <span style="color: #f2d218;" id="musicDetailModalLabel_countcritical"></span> |
+                                <span style="color: #ee9105;" id="musicDetailModalLabel_countjustice"></span> |
+                                <span style="color: #26ff0f;" id="musicDetailModalLabel_countattack"></span> |
                                 <span style="color: #646464;" id="musicDetailModalLabel_countmiss"></span>
-
                             </td>
                         </tr>
                     </table>

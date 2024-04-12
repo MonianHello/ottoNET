@@ -194,11 +194,18 @@ def single_music_playlog(playlogid):
                     'playLevel': difficulty,
                     # 简要Level(13+)
                     # 物量
-                    # 'notesair': music_ex_info[exdiff_mapping[difficult_id]+'_notes_air'],
-                    # 'notesflick': music_ex_info[exdiff_mapping[difficult_id]+'_notes_flick'],
-                    # 'noteshold': music_ex_info[exdiff_mapping[difficult_id]+'_notes_hold'],
-                    # 'notesslide': music_ex_info[exdiff_mapping[difficult_id]+'_notes_slide'],
-                    # 'notestap': music_ex_info[exdiff_mapping[difficult_id]+'_notes_tap'],
+                    'notesair': music_ex_info[exdiff_mapping[difficult_id]+'_notes_air'],
+                    'notesflick': music_ex_info[exdiff_mapping[difficult_id]+'_notes_flick'],
+                    'noteshold': music_ex_info[exdiff_mapping[difficult_id]+'_notes_hold'],
+                    'notesslide': music_ex_info[exdiff_mapping[difficult_id]+'_notes_slide'],
+                    'notestap': music_ex_info[exdiff_mapping[difficult_id]+'_notes_tap'],
+                    # 占比
+                    'rateair':record['rate_air'],
+                    'rateflick':record['rate_flick'],
+                    'ratehold':record['rate_hold'],
+                    'rateslide':record['rate_slide'],
+                    'ratetap':record['rate_tap'],
+
                     'designer': music_ex_info[exdiff_mapping[difficult_id] + '_designer'],
                     # 难度
                     'musicDifficulty': difficulty_level,
@@ -705,7 +712,7 @@ def chunib30(userid, server='aqua', version='2.20'):
     shadow_draw = ImageDraw.Draw(shadow_layer)
 
     # 绘制文字阴影
-    shadow_position = (1886, 977) 
+    shadow_position = (1881, 977) 
     shadow_draw.text(shadow_position, text, fill=(0, 0, 0, 150), font=font_style, align='right')
     shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(0.5))
     # 将带有阴影的图层合并到原始图像上
@@ -713,7 +720,7 @@ def chunib30(userid, server='aqua', version='2.20'):
 
     # 在原始图像上绘制不透明的文字
     draw = ImageDraw.Draw(pic)
-    text_position = (1885, 976)
+    text_position = (1880, 976)
     draw.text(text_position, text, fill=(255, 255, 255), font=font_style, align='right')
 
     pic = pic.convert("RGB")
