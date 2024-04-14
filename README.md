@@ -14,7 +14,7 @@
 
 ![](http://monianhello.top/wp-content/uploads/2024/03/Snipaste_2024-03-24_17-00-45.png)
 
-DEMO:[aqua.monian.one](http://aqua.monian.one)
+DEMO:[net.monianbox.top](http://net.monianbox.top)
 
 ## 开始使用
 
