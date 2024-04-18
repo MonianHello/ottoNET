@@ -18,7 +18,7 @@ DEMO:[net.monianbox.top](http://net.monianbox.top)
 
 ## 开始使用
 
-数据库连接目前仅支持sqlite，请全局替换 `../rinsama-aqua/data/db.sqlite` 为实际数据库路径
+数据库连接目前仅支持sqlite，请在`app.py`和`b30.py`中全局替换 `../rinsama-aqua/data/db.sqlite` 为实际数据库路径
 
 1. **安装依赖** 在根目录下执行以下命令
 
